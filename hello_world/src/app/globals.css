@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navigation-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation-item a:hover {
+  color: #aaa;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-item {
+  margin-left: 1rem;
+}
+
+
+
+

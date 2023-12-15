@@ -1,0 +1,17 @@
+.navigation-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Jeśli stosujesz BEM, nazwy klas mogą wyglądać tak:
+  .navigation-list__item {
+    margin-right: 1rem;
+  }
+  
+  .navigation-list__item:last-child {
+    margin-right: 0;
+  }
+  */
+  

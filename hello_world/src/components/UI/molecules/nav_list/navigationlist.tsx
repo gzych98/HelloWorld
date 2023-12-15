@@ -1,5 +1,6 @@
 import React from 'react';
-import NavigationItem from '../atoms/navigation_item';
+import NavigationItem from '../../atoms/Nav_item/navigation_item';
+import './NavigationList.css';
 
 const NavigationList: React.FC = () => {
   return (

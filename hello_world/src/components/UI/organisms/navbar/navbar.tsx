@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from './Logo';
-import NavigationList from './NavigationList';
+import Logo from '../../atoms/Logo/button_logo';
+import NavigationList from '../../molecules/nav_list/navigationlist';
 import './Navbar.css';
 
 const Navbar: React.FC = () => {

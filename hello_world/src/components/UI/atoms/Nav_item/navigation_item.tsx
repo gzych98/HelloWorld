@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavigationItem.css';
+import './nav-item.css';
 
 interface NavigationItemProps {
   href: string;

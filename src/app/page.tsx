@@ -69,7 +69,7 @@ export default function Home() {
           <div className="table22" id="col2">
             <FontAwesomeIcon icon={faRankingStar} className='myicon fa-3x' color='#333' />
             <h2>Marketing</h2>
-            <p>Stand out from the crowd</p>
+            <p>Cut through the noise with our targeted marketing strategies. From data-driven campaigns to creative storytelling, we position your brand to achieve maximum impact and return on investment. Elevate your marketing to capture the right audience.</p>
           </div>
         </div>
       </div>
@@ -78,12 +78,12 @@ export default function Home() {
           <div className="table22" id="col3">
             <FontAwesomeIcon icon={faUsers} className='myicon fa-3x' color='#333' />
             <h2>Social Media</h2>
-            <p>Share and shine on social</p>
+            <p>Amplify your brand&apos;s voice across social platforms. Our team crafts engaging content and designs that resonate with your audience, fostering community and conversation. Let&apos;s make your brand the topic of social media talk.</p>
           </div>
           <div className="table22" id="col4">
             <FontAwesomeIcon icon={faPrint} className='myicon fa-3x' color='#333' />
             <h2>Print Products</h2>
-            <p>Design and print your ideas</p>
+            <p>Bring your ideas to life with our customised print solutions. Whether it&apos;s business cards, brochures or banners, we provide high-quality print that reflects the excellence of your brand. Connect with your offline customers with print that stands out.</p>
           </div>
         </div>
       </div>
@@ -101,7 +101,9 @@ export default function Home() {
           </div>
           <div className="table3" id="col2">
             <p>Create Your Website</p>
-            <h2>Fill in the form and we&apos;ll take care of the rest!</h2>
+            <h2>Start Your Online Journey with Ease</h2>
+            <h3>Welcome to the first step in creating your digital presence! Our simple form is designed to gather just the essentials, ensuring a smooth start to building your project.</h3>
+            <h3>Once you click Next you&apos;ll be guided through a few more tailored choices, ensuring that every aspect of your project is aligned with your vision. Our team will then work behind the scenes, crafting a site that not only looks great but also performs flawlessly.</h3>
           </div>          
         </div>
       </div>
@@ -109,7 +111,7 @@ export default function Home() {
         <div className="content-container" id="cont5">
         <div className="content-container" id="cont6">
           <div className='contact_data'>
-            <h1>Contact</h1>
+            <h1>Get in Touch with Us</h1>
             <div className='contact_tab'>
               <img  src="/black_2.png"
                 alt="Opis obrazu"
@@ -118,6 +120,7 @@ export default function Home() {
                 className="footer_logo"
               />
               <div className='contact_col'>
+                <h2>We are here to listen and answer any questions you may have. Whether you&apos;re interested in starting a project, need help with an existing service or just want to say hello, our team is ready to give you the information and support you need. Contact us through any of the channels below and we will be sure to get back to you quickly.</h2>
                 <h3>City</h3>
                 <h2>Kraków, Poland</h2>
                 <h3>E-mail</h3>

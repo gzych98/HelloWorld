@@ -198,6 +198,8 @@ body {
   padding: 0;
   padding-top: 2em;
   margin-bottom: 2em;
+  margin-right: 3em;
+  margin-left: 3em;
 }
 
 .contact_col {
@@ -210,20 +212,20 @@ body {
   height: 100%; 
 }
 .contact_col h2{
-  text-align: center;
+  text-align: left;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: #333;
-  padding-left: 2em;
+  padding-left: 0em;
 }
 .contact_col h3{
-  text-align: center;
+  text-align: left;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 0.8em;
   color: #666;
-  padding-left: 2em;
+  padding-left: 0em;
 }
 
 .content-container#cont1 h2 {
@@ -294,7 +296,17 @@ body {
   margin-bottom: 2em;
   margin-top: 2em;
 }
-.table3 {  
+.table3#col1 {  
+  width: 50%;
+  display: block;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  padding: 3em;
+}
+.table3#col2 {  
   width: 50%;
   display: block;
   justify-content: center;
@@ -302,7 +314,7 @@ body {
   text-align: center;
   background-color: transparent;
   margin: 1%;
-  padding: 7%;
+  padding: 0;
 }
 
 .table3#col1 {
@@ -356,6 +368,13 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
   font-size: 1.5em;
+  color: #333;
+}
+.table3 h3{
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
   color: #333;
 }
 .table3 p{
@@ -567,6 +586,9 @@ footer p {
   .table3 h2{
     text-align: center;
   }
+  .table3 h3{
+    text-align: center;
+  }
   .table3 p{
     text-align: center;
   }
@@ -586,7 +608,7 @@ footer p {
     justify-content: baseline; 
     align-items: center; 
     background-color: #f3f3f3;
-    height: 75vh;
+    height: 80vh;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -616,7 +638,7 @@ footer p {
     z-index: 1;
     background-color: #f3f3f3;
     display: block;
-    
+    min-height: 50vh;
   }
   .contact_data {
     border-radius: 1em;

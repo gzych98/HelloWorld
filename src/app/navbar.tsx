@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
             <li><a href="#page1">Home</a></li>
             <li><a href="#web_solutions">Web Solutions</a></li>
             <li><a href="#case_studies">Case studies</a></li>
-            <li><a href="#form">Create Your Website</a></li>
+            <li><a href="#form">Create Your Project</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>       

@@ -99,11 +99,11 @@ const MainForm = () => {
         ],
         'software': [
             <UserNameEmail key="user-name-email-software" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
-            <Szablon key="szablon-software" data={data} handleChange={handleChange} />,
+            <WebsiteForm key="website-form-website" data={data} handleChange={handleChange} />
         ],
         'application': [
             <UserNameEmail key="user-name-email-application" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
-            <Szablon key="szablon-application" data={data} handleChange={handleChange} />,
+            <WebsiteForm key="website-form-website" data={data} handleChange={handleChange} />
         ],
     }
 

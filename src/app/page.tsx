@@ -100,7 +100,7 @@ export default function Home() {
             </div>
           </div>
           <div className="table3" id="col2">
-            <p>Create Your Website</p>
+            <p>Create Your Project</p>
             <h2>Start Your Online Journey with Ease</h2>
             <h3>Welcome to the first step in creating your digital presence! Our simple form is designed to gather just the essentials, ensuring a smooth start to building your project.</h3>
             <h3>Once you click Next you&apos;ll be guided through a few more tailored choices, ensuring that every aspect of your project is aligned with your vision. Our team will then work behind the scenes, crafting a site that not only looks great but also performs flawlessly.</h3>

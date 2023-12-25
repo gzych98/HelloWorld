@@ -1,0 +1,88 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form_line {
+    width: 100%; /* Ustawia szerokość diva na 100% */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Wyrównanie do lewej */
+    margin-bottom: 10px; /* Dodaje margines na dole dla odstępu */
+}
+
+.label {
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #bbb;
+}
+
+.input {
+    width: 100%; /* Pełna szerokość kontenera */
+    padding: 10px 15px; /* Odpowiednie paddingi dla lepszego wyglądu */
+    margin: 5px 0 20px 0; /* Marginesy dla odstępów */
+    border: 1px solid #ccc; /* Subtelna, solidna ramka */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Lekki cień wewnętrzny dla głębi */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Animacja dla płynnego efektu */
+}
+
+.input:focus {
+    border-color: #4a90e2; /* Zmiana koloru ramki przy fokusie */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 5px rgba(74, 144, 226, 0.5); /* Subtelny cień zewnętrzny przy fokusie */
+    outline: none; /* Usunięcie domyślnego konturu */
+}
+
+.activeTab{
+    background-color: transparent;
+}
+.mainFormButton button{
+    margin: 1em;
+}
+
+.checkbox_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+}
+.checkbox_group div {
+    margin: 5px 0; /* Dodaje odstępy między checkboxami */
+}
+
+/* Dodaje odstęp między checkboxem a tekstem */
+.checkbox_group label {
+    margin-left: 8px; /* dostosuj wartość marginesu do swoich potrzeb */
+}
+
+/* Jeśli chcesz dodatkowo wyrównać checkboxy i etykiety pionowo */
+.checkbox_group input[type="checkbox"] {
+    vertical-align: middle;
+}
+.checkbox_group label {
+    vertical-align: middle;
+}
+
+/* Zwiększenie odstępu między poszczególnymi liniami zawierającymi checkboxy */
+.checkbox_group div {
+    margin-bottom: 8px; /* dostosuj wartość marginesu do swoich potrzeb */
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.carousel .carousel-control-next-icon.changed {
+    background-image: url("../../public/arrow-right-solid.svg");
+}
+
+.img-fill {
+    width: 75%; /* Ustaw szerokość obrazka na 75% szerokości diva */
+    height: 100%; /* Ustaw wysokość obrazka na 100% wysokości diva */
+    object-fit: cover; /* Zapewnia, że obrazek będzie wypełniał diva, zachowując swoje proporcje */
+  }

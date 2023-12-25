@@ -17,12 +17,13 @@ const NavBar: React.FC = () => {
           <div className="burger-icon" onClick={toggleNav}>
             <FontAwesomeIcon icon={faBars} />
           </div>
-          <img  src="/white_2.png"
-                alt="Opis obrazu"
-                width={50}
-                height={50} 
-                className="navbar_logo"
-              />
+          <img 
+            src="/white_2.png" 
+            alt="Logo" 
+            width={50} 
+            height={50} 
+            className={`navbar_logo ${isNavVisible ? 'hide-logo' : ''}`} 
+          />
           <ul className={isNavVisible ? "nav-active" : ""}>
             <li><a href="#page1">Home</a></li>
             <li><a href="#web_solutions">Web Solutions</a></li>

@@ -21,14 +21,14 @@ body {
 } 
 /* KONTENERY */  
 .page {
-    min-height: 75vh; 
+    min-height: fit-content; 
     display: block;
     justify-content: top; 
     align-items: top; 
     padding-top: 2em;
   } 
 .page#page1{
-  height: 75vh;
+  height: 85vh;
 }
 .background#home {
   display: flex;
@@ -49,19 +49,15 @@ body {
   background-size: cover;
   background-position: center;
 }
-.page#case_studies {
-  background-color: #fff; 
-} 
 .page#form {
   background-color: #f3f3f3; 
-} 
-.page#contact {
-  background-color: #fff; 
+  min-height: fit-content;
 } 
 .content-container {
   margin: 0 auto;
-  max-width: 1200;
+  max-width: 1200px;
   text-align: center;
+  margin-top: 1em;
 }
 .content-container#home h1 {
   font-size: 2.5em; 
@@ -135,6 +131,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: 0;
 }
 .content-container#cont4 {
   display: flex;
@@ -142,11 +139,104 @@ body {
   align-items: center;
   height: 100%;
 }
-.content-container#cont1 p {
-  padding-top: 1em;
+.page#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline; 
+  align-items: center; 
+  background-color: #f3f3f3;
+  min-height: 35vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding-top: 0%;
+} 
+.content-container#cont5 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 35vh;
+  width: 100%;
+  background-image: url('map_2.png'); 
+  background-size:cover;
+  background-position: center; 
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+.content-container#cont6 {
+  min-height: 35vh;
+  height: 100%;
+  width: 50%;
+  margin-left: 50%;
+  z-index: 1;
+  background-color: #fff;
+  display: block;
+  margin-top: 0;
+  
+}
+.contact_data {
+  z-index: 1;
+  background-color: #fff;
+  margin: auto;
+}
+.contact_data h1 {
+  margin-top: 2em;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
   color: #333;
 }
+.contact_tab {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.contact_col {
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: 100%; 
+}
+.contact_col h2{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #333;
+  padding-left: 2em;
+}
+.contact_col h3{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #666;
+  padding-left: 2em;
+}
+
+.content-container#cont1 h2 {
+  text-align: left;
+  color: #333;
+  
+  margin: 0;
+  padding: 0;
+}
+.page#case_studies {
+  background-color: #fff; 
+  padding-top: 0;
+} 
 .table1 {  
   max-width: 30%;
   height: 100%;
@@ -167,8 +257,42 @@ body {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   background-color: transparent;
-  margin: 1%;
-  padding: 5%;
+  margin: 2em;
+  padding: 2em;
+}
+.table22{
+  width: 50%;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 3em;
+  margin-left: 2em;
+  margin-right: 2em;  
+  margin-bottom: 3em;
+  padding: 2em;
+  border-style: solid;
+  border-width: 0.01em;
+  border-radius: 1em;
+}
+.table22 h2{
+  margin-top: 2em;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #333;
+}
+.table22 p{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 .table3 {  
   width: 50%;
@@ -225,7 +349,6 @@ body {
   font-weight: 400;
   font-size: 1em;
   color: #333;
-  margin-bottom: 5em;
   margin-top: 2em;
 }
 .table3 h2{
@@ -265,12 +388,14 @@ body {
   border-radius: 2.5em;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 2em;
-
 }
 .imageCol1 {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 1em;
-
+}
+.myicon :hover {
+  color: #2B70E4;
+  transition: color 0.3s;
 }
 
 /* Navbar ------------------------------------------------------------- */
@@ -285,6 +410,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 .navbar {
   display: flex;
@@ -365,46 +492,77 @@ footer p {
 
 @media (max-width: 767px) {
   .content-container {
-      width: 95%;
+    width: 95%;
   }
   .burger-icon {
-    display: block; 
-    position: fixed; 
-    top: 10px; 
-    right: 10px; 
-
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1001;
   }
   nav {
-    position: fixed; 
-    width: 100%;   
-    background: #333; 
-    color: white;  
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); 
-    z-index: 1000; 
-    transition: background-color 0.3s, box-shadow 0.3s; 
-    padding: 22px 10px; 
+    position: fixed;
+    width: 100%;
+    color: white;
+    z-index: 1000;
     display: flex;
-    justify-content: baseline;
-
-    
+    justify-content: center; /* Wyśrodkowanie */
+    align-items: center; /* Wyśrodkowanie */
+    transition: all 0.3s ease;
   }
   nav ul {
-    display: none; 
-    margin-left: 1em;
+    display: none;
+    list-style: none;
+    width: 100%; /* Pełna szerokość */
+    text-align: center; /* Wyśrodkowanie tekstu */
   }
   .nav-active {
-    display: block;
+    display: block; 
+    background: rgba(51, 51, 51, 0.8); 
+    margin-bottom: 2em;
   }
-  .content-container#cont2 {
+  .nav-active li {
+    padding: 0.5em;
+  }
+  .navbar_logo {
+    transition: opacity 0.3s ease;
+  }
+  .hide-logo {
+    opacity: 0; /* Ukrywanie logo */
+  }
+  nav a {
+    text-decoration: none; 
+    color: #f3f3f3; 
+    font-weight: 300;
+    font-size: 1em;
+    transition: color 0.3s; 
+  } 
+  .content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .table1 {  
     max-width: 80%;
+    margin-bottom: 2em;
+  }
+  .table2 {  
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .table3 {  
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0;
+    padding-bottom: 2em;
   }
   .content-container#cont4 {
     flex-direction: column-reverse;
+  }
+  .content-container#cont6 {
+    padding: 0;
   }
   .table3 h2{
     text-align: center;
@@ -412,4 +570,112 @@ footer p {
   .table3 p{
     text-align: center;
   }
+  .table3#col1{
+    width: 100%;
+  }
+  .form{
+    width: auto;
+  }
+  .contact_tab {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .page#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline; 
+    align-items: center; 
+    background-color: #f3f3f3;
+    height: 75vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 0%;
+  } 
+  .content-container#cont5 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 20em;
+    width: 100%;
+    border-radius: 2em 2em 0em 0em ;
+    background-image: url('map_1.png'); 
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+  }
+  .content-container#cont6 {
+    height: auto;
+    width: 75%;
+    margin: 0;
+    margin-top: 20em;
+    border-radius: 2em;
+    z-index: 1;
+    background-color: #f3f3f3;
+    display: block;
+    
+  }
+  .contact_data {
+    border-radius: 1em;
+    z-index: 1;
+    background-color: #fff;
+    margin: auto;
+    padding: 2em;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .contact_data h1 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #333;
+  }
+  .contact_tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+  }
+  
+  .contact_col {
+    padding-left: 3em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 100%; 
+    
+    align-items: left;
+    padding: 0;
+    margin-bottom: 2em;
+  }
+  .contact_col h2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #333;
+    padding-left: 2em;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 0.5em;
+  }
+  .contact_col h3{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #666;
+    padding-left: 2em;
+    
+    padding: 0;
+  }
+ 
+  
 }

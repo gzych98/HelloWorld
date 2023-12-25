@@ -88,3 +88,9 @@
     height: 100%; /* Ustaw wysokość obrazka na 100% wysokości diva */
     object-fit: cover; /* Zapewnia, że obrazek będzie wypełniał diva, zachowując swoje proporcje */
   }
+
+  @media (max-width: 767px) {
+    .activeTab {
+        width: fit-content;
+      }
+  }

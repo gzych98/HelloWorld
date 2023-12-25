@@ -5,18 +5,18 @@ import Carousel from 'react-bootstrap/Carousel';
 const data = [
   {
    image: "background4.jpg", 
-   caption:"Caption",
-   description:"Description Here"
+   caption:"Social Media",
+   description:"share and shine on social"
   },
   {
     image: 'background4.jpg',
-    caption:"Caption",
-    description:"Description Here"
+    caption:"Marketing",
+    description:"Stand out from the crowd"
    },
    {
     image: 'background4.jpg', 
-    caption:"Caption",
-    description:"Description Here"
+    caption:"Print products",
+    description:"Design and print your ideas"
    } 
 ]
 

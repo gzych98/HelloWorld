@@ -1,6 +1,9 @@
 import React from 'react';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faRankingStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faPrint } from '@fortawesome/free-solid-svg-icons';
 import MainForm from '../components/MainForm'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,7 +29,9 @@ export default function Home() {
           <div className="content-container" id='home'>
             <h1>Creative Web Solutions</h1>
             <p>Bringing Your Digital Vision to Life</p>
-            <button>Create Your Website!</button>
+            <a href='#form'>
+              <button>Create Your Website!</button>
+            </a>
           </div>
         </div>
         <div className="advert" id="home">
@@ -56,13 +61,29 @@ export default function Home() {
       </div>
       <div className="page" id="case_studies">
         <div className="content-container" id="cont3">
-          <div className="table2" id="col2">
+          <div className="table2" id="col1">
             <h2>Crafting Your Visual Identity</h2>
             <p>Transform your brand&apos;s presence with our visual identity design services. We focus on creating a distinctive brand image that captures attention and engages your audience. With a blend of creativity and strategy, we design visual elements that are not only aesthetically pleasing but also communicate your brand&apos;s core message. Let us help you make a lasting impression in the digital landscape. </p>              
-              <button >Discover projects</button>
+             
           </div>
-          <div className="table2" id="col1">
-            <HomeCarousel />
+          <div className="table22" id="col2">
+            <FontAwesomeIcon icon={faRankingStar} className='myicon fa-3x' color='#333' />
+            <h2>Marketing</h2>
+            <p>Stand out from the crowd</p>
+          </div>
+        </div>
+      </div>
+      <div className="page" id="case_studies">
+        <div className="content-container" id="cont3">
+          <div className="table22" id="col3">
+            <FontAwesomeIcon icon={faUsers} className='myicon fa-3x' color='#333' />
+            <h2>Social Media</h2>
+            <p>Share and shine on social</p>
+          </div>
+          <div className="table22" id="col4">
+            <FontAwesomeIcon icon={faPrint} className='myicon fa-3x' color='#333' />
+            <h2>Print Products</h2>
+            <p>Design and print your ideas</p>
           </div>
         </div>
       </div>
@@ -85,13 +106,28 @@ export default function Home() {
         </div>
       </div>
       <div className="page" id="contact">
-      <div className="content-container" id="cont4">
-          <div className="table4" id="col1">
+        <div className="content-container" id="cont5">
+        <div className="content-container" id="cont6">
+          <div className='contact_data'>
+            <h1>Contact</h1>
+            <div className='contact_tab'>
+              <img  src="/black_2.png"
+                alt="Opis obrazu"
+                width={100}
+                height={100} 
+                className="footer_logo"
+              />
+              <div className='contact_col'>
+                <h3>City</h3>
+                <h2>Kraków, Poland</h2>
+                <h3>E-mail</h3>
+                <h2>office@gtcodelab.com</h2>
+              </div>
             </div>
           </div>
-          <div className="table4" id="col2">
-          </div>          
         </div>
+        </div>
+      </div>
     </main>
   )
 }

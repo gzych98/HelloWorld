@@ -17,8 +17,8 @@ const archivo = Archivo({ subsets: ['latin'], weight: ['300','400', '500', '700'
 const spaceMono = Space_Mono({subsets: ['latin'], weight: ['400','700'], style: ['normal']})
 
 export const metadata: Metadata = {
-  title: 'Demo 1',
-  description: 'Demo WWW just for learning',
+  title: 'GT Code Lab',
+  description: 'Creative Software Solutions',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

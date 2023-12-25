@@ -30,7 +30,7 @@ export default function Home() {
             <h1>Creative Web Solutions</h1>
             <p>Bringing Your Digital Vision to Life</p>
             <a href='#form'>
-              <button>Create Your Website!</button>
+              <button>Create Your Project!</button>
             </a>
           </div>
         </div>

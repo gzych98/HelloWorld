@@ -23,7 +23,7 @@ export default function Home() {
     <main>
       <div className="page" id="page1">
         <div className="background" id="home">
-          <div className="content-container">
+          <div className="content-container" id='home'>
             <h1>Creative Web Solutions</h1>
             <p>Bringing Your Digital Vision to Life</p>
             <button>Create Your Website!</button>
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="content-container" id="cont3">
           <div className="table2" id="col2">
             <h2>Crafting Your Visual Identity</h2>
-            <p>Transform your brand's presence with our visual identity design services. We focus on creating a distinctive brand image that captures attention and engages your audience. With a blend of creativity and strategy, we design visual elements that are not only aesthetically pleasing but also communicate your brand's core message. Let us help you make a lasting impression in the digital landscape. </p>              
+            <p>Transform your brand&apos;s presence with our visual identity design services. We focus on creating a distinctive brand image that captures attention and engages your audience. With a blend of creativity and strategy, we design visual elements that are not only aesthetically pleasing but also communicate your brand&apos;s core message. Let us help you make a lasting impression in the digital landscape. </p>              
               <button >Discover projects</button>
           </div>
           <div className="table2" id="col1">
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className="table3" id="col2">
             <p>Create Your Website</p>
-            <h2>Fill in the form and we'll take care of the rest!</h2>
+            <h2>Fill in the form and we&apos;ll take care of the rest!</h2>
           </div>          
         </div>
       </div>

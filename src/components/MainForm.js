@@ -94,16 +94,16 @@ const MainForm = () => {
 
     const formElements = {
         'website': [
-            <UserNameEmail data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
-            <WebsiteForm data={data} handleChange={handleChange} />
+            <UserNameEmail key="user-name-email-website" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
+            <WebsiteForm key="website-form-website" data={data} handleChange={handleChange} />
         ],
         'software': [
-            <UserNameEmail data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
-            <Szablon data={data} handleChange={handleChange} />,
+            <UserNameEmail key="user-name-email-software" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
+            <Szablon key="szablon-software" data={data} handleChange={handleChange} />,
         ],
         'application': [
-            <UserNameEmail data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
-            <Szablon data={data} handleChange={handleChange} />,
+            <UserNameEmail key="user-name-email-application" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
+            <Szablon key="szablon-application" data={data} handleChange={handleChange} />,
         ],
     }
 

@@ -21,11 +21,15 @@ body {
 } 
 /* KONTENERY */  
 .page {
-    height: 100vh; 
+    min-height: 75vh; 
     display: block;
     justify-content: top; 
     align-items: top; 
+    padding-top: 2em;
   } 
+.page#page1{
+  height: 75vh;
+}
 .background#home {
   display: flex;
   justify-content: center; 
@@ -59,11 +63,12 @@ body {
   max-width: 1200;
   text-align: center;
 }
-.content-container#cont1 h1 {
+.content-container#home h1 {
   font-size: 2.5em; 
   font-family: 'Rubik', sans-serif;
   margin-bottom: 0.5em;
 }
+
 .content-container p {
   font-family: 'Rubik', sans-serif;
   font-size: 1.5em; 
@@ -110,6 +115,7 @@ body {
   align-items: center;
   height: 35%;
   background-color: transparent;
+  padding-top: 1em
 }
 
 .content-container#cont2 {
@@ -122,6 +128,7 @@ body {
   font-size: 2.5em; 
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
+  margin-bottom: 1em;
 }
 .content-container#cont3 {
   display: flex;

@@ -30,7 +30,7 @@ function HomeCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
        {data.map((slide, i) => {
         return (
-          <Carousel.Item>        
+          <Carousel.Item key={i}>        
         <img
           className="d-block w-100"
           src={slide.image}

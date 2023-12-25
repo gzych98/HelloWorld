@@ -27,7 +27,7 @@ export default function Home() {
       <div className="page" id="page1">
         <div className="background" id="home">
           <div className="content-container" id='home'>
-            <h1>Creative Web Solutions</h1>
+            <h1>Creative Software Solutions</h1>
             <p>Bringing Your Digital Vision to Life</p>
             <a href='#form'>
               <button>Create Your Project!</button>

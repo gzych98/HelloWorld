@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 }
 
 .form_line {
-    width: 100%; /* Ustawia szerokość diva na 100% */
+    width: 100%; 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Wyrównanie do lewej */
-    margin-bottom: 10px; /* Dodaje margines na dole dla odstępu */
+    align-items: flex-start; 
+    margin-bottom: 10px; 
 }
 
 .label {
@@ -38,6 +39,7 @@
 
 .activeTab{
     background-color: transparent;
+    width: 85%;
 }
 .mainFormButton button{
     margin: 1em;

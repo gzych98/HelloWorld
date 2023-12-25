@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import UserNameEmail from './UserNameEmail'
 import Szablon from './szablon';
+import WebsiteForm from './website_form';
 import './form.css'
 import Swal from 'sweetalert2';
 
@@ -11,11 +12,13 @@ const MainForm = () => {
         name: "",
         email: "",
         projectName: "",        
-        opcja1: false,
-        opcja2: false,
-        opcja3: false,
+        wwwOpcja1: false,
+        wwwOpcja2: false,
+        wwwOpcja3: false,
         websiteType: "",
         additionalNotes: "",
+        grafika1: false,
+        grafika2: false,
     })
 
 
@@ -92,7 +95,7 @@ const MainForm = () => {
     const formElements = {
         'website': [
             <UserNameEmail data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
-            <Szablon data={data} handleChange={handleChange} />,
+            <WebsiteForm data={data} handleChange={handleChange} />
         ],
         'software': [
             <UserNameEmail data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,

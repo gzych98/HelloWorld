@@ -1,6 +1,7 @@
 "use client";
 import { height } from '@fortawesome/free-solid-svg-icons/fa0';
 import React, { useState, useEffect } from 'react';
+import './admin.css'
 
 export default function Admin() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -9,7 +10,7 @@ export default function Admin() {
   useEffect(() => {
     // Here you can check the password against a stored value
     // For simplicity, I'm using a hardcoded password
-    const storedPassword = 'admin'; // Replace with your actual password
+    const storedPassword = 'jamnik123'; // Replace with your actual password
     if (password === storedPassword) {
       setIsAuthenticated(true);
     }
@@ -23,11 +24,13 @@ export default function Admin() {
   const renderContent = () => {
     if (isAuthenticated) {
       return (
-        <div className="page" id="page1">
-          <div className="background" id="home">
-            <div className="content-container" id='home'>
-              <h1>Admin page</h1>
-            </div>
+        <div className='admin'>
+          <div className="admin-navbar">
+            <p>Pasek.........................</p>
+          </div>
+          <div className="admin-page">
+            <h1>Strona administratora</h1>
+            {/* Tutaj możesz dodać zawartość strony administratora */}
           </div>
         </div>
       );

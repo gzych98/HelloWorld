@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-const NavBar: React.FC = () => {
+const NavBar_pol: React.FC = () => {
     const [isNavVisible, setIsNavVisible] = useState(false);
 
     const toggleNav = () => {
@@ -25,15 +25,15 @@ const NavBar: React.FC = () => {
             className={`navbar_logo ${isNavVisible ? 'hide-logo' : ''}`} 
           />
           <ul className={isNavVisible ? "nav-active" : ""}>
-            <li><a href="#page1">Home</a></li>
-            <li><a href="#web_solutions">Our Solutions</a></li>
-            <li><a href="#form">Create Your Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a id='language' href="/pol">PL</a></li>
+            <li><a href="#page1">Strona domowa</a></li>
+            <li><a href="#web_solutions">Nasze Rozwiązania</a></li>
+            <li><a href="#form">Zrealizuj swój projekt</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+            <li><a id='language' href="/">EN</a></li>
           </ul>
         </div>       
       </nav>
     );
 };
 
-export default NavBar;
+export default NavBar_pol;

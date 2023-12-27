@@ -9,8 +9,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HomeCarousel from '@/components/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import Footer_pol from './footer_pol';
+import NavBar_pol from './navbar_pol';
 
 
 
@@ -24,6 +24,7 @@ export default function Home() {
   };
   return (
     <main>
+      <NavBar_pol />
       <div className="page" id="page1">
         <div className="background" id="home">
           <div className="content-container" id='home'>
@@ -131,6 +132,7 @@ export default function Home() {
         </div>
         </div>
       </div>
+    <Footer_pol />     
     </main>
   )
 }

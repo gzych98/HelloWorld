@@ -15,9 +15,10 @@ export default function Admin() {
     }
   }, [password]);
 
-  const handlePasswordChange = (event) => {
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {   
     setPassword(event.target.value);
   };
+  
 
   const renderContent = () => {
     if (isAuthenticated) {

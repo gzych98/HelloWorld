@@ -9,6 +9,7 @@ import './globals.css'
 import NavBar from './navbar'
 import Footer from './footer'
 import Script from 'next/script'
+import FacebookLink from '@/components/Links'
 
 const inter = Inter({ subsets: ['latin'] })
 const openSans = Open_Sans({ subsets: ['latin'], weight: ['300', '400', '700'] })
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={inter.className}>
         {children}
+        <FacebookLink />
       </body>
     </html>
   );

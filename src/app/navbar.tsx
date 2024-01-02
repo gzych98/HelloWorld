@@ -29,7 +29,7 @@ const NavBar_pol: React.FC = () => {
           <li><a href="/#web_solutions">Nasze Rozwiązania</a></li>
           <li><a href="/#form">Zrealizuj swój projekt</a></li>
           <li><a href="/#contact">Kontakt</a></li>
-          <li><a id='language' href="/how-it-works">Jak to działa?</a></li>
+          <li><a id='language' href="/how-it-works.html">Jak to działa?</a></li>
           {/* <li><a id='language' href="/">EN</a></li> */}
         </ul>
       </div>

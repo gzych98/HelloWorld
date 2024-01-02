@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="content-container" id="cont2">
           <div className="table1" id="col1">
-          <h2>Innowacyjne projektowanie stron internetowych</h2>
+            <h2>Innowacyjne projektowanie stron internetowych</h2>
             <p>Wyróżnij swoją markę dzięki projektom szytym na miarę. Nasze unikalne rozwiązania internetowe zapewniają funkcjonalność, responsywność i styl, który przyciąga odbiorców i podkreśla Twoją obecność w Internecie.  </p>
           </div>
           <div className="table1" id="col2">
@@ -54,8 +54,8 @@ export default function Home() {
         <div className="content-container" id="cont3">
           <div className="table2" id="col1">
             <h2>Kształtowanie identyfikacji wizualnej</h2>
-            <p>Przekształć obecność swojej marki dzięki naszym usługom projektowania identyfikacji wizualnej. Koncentrujemy się na tworzeniu charakterystycznego wizerunku marki, który przyciąga uwagę i angażuje odbiorców. Dzięki połączeniu kreatywności i strategii projektujemy elementy wizualne, które są nie tylko estetyczne, ale także komunikują główne przesłanie marki. Pozwól nam pomóc Ci wywrzeć trwałe wrażenie w cyfrowym krajobrazie. </p>              
-             
+            <p>Przekształć obecność swojej marki dzięki naszym usługom projektowania identyfikacji wizualnej. Koncentrujemy się na tworzeniu charakterystycznego wizerunku marki, który przyciąga uwagę i angażuje odbiorców. Dzięki połączeniu kreatywności i strategii projektujemy elementy wizualne, które są nie tylko estetyczne, ale także komunikują główne przesłanie marki. Pozwól nam pomóc Ci wywrzeć trwałe wrażenie w cyfrowym krajobrazie. </p>
+
           </div>
           <div className="table22" id="col2">
             <FontAwesomeIcon icon={faRankingStar} className='myicon fa-3x' color='#333' />
@@ -86,7 +86,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faEnvelope} className='fa-2x' color='#fff' />
               </div>
               <MainFormPol2 />
-              
+
               {/* <button>Continue</button> */}
             </div>
           </div>
@@ -95,34 +95,34 @@ export default function Home() {
             <h2>Z łatwością rozpocznij swoją przygodę online</h2>
             <h3>Witamy na pierwszym etapie tworzenia swojej cyfrowej obecności! Nasz prosty formularz został zaprojektowany tak, aby zebrać tylko niezbędne informacje, zapewniając płynne rozpoczęcie tworzenia projektu.</h3>
             <h3>Po kliknięciu przycisku Dalej zostaniesz poprowadzony przez kilka bardziej dostosowanych wyborów, upewniając się, że każdy aspekt projektu jest zgodny z Twoją wizją. Nasz zespół będzie następnie pracował za kulisami, tworząc witrynę, która nie tylko świetnie wygląda, ale także działa bezbłędnie.</h3>
-          </div>          
+          </div>
         </div>
       </div>
       <div className="page" id="contact">
         <div className="content-container" id="cont5">
-        <div className="content-container" id="cont6">
-          <div className='contact_data'>
-            <h1>Skontaktuj się z nami</h1>
-            <div className='contact_tab'>
-              <img  src="/black_2.png"
-                alt="Opis obrazu"
-                width={100}
-                height={100} 
-                className="footer_logo"
-              />
-              <div className='contact_col'>
-                <h2>Jesteśmy tutaj, aby wysłuchać i odpowiedzieć na wszelkie pytania. Niezależnie od tego, czy jesteś zainteresowany rozpoczęciem projektu, potrzebujesz pomocy z istniejącą usługą, czy po prostu chcesz się przywitać, nasz zespół jest gotowy udzielić Ci potrzebnych informacji i wsparcia. Skontaktuj się z nami za pośrednictwem jednego z poniższych kanałów, a na pewno szybko się z Tobą skontaktujemy.</h2>
-                <h3>Miasto</h3>
-                <h2>Kraków</h2>
-                <h3>E-mail</h3>
-                <h2>office@gtcodelab.com</h2>
+          <div className="content-container" id="cont6">
+            <div className='contact_data'>
+              <h1>Skontaktuj się z nami</h1>
+              <div className='contact_tab'>
+                <img src="/black_2.png"
+                  alt="Opis obrazu"
+                  width={100}
+                  height={100}
+                  className="footer_logo"
+                />
+                <div className='contact_col'>
+                  <h2>Jesteśmy tutaj, aby wysłuchać i odpowiedzieć na wszelkie pytania. Niezależnie od tego, czy jesteś zainteresowany rozpoczęciem projektu, potrzebujesz pomocy z istniejącą usługą, czy po prostu chcesz się przywitać, nasz zespół jest gotowy udzielić Ci potrzebnych informacji i wsparcia. Skontaktuj się z nami za pośrednictwem jednego z poniższych kanałów, a na pewno szybko się z Tobą skontaktujemy.</h2>
+                  <h3>Miasto</h3>
+                  <h2>Kraków</h2>
+                  <h3>E-mail</h3>
+                  <h2>office@gtcodelab.com</h2>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
-    <Footer_pol />     
+      <Footer_pol />
     </main>
   )
 }

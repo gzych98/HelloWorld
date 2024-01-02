@@ -17,7 +17,7 @@ const MainFormPol2 = () => {
             ...data,
             [name]: value,
         });
-    }; 
+    };
 
     const sendTestEmail = async () => {
         console.log("Wysyłam do serwera: ", data);
@@ -34,11 +34,12 @@ const MainFormPol2 = () => {
             })
         });
         const responseData = await response.json();
+        console.log(a)
         console.log("Odpowiedź serwera: ", responseData);
     }
 
     const handleSubmit = () => {
-        if(!isValidEmail(data.email)) {
+        if (!isValidEmail(data.email)) {
             Swal.fire({
                 title: 'Błąd',
                 text: 'Nieprawidłowy adres e-mail',
@@ -47,7 +48,7 @@ const MainFormPol2 = () => {
             });
             return;
         }
-        sendTestEmail(); 
+        sendTestEmail();
         Swal.fire({
             title: 'Dziękujemy za zgłoszenie',
             text: 'Nasz zespół analizuje Twoją prośbę i wkrótce się z Tobą skontaktuje',

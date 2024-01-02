@@ -119,6 +119,11 @@ body {
   justify-content: center;
   align-items: top;
 }
+.content-container#cont2 :hover:not(.table1 *){
+  background-color: #f3f3f3;  
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
 .content-container#cont1 h1 {
   color: #f3f3f3;
   font-size: 2.5em; 
@@ -132,6 +137,13 @@ body {
   align-items: center;
   height: 100%;
   margin-top: 0;
+}
+.content-container#cont3 :hover:not(.table2, .table2 *, .table22 *){
+  background-color: #f3f3f3;  
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.content-container#cont3 :hover:not(.table2, .table2 *, .table22 *) .myicon {
+  color: #2B70E4;
 }
 .content-container#cont4 {
   display: flex;
@@ -248,12 +260,14 @@ body {
   justify-content: center;
   font-family: 'Rubik', sans-serif;
   text-align: left;
-  background-color: #f3f3f3;
+  background-color: #fff;
   margin: 0%;
   margin-left: 1em;
   margin-right: 1em;
   padding: 1em;
+  border-radius: 1em;
 }
+
 .table2 {  
   width: 50%;
   display: block;
@@ -282,6 +296,7 @@ body {
   border-width: 0.01em;
   border-radius: 1em;
 }
+
 .table22 h2{
   margin-top: 2em;
   text-align: center;
@@ -318,11 +333,6 @@ body {
   background-color: transparent;
   margin: 1%;
   padding: 0;
-}
-
-.table3#col1 {
-  display: block;
-  width: 40em;
 }
 
 .table1#col1 Image {
@@ -457,14 +467,29 @@ nav a {
   color: #666; 
   font-weight: 300;
   font-size: small;
-  transition: color 0.3s; 
+  transition: color 0.2s; 
 } 
 
+#language {
+  color: #f3f3f3;
+  border-style: solid;
+  border-color: #f3f3f3;
+  border-radius: 1em;
+  padding: 0.75em 1em 0.75em 1em;
+  border-width: 1px;
+}
+
 #language:hover {
-  color: #2B70E4;
+  color: #f3f3f3;
+  border-style: solid;
+  border-color: #2B70E4;
+  border-radius: 1em;
+  padding: 0.75em 1em 0.75em 1em;
+  transition: color 0.3s;
+  border-width: 1px;
 }
 nav a:hover {
-  color: #bbb; 
+  color: #f3f3f3; 
   text-decoration: none;
 }
 footer {
@@ -509,6 +534,7 @@ footer p {
   .burger-icon {
     display: none; 
   }
+
   .content-container {
     display: flex;
     flex-direction: column;
@@ -584,12 +610,13 @@ footer p {
     height: auto;
     width: 75%;
     margin: 0;
+    /* transform: translateY(20em); */
     margin-top: 20em;
     border-radius: 2em;
     z-index: 1;
     background-color: #f3f3f3;
     display: block;
-    min-height: 50vh;
+    min-height: 10vh;
   }
   .contact_data {
     border-radius: 1em;
@@ -662,6 +689,23 @@ footer p {
 @media (max-width: 767px) {
   .content-container {
     width: 95%;
+  }
+  #language {
+    color: #f3f3f3;
+    border-style: solid;
+    border-color: #f3f3f3;
+    border-radius: 1em;
+    padding: 0.5em 2em 0.5em 2em;
+    border-width: 1px;
+  }
+  
+  #language:hover {
+    color: #f3f3f3;
+    border-style: solid;
+    border-color: #2B70E4;
+    border-radius: 1em;
+    padding: 0.5em 2em 0.5em 2em;
+    border-width: 1px;
   }
   .burger-icon {
     display: block;

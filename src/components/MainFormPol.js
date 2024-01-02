@@ -1,15 +1,13 @@
 "use client";
 import { useState, useEffect } from 'react'
-import UserNameEmail from './UserNameEmail'
-import Szablon from './szablon';
+import UserNameEmailPol from './UserNameEmail_pol'
 import WebsiteForm from './website_form';
 import './form.css'
 import Swal from 'sweetalert2';
 
 
+const MainFormPol = () => {
 
-
-const MainForm = () => {
     const [data, setData] = useState({
         name: "",
         email: "",
@@ -23,9 +21,46 @@ const MainForm = () => {
         grafika2: false,
     })
 
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('')
+
+    const sendMail = async (e) => {
+        e.preventDefault();
+    
+        const response = await fetch('../api/sendEmail', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify({
+                subject: 'Temat Wiadomości', // Ustaw właściwy temat
+                message: 'Treść wiadomości', // Ustaw treść wiadomości
+                formData: data // Tutaj dodajesz dane formularza
+            })
+        });
+        console.log(await response.json());
+    }  
+
+    const sendTestEmail = async () => {
+        console.log("Wysyłam do serwera: ", data)
+
+        const response = await fetch('../pages/api/sendEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                subject: 'Formularz GT Code Lab',
+                message: 'To jest treść wiadomości:',
+                formData: data
+            })
+        });
+        const responseData = await response.json();
+        console.log("Odpowiedź serwera: ", responseData);
+    }
+
 
     const [selectedWebsiteType, setSelectedWebsiteType] = useState('website');
-    
 
     const handleTypeChange = (event) => {
         const { value } = event.target;
@@ -51,56 +86,25 @@ const MainForm = () => {
         }
     }; 
 
-    const handleSubmit = async () => {
+    const handleSubmit = (e) => {
         if(!isValidEmail(data.email)) {
-
             Swal.fire({
-                title: 'Error',
-                text: 'Invalid e-mail address',
+                title: 'Błąd',
+                text: 'Nieprawidłowy adres e-mail',
                 icon: 'error',
                 confirmButtonText: 'Ok'
             })
             return;
         }
-
-        try {
-            const response = await fetch('/api/sendEmail', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            });
-    
-            if (response.ok) {
-                console.log('E-mail wysłany');
-                console.log(data)   
-                Swal.fire({
-                    title: 'Thank you for your request',
-                    text: 'Our team is reviewing your request and will get back to you shortly',
-                    icon: 'success',
-                    confirmButtonText: 'Ok'
-                })     
-                resetForm();
-            } else {
-                Swal.fire({
-                    title: 'Error',
-                    text: 'Błąd wysłania maila',
-                    icon: 'error',
-                    confirmButtonText: 'Ok'
-                })
-            }
-        } catch (error) {
-            console.log(data)   
-            Swal.fire({
-                title: 'Error',
-                text: 'Wystąpił błąd',
-                icon: 'error',
-                confirmButtonText: 'Ok'
-            })
-        }
-
-        
+        console.log(data)  
+        sendMail(e); 
+        Swal.fire({
+            title: 'Dziękujemy za zgłoszenie',
+            text: 'Nasz zespół analizuje Twoją prośbę i wkrótce się z Tobą skontaktuje',
+            icon: 'success',
+            confirmButtonText: 'Ok'
+        })     
+        //resetForm();
     }
 
     const resetForm = () => {
@@ -129,15 +133,15 @@ const MainForm = () => {
 
     const formElements = {
         'website': [
-            <UserNameEmail key="user-name-email-website" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
+            <UserNameEmailPol key="user-name-email-website" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
             <WebsiteForm key="website-form-website" data={data} handleChange={handleChange} />
         ],
         'software': [
-            <UserNameEmail key="user-name-email-software" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
+            <UserNameEmailPol key="user-name-email-software" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
             <WebsiteForm key="website-form-website" data={data} handleChange={handleChange} />
         ],
         'application': [
-            <UserNameEmail key="user-name-email-application" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
+            <UserNameEmailPol key="user-name-email-application" data={data} handleChange={handleChange} handleTypeChange={handleTypeChange} />,
             <WebsiteForm key="website-form-website" data={data} handleChange={handleChange} />
         ],
     }
@@ -166,22 +170,22 @@ const MainForm = () => {
                     <button
                         onClick={() => setActiveTab(prev => prev - 1)}
                         className='Back'>
-                        Back
+                        Cofnij
                     </button>
                 )}
                 {activeTab < (formElements[selectedWebsiteType]?.length - 1 || 0) && (
                     <button
                         onClick={() => setActiveTab(prev => prev + 1)}
                         className='btnNext'>
-                        Next
+                        Dalej
                     </button>
                 )}  
                 {
-                    activeTab === (formElements[selectedWebsiteType]?.length - 1 || 0) ? <button className= "g-recpatcha" data-sitekey="6LftAT4pAAAAAPCVNchOKg3eifc47suFNMHI_Zon"  onClick={handleSubmit}>Submit</button> : null
+                    activeTab === (formElements[selectedWebsiteType]?.length - 1 || 0) ? <button onClick={sendTestEmail}>Wyślij</button> : null
                 }
             </div>
         </div>
     );
 }
 
-export default MainForm
+export default MainFormPol

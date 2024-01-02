@@ -1,11 +1,11 @@
 // Footer.tsx
 import React from 'react';
 
-const Footer: React.FC = () => {
+const Footer_pol: React.FC = () => {
   return (
     <footer>
-      <p>Copyright © {new Date().getFullYear()} GT Code Lab</p>
+      <p>Prawa autorskie © {new Date().getFullYear()} GT Code Lab</p>
     </footer>
   );
 };
-export default Footer;
+export default Footer_pol;

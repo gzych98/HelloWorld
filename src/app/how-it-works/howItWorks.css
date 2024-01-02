@@ -1,0 +1,117 @@
+.page#how-it-works {
+    padding-top: 5em;
+    min-height: 30vh;
+    display: flex;
+    align-content: center;
+}
+
+.content-container {
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Column {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin: 2vh;
+    padding: 2em;
+}
+
+.first_page {
+    padding-top: 5em;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.display-left {
+    text-align: left;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 20em;
+    border-radius: 1em;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#how-it-works {
+    background-image: url('../photo1.png');
+}
+
+.Column h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #bbb;
+}
+
+.Column h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.Column p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #333;
+}
+
+.border {
+    border-style: solid;
+    border-radius: 1em;
+    border-width: 0.01em;
+    border-color: #333;
+}
+
+.highlight .Column.width-80:hover {
+    background-color: #f3f3f3;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (max-width: 767px) {
+    .Table {
+        flex-direction: column;
+    }
+
+    .Column-30 {
+        width: 100%;
+    }
+
+    .Column-70 {
+        width: 100%;
+    }
+}

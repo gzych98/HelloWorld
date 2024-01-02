@@ -4,37 +4,24 @@ import { faRankingStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faPrint } from '@fortawesome/free-solid-svg-icons';
-import MainForm from '../components/MainForm'
+import MainFormPol2 from '@/components/MainFormPol2';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import HomeCarousel from '@/components/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './globals.css'
-import Footer from './footer';
-import NavBar from './navbar';
-
-
-
-
+import Footer_pol from './footer';
+import NavBar_pol from './navbar';
 
 export default function Home() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
   return (
     <main>
-      <NavBar />
+      <NavBar_pol />
       <div className="page" id="page1">
         <div className="background" id="home">
           <div className="content-container" id='home'>
-            <h1>Creative Software Solutions</h1>
-            <p>Bringing Your Digital Vision to Life</p>
+            <h1>Kreatywne rozwiązania programistyczne</h1>
+            <p>Wdrażamy twoją cyfrową wizję do rzeczywistości</p>
             <a href='#form'>
-              <button>Create Your Project!</button>
+              <button>Zrealizuj z nami swój projekt!</button>
             </a>
           </div>
         </div>
@@ -46,34 +33,34 @@ export default function Home() {
       {/* page2 */}
       <div className="page" id="web_solutions">
         <div className="content-container" id="cont1">
-          <h1>Diverse Technology Services</h1>
+          <h1>Różnorodne usługi informatyczne</h1>
         </div>
         <div className="content-container" id="cont2">
           <div className="table1" id="col1">
-          <h2>Innovative Web Design</h2>
-            <p>Elevate your brand with bespoke designs. Our unique web solutions ensure functionality, responsiveness, and style that captivates your audience and underscores your online presence. </p>
+          <h2>Innowacyjne projektowanie stron internetowych</h2>
+            <p>Wyróżnij swoją markę dzięki projektom szytym na miarę. Nasze unikalne rozwiązania internetowe zapewniają funkcjonalność, responsywność i styl, który przyciąga odbiorców i podkreśla Twoją obecność w Internecie.  </p>
           </div>
           <div className="table1" id="col2">
-            <h2>Advanced Programming</h2>
-            <p>Develop your business with our customized software services. We specialize in creating advanced software that streamlines business processes, increases efficiency, and provides scalable solutions tailored to your expectations. </p>
+            <h2>Zaawansowane usługi programistyczne</h2>
+            <p>Rozwijaj swój biznes dzięki naszym niestandardowym usługom w zakresie oprogramowania. Specjalizujemy się w tworzeniu zaawansowanego oprogramowania, które usprawnia procesy biznesowe, zwiększa wydajność i zapewnia skalowalne rozwiązania dostosowane do Twoich oczekiwań. </p>
           </div>
           <div className="table1" id="col3">
-            <h2>Application Development</h2>
-            <p>Transform your ideas into reality with our app development services. We offer comprehensive solutions in designing and developing mobile and desktop applications that are intuitive, fast, and tailored to the needs of your company and clients. </p>
+            <h2>Rozwój aplikacji</h2>
+            <p>Przekształć swoje pomysły w rzeczywistość dzięki naszym usługom tworzenia aplikacji. Oferujemy kompleksowe rozwiązania w zakresie projektowania i tworzenia aplikacji mobilnych i desktopowych, które są intuicyjne, szybkie i dostosowane do potrzeb Twojej firmy i klientów. </p>
           </div>
         </div>
       </div>
       <div className="page" id="case_studies">
         <div className="content-container" id="cont3">
           <div className="table2" id="col1">
-            <h2>Crafting Your Visual Identity</h2>
-            <p>Transform your brand&apos;s presence with our visual identity design services. We focus on creating a distinctive brand image that captures attention and engages your audience. With a blend of creativity and strategy, we design visual elements that are not only aesthetically pleasing but also communicate your brand&apos;s core message. Let us help you make a lasting impression in the digital landscape. </p>              
+            <h2>Kształtowanie identyfikacji wizualnej</h2>
+            <p>Przekształć obecność swojej marki dzięki naszym usługom projektowania identyfikacji wizualnej. Koncentrujemy się na tworzeniu charakterystycznego wizerunku marki, który przyciąga uwagę i angażuje odbiorców. Dzięki połączeniu kreatywności i strategii projektujemy elementy wizualne, które są nie tylko estetyczne, ale także komunikują główne przesłanie marki. Pozwól nam pomóc Ci wywrzeć trwałe wrażenie w cyfrowym krajobrazie. </p>              
              
           </div>
           <div className="table22" id="col2">
             <FontAwesomeIcon icon={faRankingStar} className='myicon fa-3x' color='#333' />
             <h2>Marketing</h2>
-            <p>Cut through the noise with our targeted marketing strategies. From data-driven campaigns to creative storytelling, we position your brand to achieve maximum impact and return on investment. Elevate your marketing to capture the right audience.</p>
+            <p>Przebij się przez szum dzięki naszym ukierunkowanym strategiom marketingowym. Od kampanii opartych na danych po kreatywne opowiadanie historii, pozycjonujemy Twoją markę, aby osiągnąć maksymalny wpływ i zwrot z inwestycji. Podnieś swój marketing, aby przyciągnąć właściwych odbiorców.</p>
           </div>
         </div>
       </div>
@@ -82,12 +69,12 @@ export default function Home() {
           <div className="table22" id="col3">
             <FontAwesomeIcon icon={faUsers} className='myicon fa-3x' color='#333' />
             <h2>Social Media</h2>
-            <p>Amplify your brand&apos;s voice across social platforms. Our team crafts engaging content and designs that resonate with your audience, fostering community and conversation. Let&apos;s make your brand the topic of social media talk.</p>
+            <p>Wzmocnij głos swojej marki na platformach społecznościowych. Nasz zespół tworzy angażujące treści i projekty, które rezonują z odbiorcami, wspierając społeczność i konwersację. Sprawmy, aby Twoja marka stała się tematem rozmów w mediach społecznościowych.</p>
           </div>
           <div className="table22" id="col4">
             <FontAwesomeIcon icon={faPrint} className='myicon fa-3x' color='#333' />
-            <h2>Print Products</h2>
-            <p>Bring your ideas to life with our customised print solutions. Whether it&apos;s business cards, brochures or banners, we provide high-quality print that reflects the excellence of your brand. Connect with your offline customers with print that stands out.</p>
+            <h2>Produkty poligraficzne</h2>
+            <p>Wciel swoje pomysły w życie dzięki naszym niestandardowym rozwiązaniom w zakresie druku. Niezależnie od tego, czy chodzi o wizytówki, broszury czy banery, zapewniamy wysokiej jakości druk, który odzwierciedla doskonałość Twojej marki. Nawiąż kontakt z klientami offline za pomocą druku, który się wyróżnia.</p>
           </div>
         </div>
       </div>
@@ -98,16 +85,16 @@ export default function Home() {
               <div className="circle">
                 <FontAwesomeIcon icon={faEnvelope} className='fa-2x' color='#fff' />
               </div>
-              <MainForm />
+              <MainFormPol2 />
               
               {/* <button>Continue</button> */}
             </div>
           </div>
           <div className="table3" id="col2">
-            <p>Create Your Project</p>
-            <h2>Start Your Online Journey with Ease</h2>
-            <h3>Welcome to the first step in creating your digital presence! Our simple form is designed to gather just the essentials, ensuring a smooth start to building your project.</h3>
-            <h3>Once you click Next you&apos;ll be guided through a few more tailored choices, ensuring that every aspect of your project is aligned with your vision. Our team will then work behind the scenes, crafting a site that not only looks great but also performs flawlessly.</h3>
+            <p>Rozpocznij budowę projektu</p>
+            <h2>Z łatwością rozpocznij swoją przygodę online</h2>
+            <h3>Witamy na pierwszym etapie tworzenia swojej cyfrowej obecności! Nasz prosty formularz został zaprojektowany tak, aby zebrać tylko niezbędne informacje, zapewniając płynne rozpoczęcie tworzenia projektu.</h3>
+            <h3>Po kliknięciu przycisku Dalej zostaniesz poprowadzony przez kilka bardziej dostosowanych wyborów, upewniając się, że każdy aspekt projektu jest zgodny z Twoją wizją. Nasz zespół będzie następnie pracował za kulisami, tworząc witrynę, która nie tylko świetnie wygląda, ale także działa bezbłędnie.</h3>
           </div>          
         </div>
       </div>
@@ -115,7 +102,7 @@ export default function Home() {
         <div className="content-container" id="cont5">
         <div className="content-container" id="cont6">
           <div className='contact_data'>
-            <h1>Get in Touch with Us</h1>
+            <h1>Skontaktuj się z nami</h1>
             <div className='contact_tab'>
               <img  src="/black_2.png"
                 alt="Opis obrazu"
@@ -124,9 +111,9 @@ export default function Home() {
                 className="footer_logo"
               />
               <div className='contact_col'>
-                <h2>We are here to listen and answer any questions you may have. Whether you&apos;re interested in starting a project, need help with an existing service or just want to say hello, our team is ready to give you the information and support you need. Contact us through any of the channels below and we will be sure to get back to you quickly.</h2>
-                <h3>City</h3>
-                <h2>Kraków, Poland</h2>
+                <h2>Jesteśmy tutaj, aby wysłuchać i odpowiedzieć na wszelkie pytania. Niezależnie od tego, czy jesteś zainteresowany rozpoczęciem projektu, potrzebujesz pomocy z istniejącą usługą, czy po prostu chcesz się przywitać, nasz zespół jest gotowy udzielić Ci potrzebnych informacji i wsparcia. Skontaktuj się z nami za pośrednictwem jednego z poniższych kanałów, a na pewno szybko się z Tobą skontaktujemy.</h2>
+                <h3>Miasto</h3>
+                <h2>Kraków</h2>
                 <h3>E-mail</h3>
                 <h2>office@gtcodelab.com</h2>
               </div>
@@ -135,7 +122,7 @@ export default function Home() {
         </div>
         </div>
       </div>
-      <Footer />
+    <Footer_pol />     
     </main>
   )
 }

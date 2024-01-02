@@ -16,8 +16,8 @@ export async function POST(request) {
             service: 'gmail',
             secure: true,
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
+                user: process.env.NEXT_PUBLIC_EMAIL_USER,
+                pass: process.env.NEXT_PUBLIC_EMAIL_PASS,
             },
         });
 

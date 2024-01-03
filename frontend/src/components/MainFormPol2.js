@@ -17,9 +17,9 @@ const MainFormPol2 = () => {
             ...data,
             [name]: value,
         });
-    }; 
+    };
 
-    const sendTestEmail = async () => {
+    const sendTestEmailTemp = async () => {
         console.log("Wysyłam do serwera: ", data);
 
         const response = await fetch('../pages/api/sendEmail', {
@@ -34,11 +34,53 @@ const MainFormPol2 = () => {
             })
         });
         const responseData = await response.json();
+        console.log(a)
         console.log("Odpowiedź serwera: ", responseData);
     }
 
+    const sendTestEmail = async () => {
+        console.log("Wysyłam do serwera: ", data);
+
+        try {
+            const response = await fetch('../pages/api/sendEmail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    subject: 'Formularz GT Code Lab',
+                    message: 'To jest treść wiadomości:',
+                    formData: data
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error(`Błąd HTTP: status ${response.status}`);
+            }
+
+            let responseData;
+            try {
+                responseData = await response.json();
+            } catch (e) {
+                throw new Error("Błąd przetwarzania odpowiedzi JSON.");
+            }
+
+            console.log("Odpowiedź serwera: ", responseData);
+            // Tutaj możesz obsłużyć dane odpowiedzi, np. wyświetlić powiadomienie
+        } catch (error) {
+            console.error("Wystąpił błąd: ", error.message);
+            // Tutaj możesz obsłużyć błąd, np. wyświetlić powiadomienie o błędzie
+            Swal.fire({
+                title: 'Błąd',
+                text: error.message,
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
+        }
+    }
+
     const handleSubmit = () => {
-        if(!isValidEmail(data.email)) {
+        if (!isValidEmail(data.email)) {
             Swal.fire({
                 title: 'Błąd',
                 text: 'Nieprawidłowy adres e-mail',
@@ -47,7 +89,7 @@ const MainFormPol2 = () => {
             });
             return;
         }
-        sendTestEmail(); 
+        sendTestEmail();
         Swal.fire({
             title: 'Dziękujemy za zgłoszenie',
             text: 'Nasz zespół analizuje Twoją prośbę i wkrótce się z Tobą skontaktuje',

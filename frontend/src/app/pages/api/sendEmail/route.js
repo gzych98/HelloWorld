@@ -33,7 +33,16 @@ export async function POST(request) {
         return NextResponse.json({ message: 'Email Sent Successfully' }, { status: 200 })
 
     } catch (error) {
-        console.error(error)
-        return NextResponse.json({ message: 'Failed to send email: ${error.message}' }, { status: 500 })
+        console.error("Wystąpił błąd: ", error.stack); // Wyświetla pełny ślad stosu błędu
+        // Dodatkowe logowanie stanu
+        console.log("Subject: ", subject);
+        console.log("Message: ", message);
+        console.log("Form Data: ", formData);
+
+        // Zwróć bardziej szczegółowy komunikat o błędzie
+        return NextResponse.json({
+            message: `Nie udało się wysłać emaila: ${error.message}. Sprawdź logi dla więcej informacji.`,
+            errorDetails: error.stack // opcjonalnie, jeśli chcesz zwrócić szczegóły błędu w odpowiedzi
+        }, { status: 500 });
     }
 }

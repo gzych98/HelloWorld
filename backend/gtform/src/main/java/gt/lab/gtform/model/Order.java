@@ -22,8 +22,9 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nazwa;
-    private String opis;
+    private String name;
+    private String email;
+    private String additionalNotes;
     // inne pola
 
     // Gettery i settery

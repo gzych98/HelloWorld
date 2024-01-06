@@ -22,13 +22,16 @@ const MainFormPol2 = () => {
   const sendTestEmailTemp = async () => {
     console.log("Wysyłam do serwera: ", data);
 
-    const response = await fetch("http://localhost:8080/pages/api/sendEmail", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data), // Zmienione z formData na data
-    });
+    const response = await fetch(
+      "http://3.70.126.19:8080/pages/api/sendEmail",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data), // Zmienione z formData na data
+      }
+    );
     const responseData = await response.json();
     console.log(a);
     console.log("Odpowiedź serwera: ", responseData);
@@ -39,7 +42,7 @@ const MainFormPol2 = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/pages/api/sendEmail",
+        "http://3.70.126.19:8080/pages/api/sendEmail",
         {
           method: "POST",
           headers: {

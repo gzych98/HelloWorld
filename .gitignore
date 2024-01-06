@@ -36,4 +36,5 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
-.node_modules
+node_modules
+

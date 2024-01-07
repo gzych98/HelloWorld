@@ -23,7 +23,7 @@ const MainFormPol2 = () => {
     console.log("Wysyłam do serwera: ", data);
 
     const response = await fetch(
-      "http://3.70.126.19:8080/pages/api/sendEmail",
+      "https://3.70.126.19:8080/pages/api/sendEmail",
       {
         method: "POST",
         headers: {
@@ -42,7 +42,7 @@ const MainFormPol2 = () => {
 
     try {
       const response = await fetch(
-        "http://3.70.126.19:8080/pages/api/sendEmail",
+        "https://3.70.126.19:8080/pages/api/sendEmail",
         {
           method: "POST",
           headers: {

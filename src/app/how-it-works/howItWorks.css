@@ -15,6 +15,14 @@
     height: 100%;
 }
 
+.content-container p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--text-color);
+    margin-bottom: 1em;
+}
+
 .Column {
     display: block;
     flex-direction: column;
@@ -27,7 +35,7 @@
 }
 
 .first_page {
-    padding-top: 5em;
+    margin-top: 100px;
 }
 
 .width-50 {

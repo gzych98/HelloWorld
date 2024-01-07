@@ -6,6 +6,7 @@ import './howItWorks.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { faRankingStar, faPenToSquare, faChartLine, faCloudArrowUp, faScrewdriverWrench, faSliders } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import NavBar02 from '@/components/navbar/navbar';
 
 
 
@@ -17,7 +18,7 @@ export default function HowItWorks() {
     const [hover5, setHover5] = useState(false);
     return (
         <main>
-            <NavBar_pol />
+            <NavBar02 />
             <div className="page first_page">
                 <div className="content-container">
                     <div className="Column width-50 display-left" >
@@ -40,7 +41,7 @@ export default function HowItWorks() {
                         <h1>Wypełnij formularz kontaktowy</h1>
                         <p>Masz pytania lub potrzebujesz konsultacji dotyczącej Twojego przyszłego projektu? Nasz formularz kontaktowy to pierwszy krok do zrozumienia Twoich potrzeb i oczekiwań. Skontaktuj się z nami, abyśmy mogli omówić Twój pomysł i przedstawić Ci najlepsze możliwe rozwiązania, które pozwolą Twojej marce zaistnieć w cyfrowym świecie.</p>
                         <a href='/#form'>
-                            <button>Wypełnij teraz</button>
+                            <button className='button-dark'>Wypełnij teraz</button>
                         </a>
                     </div>
                 </div>

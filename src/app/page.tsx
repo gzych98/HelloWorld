@@ -1,27 +1,42 @@
 import React from 'react';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faRankingStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers } from '@fortawesome/free-solid-svg-icons';
-import { faPrint } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faEnvelope, faPrint, faGlobe, faImage, faCode } from '@fortawesome/free-solid-svg-icons';
+// import { faPrint } from '@fortawesome/free-solid-svg-icons';
 import MainFormPol2 from '@/components/MainFormPol2';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer_pol from './footer';
 import NavBar_pol from './navbar';
+import NavBar02 from '@/components/navbar/navbar';
 
 export default function Home() {
   return (
     <main>
-      <NavBar_pol />
-      <div className="page" id="page1">
+      <NavBar02 />
+      <div className="page hero" id="page1">
         <div className="background" id="home">
           <div className="content-container" id='home'>
-            <h1>Kreatywne rozwiązania programistyczne</h1>
-            <p>Wdrażamy twoją cyfrową wizję do rzeczywistości</p>
+            <h1>GT Code Lab</h1>
+            <p className='p-light'>Kreatywne rozwiązania programistyczne</p>
+            <div className='solutions'>
+              <div className='solutions-col'>
+                <FontAwesomeIcon icon={faGlobe} className=' fa-3x' color='#fff' />
+                <h2>Strony WWW</h2>
+              </div>
+              <div className='solutions-col'>
+                <FontAwesomeIcon icon={faImage} className=' fa-3x' color='#fff' />
+                <h2>Identyfikacja<br />wizualna</h2>
+              </div>
+              <div className='solutions-col'>
+                <FontAwesomeIcon icon={faCode} className=' fa-3x' color='#fff' />
+                <h2>Aplikacje</h2>
+              </div>
+            </div>
             <a href='#form'>
-              <button>Zrealizuj z nami swój projekt!</button>
+              <button className='button-light'>Zrealizuj z nami swój projekt!</button>
             </a>
           </div>
         </div>
@@ -29,7 +44,7 @@ export default function Home() {
           <div className="content-container" id="advert">
           </div>
         </div>
-      </div>
+      </div >
       {/* page2 */}
       <div className="page" id="web_solutions">
         <div className="content-container" id="cont1">
@@ -49,8 +64,8 @@ export default function Home() {
             <p>Przekształć swoje pomysły w rzeczywistość dzięki naszym usługom tworzenia aplikacji. Oferujemy kompleksowe rozwiązania w zakresie projektowania i tworzenia aplikacji mobilnych i desktopowych, które są intuicyjne, szybkie i dostosowane do potrzeb Twojej firmy i klientów. </p>
           </div>
         </div>
-      </div>
-      <div className="page" id="case_studies">
+      </div >
+      <div className="page" id="service-identyfikacja">
         <div className="content-container" id="cont3">
           <div className="table2" id="col1">
             <h2>Kształtowanie identyfikacji wizualnej</h2>
@@ -78,7 +93,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="page" id="form">
+      <div className="page" id="service-form-www">
         <div className="content-container" id="cont4">
           <div className="table3" id="col1">
             <div className="form">
@@ -123,6 +138,6 @@ export default function Home() {
         </div>
       </div>
       <Footer_pol />
-    </main>
+    </main >
   )
 }

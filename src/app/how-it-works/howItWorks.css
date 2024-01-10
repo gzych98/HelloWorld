@@ -34,6 +34,18 @@
     padding: 2em;
 }
 
+.Column-width-50 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    margin: 2vh;
+    padding: 2em;
+    width: 50%;
+}
+
 .first_page {
     margin-top: 100px;
 }
@@ -96,6 +108,27 @@
     color: #333;
 }
 
+.Column-width-50 h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #bbb;
+}
+
+.Column-width-50 h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.Column-width-50 p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #333;
+}
+
 .border {
     border-style: solid;
     border-radius: 1em;
@@ -111,6 +144,10 @@
 
 
 @media (max-width: 767px) {
+    .Column-width-50 {
+        width: 100%;
+    }
+
     .Table {
         flex-direction: column;
     }
@@ -120,6 +157,10 @@
     }
 
     .Column-70 {
+        width: 100%;
+    }
+
+    .width-50 {
         width: 100%;
     }
 }

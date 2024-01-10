@@ -50,7 +50,7 @@ const NavBar02: React.FC = () => {
           <div className='padding-left-1-5em'>
 
           </div>
-          <a href="/" id='title'>GT Code Lab</a>
+          <a href="/" className='' id='title'>GT Code Lab</a>
         </div>
         <button className='button-navbar-menu' type="button" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} className="menu-icon fa-1x" />
@@ -63,8 +63,8 @@ const NavBar02: React.FC = () => {
             <li>
               <a className="dropdown-toggle show-pointer" onClick={toggleDropdown}>Nasza oferta</a>
               <ul className={`navbarDropdown ${isDropdownOpen ? 'show' : ''}`}>
-                <li><a href="/#service-form-www" onClick={toggleMenu}>Strony WWW</a></li>
-                <li><a href="/#service-identyfikacja" onClick={toggleMenu}>Identyfikacja wizualna</a></li>
+                <li><a href="/#service-www" onClick={toggleMenu}>Strony WWW</a></li>
+                <li><a href="/#service-visual" onClick={toggleMenu}>Identyfikacja wizualna</a></li>
                 <li><a href="/#" onClick={toggleMenu}>Aplikacje</a></li>
               </ul>
             </li>

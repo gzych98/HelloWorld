@@ -21,11 +21,11 @@ export default function HowItWorks() {
             <NavBar02 />
             <div className="page first_page">
                 <div className="content-container">
-                    <div className="Column width-50 display-left" >
+                    <div className="Column-width-50 display-left" >
                         <h1>Jak to działa?</h1>
                         <p>Od koncepcji po kliknięcie – kreujemy strony, które działają. Proces? Prosty i przejrzysty. Twoje pomysły przekształcamy w funkcjonalne projekty, które przemawiają designem i technologią.</p>
                     </div>
-                    <div className="Column width-50 image" id='how-it-works'>
+                    <div className="Column-width-50 image" id='how-it-works'>
                     </div>
                 </div>
             </div>

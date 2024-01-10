@@ -92,6 +92,7 @@ body {
   text-align: justify;
   background-color: transparent;
   margin: 0vh;
+  margin-bottom: 3em;
   padding: 0em;
 }
 
@@ -224,7 +225,7 @@ body {
 }
 
 .p-hr {
-  margin-top: 5em;
+  margin-top: 2em;
   background-color: var(--text-color-dark);
   width: 25%;
   height: 2px;

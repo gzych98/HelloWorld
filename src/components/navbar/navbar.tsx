@@ -71,12 +71,7 @@ const NavBar02: React.FC = () => {
             <li><a id='language' href="/how-it-works">Jak to działa?</a></li>
 
           </ul>
-          <form className="search-form inactive" >
-            <div className="search-box">
-              <input className="search-input" type="text" placeholder="Find your love..." />
-              <FontAwesomeIcon icon={faSearch} className="search-icon fa-1x" />
-            </div>
-          </form>
+
         </div>
       </div>
     </nav >

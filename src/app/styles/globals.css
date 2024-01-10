@@ -469,19 +469,7 @@ body {
   height: 100%;
 }
 
-.page#contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
-  align-items: center;
-  background-color: var(--secondary-background-color);
-  min-height: 35vh;
 
-
-  padding: 0;
-  margin: 0;
-  padding-top: 0%;
-}
 
 .content-container#cont5 {
   display: flex;

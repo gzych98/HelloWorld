@@ -63,6 +63,30 @@ export default function Home() {
           </div>
         </div>
       </div >
+      {/* page1 */}
+      <div className='page'>
+        <div className="p-content-container">
+          <h1>O nas</h1>
+          <h2>Kim jesteśmy?</h2>
+          <div className='p-column p-column2'>
+            <div className='p-column1 '>
+              <p>Witamy w <span style={{ fontWeight: 'bold' }}>GT Code Lab</span>, miejscu, gdzie <span style={{ fontWeight: 'bold' }}>technologia spotyka się z kreatywnością</span>. Nasza historia zaczyna się na kampusie Akademii Górniczo-Hutniczej,
+                gdzie dwóch absolwentów połączyło swoją pasję do projektowania i technologii cyfrowej, aby stworzyć coś wyjątkowego.</p>
+              <p>Jesteśmy zespołem, który wierzy, że <span style={{ fontWeight: 'bold' }}>każdy projekt jest wyjątkowy</span> i zasługuje na to, aby jego wizja była
+                widoczna i doceniana w świecie cyfrowym. Dążymy do tego, aby nasze usługi były dostępne dla szerokiego spektrum klientów – od małych lokalnych biznesów, takich jak warsztaty samochodowe,
+                salony fryzjerskie, restauracje, aż po większe przedsiębiorstwa poszukujące rozbudowanych rozwiązań internetowych. Żyjemy w
+                czasach, gdy <span style={{ fontWeight: 'bold' }}>technologia rozwija się w zawrotnym tempie</span>, a my chcemy być mostem, który połączy Twój biznes z nowoczesnym światem Internetu.</p>
+              <p>Nasza specjalność to <span style={{ fontWeight: 'bold' }}>tworzenie stron internetowych</span>, które nie tylko są estetycznie przyjemne, ale również
+                funkcjonalne, intuicyjne i dostosowane do potrzeb każdego klienta. Łączymy <span style={{ fontWeight: 'bold' }}>najnowsze technologie</span> z <span style={{ fontWeight: 'bold' }}>indywidualnym
+                  podejściem</span>, aby każdy projekt był niepowtarzalny i skrojony na miarę Twoich potrzeb.</p>
+              <p>W <span style={{ fontWeight: 'bold' }}>GT Code Lab</span> wierzymy, że każdy projekt jest wyjątkowy i zasługuje na <span style={{ fontWeight: 'bold' }}>indywidualne podejście</span>. Dzięki naszemu
+                doświadczeniu, kreatywności i <span style={{ fontWeight: 'bold' }}>ciągłemu dążeniu do doskonałości</span>, jesteśmy gotowi podjąć wyzwanie i pomóc Tobie i Twojej firmie zaistnieć w cyfrowym świecie.</p>
+              <a href='/#form'>Zapraszamy do współpracy!</a>
+            </div>
+          </div>
+          <div className='p-hr' />
+        </div>
+      </div>
       {/* page2 */}
       <div className='page' id='service-www'>
         <div className="p-content-container">

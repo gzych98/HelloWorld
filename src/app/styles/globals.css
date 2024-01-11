@@ -135,6 +135,11 @@ body {
   border-radius: 1em;
 }
 
+.p-column2:hover {
+  background-color: transparent;
+  border-radius: 1em;
+}
+
 .p-column:hover .p-icon {
   color: var(--secondary-color);
 }

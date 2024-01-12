@@ -33,6 +33,16 @@ export default function Home() {
   };
   return (
     <main>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-0Q0FPBF0FG" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-0Q0FPBF0FG');
+        `}
+      </Script>
       <NavBar02 />
       <div className="page hero" id="page1">
         <div className="background" id="home">

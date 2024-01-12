@@ -28,13 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q0FPBF0FG"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-0Q0FPBF0FG');
-      </script>
+      
         <script src="https://www.google.com/recaptcha/enterprise.js?render=6LftAT4pAAAAAPCVNchOKg3eifc47suFNMHI_Zon" async />
         {/* Tutaj mogą być inne elementy head, takie jak meta tagi, title itp. */}
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>

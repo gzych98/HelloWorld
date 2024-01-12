@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer_pol from './footer';
 import NavBar02 from '@/components/navbar/navbar';
 import Swal from 'sweetalert2';
+import Script from 'next/script';
 
 export default function Home() {
   const copyEmailToClipboard = () => {

@@ -27,8 +27,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>
-      
+      <head>      
         <script src="https://www.google.com/recaptcha/enterprise.js?render=6LftAT4pAAAAAPCVNchOKg3eifc47suFNMHI_Zon" async />
         {/* Tutaj mogą być inne elementy head, takie jak meta tagi, title itp. */}
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>

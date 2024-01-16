@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faRankingStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMobile, faUsers, faEnvelope, faPrint, faGlobe, faImage, faCode, faDesktop, faServer } from '@fortawesome/free-solid-svg-icons';
+import { faMobile, faUsers, faEnvelope, faPrint, faGlobe, faImage, faCode, faDesktop, faServer, faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 // import { faPrint } from '@fortawesome/free-solid-svg-icons';
 import MainFormPol2 from '@/components/MainFormPol2';
 import "slick-carousel/slick/slick.css";
@@ -15,6 +15,14 @@ import Swal from 'sweetalert2';
 import Script from 'next/script';
 
 export default function Home() {
+  const [isGridVisible, setIsGridVisible] = useState(false);
+  const handleGridClick = () => {
+    setIsGridVisible(!isGridVisible); // Przełącza stan widoczności
+  };
+  const handleImageClick = (event: React.MouseEvent) => {
+    event.stopPropagation(); // Zapobiega propagacji do rodzica
+  };
+
   const copyEmailToClipboard = () => {
     navigator.clipboard.writeText('office@gtcodelab.com')
       .then(() => {
@@ -79,7 +87,7 @@ export default function Home() {
         <div className="p-content-container">
           <h1>O nas</h1>
           <h2>Kim jesteśmy?</h2>
-          <div className='p-column p-column2'>
+          <div className='p-row p-column2'>
             <div className='p-column1 '>
               <p>Witamy w <span style={{ fontWeight: 'bold' }}>GT Code Lab</span>, miejscu, gdzie <span style={{ fontWeight: 'bold' }}>technologia spotyka się z kreatywnością</span>. Nasza historia zaczyna się na kampusie Akademii Górniczo-Hutniczej,
                 gdzie dwóch absolwentów połączyło swoją pasję do projektowania i technologii cyfrowej, aby stworzyć coś wyjątkowego.</p>
@@ -104,44 +112,62 @@ export default function Home() {
           <h1>Usługi informatyczne</h1>
           <h2>Nasza oferta</h2>
           <div className='p-column'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faImage} className='p-icon fa-3x' color='#333' />
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faImage} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <a href='#'>Identyfikacja wizualna</a>
+                <p>Podkreśl wyjątkowość Twojej marki dzięki naszym spersonalizowanym projektom identyfikacji wizualnej. Tworzymy unikalne logotypy i wzory, które nie tylko odzwierciedlają charakter Twojej firmy, ale także wyróżniają ją na tle konkurencji. Nasze projekty to połączenie kreatywności i strategii, zapewniające silną i zapadającą w pamięć obecność w świecie cyfrowym.</p>
+              </div>
             </div>
-            <div className='p-column1 width-80'>
-              <a href='#'>Identyfikacja wizualna</a>
-              <p>Podkreśl wyjątkowość Twojej marki dzięki naszym spersonalizowanym projektom identyfikacji wizualnej. Tworzymy unikalne logotypy i wzory, które nie tylko odzwierciedlają charakter Twojej firmy, ale także wyróżniają ją na tle konkurencji. Nasze projekty to połączenie kreatywności i strategii, zapewniające silną i zapadającą w pamięć obecność w świecie cyfrowym.</p>
+          </div>
+          <div className='p-column clickable' onClick={handleGridClick}>
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faDesktop} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <a href='#'>Front-end</a>
+                <p>Przyciągnij i zachwyć swoich użytkowników wyjątkowym designem i intuicyjną nawigacją. W naszych projektach frontendowych łączymy estetykę z funkcjonalnością, tworząc responsywne i dostosowane do urządzeń mobilnych strony internetowe. Każdy element jest starannie zaprojektowany, aby zapewnić Twoim klientom płynne i przyjemne doświadczenie cyfrowe.</p>
+              </div>
+            </div>
+            <div className='p-row no-hover'>
+              {isGridVisible && (<div className='p-grid'>
+                <div className='p-grid__kostka'>
+                  <h2>Nasze realizacje</h2>
+                </div>
+                <img src="img_template.png" alt="Obrazek 1" onClick={handleImageClick} />
+                <img src="img_template.png" alt="Obrazek 2" onClick={handleImageClick} />
+                <img src="img_template.png" alt="Obrazek 3" onClick={handleImageClick} />
+                <img src="img_template.png" alt="Obrazek 4" onClick={handleImageClick} />
+                <img src="img_template.png" alt="Obrazek 5" onClick={handleImageClick} />
+              </div>)}
             </div>
           </div>
           <div className='p-column'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faDesktop} className='p-icon fa-3x' color='#333' />
-            </div>
-            <div className='p-column1 width-80'>
-              <a href='#'>Front-end</a>
-              <p>Przyciągnij i zachwyć swoich użytkowników wyjątkowym designem i intuicyjną nawigacją. W naszych projektach frontendowych łączymy estetykę z funkcjonalnością, tworząc responsywne i dostosowane do urządzeń mobilnych strony internetowe. Każdy element jest starannie zaprojektowany, aby zapewnić Twoim klientom płynne i przyjemne doświadczenie cyfrowe.</p>
-            </div>
-          </div>
-          <div className='p-column'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faServer} className='p-icon fa-3x' color='#333' />
-            </div>
-            <div className='p-column1 width-80'>
-              <a href='#'>Back-end</a>
-              <p>Zapewnij swojej stronie niezawodne i efektywne działanie dzięki naszym rozwiązaniom backendowym. Skupiamy się na tworzeniu silnych fundamentów Twojej obecności online, zapewniając stabilność, bezpieczeństwo i skalowalność. Nasze zaawansowane systemy zarządzania bazami danych i integracje z API gwarantują, że Twoja strona jest zawsze gotowa sprostać oczekiwaniom Twoich użytkowników.</p>
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faServer} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <a href='#'>Back-end</a>
+                <p>Zapewnij swojej stronie niezawodne i efektywne działanie dzięki naszym rozwiązaniom backendowym. Skupiamy się na tworzeniu silnych fundamentów Twojej obecności online, zapewniając stabilność, bezpieczeństwo i skalowalność. Nasze zaawansowane systemy zarządzania bazami danych i integracje z API gwarantują, że Twoja strona jest zawsze gotowa sprostać oczekiwaniom Twoich użytkowników.</p>
+              </div>
             </div>
           </div>
           <div className='p-column'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faMobile} className='p-icon fa-3x' color='#333' />
-            </div>
-            <div className='p-column1 width-80'>
-              <a href='#'>Rozwój aplikacji</a>
-              <p>Zrealizuj swój pomysł na aplikację z naszym profesjonalnym wsparciem. Tworzymy aplikacje webowe i mobilne, które łączą innowacyjność z funkcjonalnością. Nasze indywidualnie dopasowane rozwiązania są projektowane, aby nie tylko odpowiadać na specyficzne potrzeby Twojego biznesu, ale także by wyznaczać nowe standardy w branży cyfrowej. Z nami Twoja aplikacja stanie się potężnym narzędziem w rękach Twoich klientów.</p>
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faMobile} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <a href='#'>Rozwój aplikacji</a>
+                <p>Zrealizuj swój pomysł na aplikację z naszym profesjonalnym wsparciem. Tworzymy aplikacje webowe i mobilne, które łączą innowacyjność z funkcjonalnością. Nasze indywidualnie dopasowane rozwiązania są projektowane, aby nie tylko odpowiadać na specyficzne potrzeby Twojego biznesu, ale także by wyznaczać nowe standardy w branży cyfrowej. Z nami Twoja aplikacja stanie się potężnym narzędziem w rękach Twoich klientów.</p>
+              </div>
             </div>
           </div>
-
           <div className='p-hr'>
-
           </div>
         </div>
       </div>
@@ -171,7 +197,7 @@ export default function Home() {
         <div className="p-content-container">
           <h1>Kształtowanie identyfikacji wizualnej</h1>
           <h2>Usługi projektowania wizerunku marki</h2>
-          <div className='p-column'>
+          <div className='p-row'>
             <div className='p-column1 width-20'>
               <FontAwesomeIcon icon={faRankingStar} className='p-icon fa-3x' color='#333' />
             </div>
@@ -180,7 +206,7 @@ export default function Home() {
               <p>Przebij się przez szum dzięki naszym ukierunkowanym strategiom marketingowym. Od kampanii opartych na danych po kreatywne opowiadanie historii, pozycjonujemy Twoją markę, aby osiągnąć maksymalny wpływ i zwrot z inwestycji. Podnieś swój marketing, aby przyciągnąć właściwych odbiorców.</p>
             </div>
           </div>
-          <div className='p-column'>
+          <div className='p-row'>
             <div className='p-column1 width-20'>
               <FontAwesomeIcon icon={faUsers} className='p-icon fa-3x' color='#333' />
             </div>
@@ -189,7 +215,7 @@ export default function Home() {
               <p>Wzmocnij głos swojej marki na platformach społecznościowych. Nasz zespół tworzy angażujące treści i projekty, które rezonują z odbiorcami, wspierając społeczność i konwersację. Sprawmy, aby Twoja marka stała się tematem rozmów w mediach społecznościowych.</p>
             </div>
           </div>
-          <div className='p-column'>
+          <div className='p-row'>
             <div className='p-column1 width-20'>
               <FontAwesomeIcon icon={faPrint} className='p-icon fa-3x' color='#333' />
             </div>

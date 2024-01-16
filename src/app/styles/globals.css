@@ -84,7 +84,9 @@ body {
   text-align: center;
 }
 
-.p-column {
+
+
+.p-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -92,8 +94,51 @@ body {
   text-align: justify;
   background-color: transparent;
   margin: 0vh;
-  margin-bottom: 3em;
   padding: 0em;
+  padding: 1em;
+  width: 100%;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.p-grid {
+  margin-top: 4em;
+  padding-bottom: 4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  width: 80%;
+}
+
+.p-grid__kostka {
+  min-height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 2em;
+}
+
+.p-grid__kostka:hover {
+  border-color: var(--secondary-color);
+}
+
+.p-grid .p-grid__kostka h2 {
+  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.p-grid img {
+  width: 100%;
+  transition: transform 0.3s ease;
+
+}
+
+.p-grid img:hover {
+  transform: scale(1.1);
 }
 
 .p-contact {
@@ -118,6 +163,7 @@ body {
   color: #ad4343;
 }
 
+
 .p-column__image {
   display: flex;
   flex-direction: row;
@@ -130,9 +176,15 @@ body {
   width: 100%;
 }
 
-.p-column:hover {
+.p-row:hover {
   background-color: var(--hover-color-light);
   border-radius: 1em;
+}
+
+.no-hover:hover,
+.no-hover *:hover {
+  background-color: inherit;
+  /* Resetuje kolor tła do dziedziczonego */
 }
 
 .p-column2:hover {
@@ -1152,7 +1204,7 @@ footer p {
 @media (max-width: 767px) {
 
 
-  .p-column {
+  .p-column .p-row {
     display: flex;
     flex-direction: column;
     align-items: center;

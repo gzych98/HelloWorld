@@ -134,7 +134,7 @@ export default function Home() {
             </div>
             <div className='p-row no-hover'>
               {isGridVisible && (<div className='p-grid'>
-                <div className='p-grid__kostka'>
+                <div className='p-grid__kostka' onClick={handleImageClick}>
                   <h2>Nasze realizacje</h2>
                 </div>
                 <img src="img_template.png" alt="Obrazek 1" onClick={handleImageClick} />

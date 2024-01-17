@@ -177,13 +177,20 @@ export default function Home() {
         <div className="p-content-container">
           <h1>Rozpocznij budowę projektu</h1>
           <h2>Formularz kontaktowy</h2>
-          <p>Formularz stworzony, aby ułatwić Ci przekazywanie
-            zapytań, sugestii, czy opinii. Podaj tylko podstawowe informacje,
-            a nasi specjaliści skontaktują się z Tobą, aby omówić Twoje potrzeby
-            i odpowiedzieć na wszystkie pytania. Twój komfort i satysfakcja są
-            dla nas priorytetem. Zapewniamy, że każde zapytanie zostanie potraktowane
-            indywidualnie i z należytą uwagą.</p>
-          <p style={{ color: '#2B70E4' }}>Czekamy na Twoją wiadomość!</p>
+          <div className='p-column'>
+            <div className='p-row no-hover'>
+              <div className='p-column1'>
+                <p>Formularz stworzony, aby ułatwić Ci przekazywanie
+                  zapytań, sugestii, czy opinii. Podaj tylko podstawowe informacje,
+                  a nasi specjaliści skontaktują się z Tobą, aby omówić Twoje potrzeby
+                  i odpowiedzieć na wszystkie pytania. Twój komfort i satysfakcja są
+                  dla nas priorytetem. Zapewniamy, że każde zapytanie zostanie potraktowane
+                  indywidualnie i z należytą uwagą.</p>
+                <p style={{ color: '#2B70E4' }}>Czekamy na Twoją wiadomość!</p>
+              </div>
+            </div>
+
+          </div>
           <div className="p-form">
             <div className="p-form__circle">
               <FontAwesomeIcon icon={faEnvelope} className='fa-2x' color='#fff' />

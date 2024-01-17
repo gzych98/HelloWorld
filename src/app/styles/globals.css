@@ -1221,9 +1221,16 @@ footer p {
     align-items: center;
   }
 
+  .p-column1 {
+    margin-bottom: 2em;
+    padding-top: 2em;
+  }
+
   .p-content-container {
     padding-left: 0;
     padding-right: 0;
+    height: auto;
+    min-height: max-content;
   }
 
   .p-column:hover {
@@ -1396,7 +1403,7 @@ footer p {
     justify-content: baseline;
     align-items: center;
     background-color: var(--secondary-background-color);
-    height: 110vh;
+    /* height: 110vh; */
     width: 100%;
     padding: 0;
     margin: 0;

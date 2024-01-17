@@ -198,33 +198,40 @@ export default function Home() {
         <div className="p-content-container">
           <h1>Kształtowanie identyfikacji wizualnej</h1>
           <h2>Usługi projektowania wizerunku marki</h2>
-          <div className='p-row'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faRankingStar} className='p-icon fa-3x' color='#333' />
-            </div>
-            <div className='p-column1 width-80'>
-              <h2>Marketing</h2>
-              <p>Przebij się przez szum dzięki naszym ukierunkowanym strategiom marketingowym. Od kampanii opartych na danych po kreatywne opowiadanie historii, pozycjonujemy Twoją markę, aby osiągnąć maksymalny wpływ i zwrot z inwestycji. Podnieś swój marketing, aby przyciągnąć właściwych odbiorców.</p>
-            </div>
-          </div>
-          <div className='p-row'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faUsers} className='p-icon fa-3x' color='#333' />
-            </div>
-            <div className='p-column1 width-80'>
-              <h2>Social Media</h2>
-              <p>Wzmocnij głos swojej marki na platformach społecznościowych. Nasz zespół tworzy angażujące treści i projekty, które rezonują z odbiorcami, wspierając społeczność i konwersację. Sprawmy, aby Twoja marka stała się tematem rozmów w mediach społecznościowych.</p>
+          <div className='p-column'>
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faRankingStar} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <h2>Marketing</h2>
+                <p>Przebij się przez szum dzięki naszym ukierunkowanym strategiom marketingowym. Od kampanii opartych na danych po kreatywne opowiadanie historii, pozycjonujemy Twoją markę, aby osiągnąć maksymalny wpływ i zwrot z inwestycji. Podnieś swój marketing, aby przyciągnąć właściwych odbiorców.</p>
+              </div>
             </div>
           </div>
-          <div className='p-row'>
-            <div className='p-column1 width-20'>
-              <FontAwesomeIcon icon={faPrint} className='p-icon fa-3x' color='#333' />
-            </div>
-            <div className='p-column1 width-80'>
-              <h2>Produkty poligraficzne</h2>
-              <p>Wciel swoje pomysły w życie dzięki naszym niestandardowym rozwiązaniom w zakresie druku. Niezależnie od tego, czy chodzi o wizytówki, broszury czy banery, zapewniamy wysokiej jakości druk, który odzwierciedla doskonałość Twojej marki. Nawiąż kontakt z klientami offline za pomocą druku, który się wyróżnia.</p>
+          <div className='p-column'>
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faUsers} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <h2>Social Media</h2>
+                <p>Wzmocnij głos swojej marki na platformach społecznościowych. Nasz zespół tworzy angażujące treści i projekty, które rezonują z odbiorcami, wspierając społeczność i konwersację. Sprawmy, aby Twoja marka stała się tematem rozmów w mediach społecznościowych.</p>
+              </div>
             </div>
           </div>
+          <div className='p-column'>
+            <div className='p-row'>
+              <div className='p-column1 width-20'>
+                <FontAwesomeIcon icon={faPrint} className='p-icon fa-3x' color='#333' />
+              </div>
+              <div className='p-column1 width-80'>
+                <h2>Produkty poligraficzne</h2>
+                <p>Wciel swoje pomysły w życie dzięki naszym niestandardowym rozwiązaniom w zakresie druku. Niezależnie od tego, czy chodzi o wizytówki, broszury czy banery, zapewniamy wysokiej jakości druk, który odzwierciedla doskonałość Twojej marki. Nawiąż kontakt z klientami offline za pomocą druku, który się wyróżnia.</p>
+              </div>
+            </div>
+          </div>
+
           <div className='p-hr'>
           </div>
         </div>

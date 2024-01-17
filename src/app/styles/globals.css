@@ -202,6 +202,17 @@ body {
   justify-content: center;
 }
 
+.p-row .p-column1 h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: var(--text-color-dark);
+  text-decoration: none;
+  align-self: baseline;
+  margin-bottom: 0.5em;
+  padding-left: 10px;
+}
+
 .p-column1__image {
   display: flex;
   justify-content: center;

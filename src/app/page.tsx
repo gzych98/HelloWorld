@@ -117,7 +117,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faImage} className='p-icon fa-3x' color='#333' />
               </div>
               <div className='p-column1 width-80'>
-                <a href='#'>Identyfikacja wizualna</a>
+                <h2>Identyfikacja wizualna</h2>
                 <p>Podkreśl wyjątkowość Twojej marki dzięki naszym spersonalizowanym projektom identyfikacji wizualnej. Tworzymy unikalne logotypy i wzory, które nie tylko odzwierciedlają charakter Twojej firmy, ale także wyróżniają ją na tle konkurencji. Nasze projekty to połączenie kreatywności i strategii, zapewniające silną i zapadającą w pamięć obecność w świecie cyfrowym.</p>
               </div>
             </div>
@@ -128,8 +128,9 @@ export default function Home() {
                 <FontAwesomeIcon icon={faDesktop} className='p-icon fa-3x' color='#333' />
               </div>
               <div className='p-column1 width-80'>
-                <a href='#'>Front-end</a>
+                <h2>Front-end</h2>
                 <p>Przyciągnij i zachwyć swoich użytkowników wyjątkowym designem i intuicyjną nawigacją. W naszych projektach frontendowych łączymy estetykę z funkcjonalnością, tworząc responsywne i dostosowane do urządzeń mobilnych strony internetowe. Każdy element jest starannie zaprojektowany, aby zapewnić Twoim klientom płynne i przyjemne doświadczenie cyfrowe.</p>
+                <p style={{ fontWeight: 'bold' }}>Kliknij i sprawdź projekty!</p>
               </div>
             </div>
             <div className='p-row no-hover'>
@@ -151,7 +152,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faServer} className='p-icon fa-3x' color='#333' />
               </div>
               <div className='p-column1 width-80'>
-                <a href='#'>Back-end</a>
+                <h2>Back-end</h2>
                 <p>Zapewnij swojej stronie niezawodne i efektywne działanie dzięki naszym rozwiązaniom backendowym. Skupiamy się na tworzeniu silnych fundamentów Twojej obecności online, zapewniając stabilność, bezpieczeństwo i skalowalność. Nasze zaawansowane systemy zarządzania bazami danych i integracje z API gwarantują, że Twoja strona jest zawsze gotowa sprostać oczekiwaniom Twoich użytkowników.</p>
               </div>
             </div>
@@ -162,7 +163,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faMobile} className='p-icon fa-3x' color='#333' />
               </div>
               <div className='p-column1 width-80'>
-                <a href='#'>Rozwój aplikacji</a>
+                <h2>Rozwój aplikacji</h2>
                 <p>Zrealizuj swój pomysł na aplikację z naszym profesjonalnym wsparciem. Tworzymy aplikacje webowe i mobilne, które łączą innowacyjność z funkcjonalnością. Nasze indywidualnie dopasowane rozwiązania są projektowane, aby nie tylko odpowiadać na specyficzne potrzeby Twojego biznesu, ale także by wyznaczać nowe standardy w branży cyfrowej. Z nami Twoja aplikacja stanie się potężnym narzędziem w rękach Twoich klientów.</p>
               </div>
             </div>
@@ -202,7 +203,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faRankingStar} className='p-icon fa-3x' color='#333' />
             </div>
             <div className='p-column1 width-80'>
-              <a href='#'>Marketing</a>
+              <h2>Marketing</h2>
               <p>Przebij się przez szum dzięki naszym ukierunkowanym strategiom marketingowym. Od kampanii opartych na danych po kreatywne opowiadanie historii, pozycjonujemy Twoją markę, aby osiągnąć maksymalny wpływ i zwrot z inwestycji. Podnieś swój marketing, aby przyciągnąć właściwych odbiorców.</p>
             </div>
           </div>
@@ -211,7 +212,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faUsers} className='p-icon fa-3x' color='#333' />
             </div>
             <div className='p-column1 width-80'>
-              <a href='#'>Social Media</a>
+              <h2>Social Media</h2>
               <p>Wzmocnij głos swojej marki na platformach społecznościowych. Nasz zespół tworzy angażujące treści i projekty, które rezonują z odbiorcami, wspierając społeczność i konwersację. Sprawmy, aby Twoja marka stała się tematem rozmów w mediach społecznościowych.</p>
             </div>
           </div>
@@ -220,7 +221,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faPrint} className='p-icon fa-3x' color='#333' />
             </div>
             <div className='p-column1 width-80'>
-              <a href='#'>Produkty poligraficzne</a>
+              <h2>Produkty poligraficzne</h2>
               <p>Wciel swoje pomysły w życie dzięki naszym niestandardowym rozwiązaniom w zakresie druku. Niezależnie od tego, czy chodzi o wizytówki, broszury czy banery, zapewniamy wysokiej jakości druk, który odzwierciedla doskonałość Twojej marki. Nawiąż kontakt z klientami offline za pomocą druku, który się wyróżnia.</p>
             </div>
           </div>

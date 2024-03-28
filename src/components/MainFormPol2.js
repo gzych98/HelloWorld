@@ -31,7 +31,7 @@ const MainFormPol2 = () => {
       formData: data
     };
 
-    await fetch("/pages/api/sendEmail", {
+    await fetch("../pages/api/sendEmail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

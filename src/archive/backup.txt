@@ -1,0 +1,27 @@
+<div className="page" id="service-identyfikacja">
+        <div className="content-container" id="cont3">
+          <div className="table2" id="col1">
+            <h2>Kształtowanie identyfikacji wizualnej</h2>
+            <p>Przekształć obecność swojej marki dzięki naszym usługom projektowania identyfikacji wizualnej. Koncentrujemy się na tworzeniu charakterystycznego wizerunku marki, który przyciąga uwagę i angażuje odbiorców. Dzięki połączeniu kreatywności i strategii projektujemy elementy wizualne, które są nie tylko estetyczne, ale także komunikują główne przesłanie marki. Pozwól nam pomóc Ci wywrzeć trwałe wrażenie w cyfrowym krajobrazie. </p>
+          </div>
+          <div className="table22" id="col2">
+            <FontAwesomeIcon icon={faRankingStar} className='myicon fa-3x' color='#333' />
+            <h2>Marketing</h2>
+            <p>Przebij się przez szum dzięki naszym ukierunkowanym strategiom marketingowym. Od kampanii opartych na danych po kreatywne opowiadanie historii, pozycjonujemy Twoją markę, aby osiągnąć maksymalny wpływ i zwrot z inwestycji. Podnieś swój marketing, aby przyciągnąć właściwych odbiorców.</p>
+          </div>
+        </div>
+      </div>
+      <div className="page" id="case_studies">
+        <div className="content-container" id="cont3">
+          <div className="table22" id="col3">
+            <FontAwesomeIcon icon={faUsers} className='myicon fa-3x' color='#333' />
+            <h2>Social Media</h2>
+            <p>Wzmocnij głos swojej marki na platformach społecznościowych. Nasz zespół tworzy angażujące treści i projekty, które rezonują z odbiorcami, wspierając społeczność i konwersację. Sprawmy, aby Twoja marka stała się tematem rozmów w mediach społecznościowych.</p>
+          </div>
+          <div className="table22" id="col4">
+            <FontAwesomeIcon icon={faPrint} className='myicon fa-3x' color='#333' />
+            <h2>Produkty poligraficzne</h2>
+            <p>Wciel swoje pomysły w życie dzięki naszym niestandardowym rozwiązaniom w zakresie druku. Niezależnie od tego, czy chodzi o wizytówki, broszury czy banery, zapewniamy wysokiej jakości druk, który odzwierciedla doskonałość Twojej marki. Nawiąż kontakt z klientami offline za pomocą druku, który się wyróżnia.</p>
+          </div>
+        </div>
+      </div>

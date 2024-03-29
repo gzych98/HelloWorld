@@ -31,7 +31,7 @@ const MainFormPol2 = () => {
       formData: data
     };
 
-    await fetch("https://www.gtcodelab.com/api/sendEmail", {
+    await fetch("/api/sendEmail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -52,7 +52,7 @@ const MainFormPol2 = () => {
     }
 
     try {
-      const response = await fetch("https://api.gtcodelab.com/pages/api/sendEmail", {
+      const response = await fetch("https://api.gtcodelab.com/pages/api/sendEmail/blabla", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -66,6 +66,7 @@ const NavBar02: React.FC = () => {
                 <li><a href="/#service-www" onClick={toggleMenu}>Strony WWW</a></li>
                 <li><a href="/#service-visual" onClick={toggleMenu}>Identyfikacja wizualna</a></li>
                 <li><a href="/#" onClick={toggleMenu}>Aplikacje</a></li>
+                <li><a href="/prosty-timer" onClick={toggleMenu}>Prosty timer</a></li>
               </ul>
             </li>
             <li><a id='language' href="/how-it-works">Jak to działa?</a></li>

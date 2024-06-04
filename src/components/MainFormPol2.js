@@ -1,8 +1,8 @@
 "use client";
-import { useState } from "react";
-import UserNameEmailPol from "./UserNameEmail_pol";
-import "./form.css";
-import Swal from "sweetalert2";
+import { useState } from 'react'
+import UserNameEmailPol from './UserNameEmail_pol'
+import './form.css'
+import Swal from 'sweetalert2';
 
 const MainFormPol2 = () => {
   const [data, setData] = useState({
@@ -19,78 +19,98 @@ const MainFormPol2 = () => {
     });
   };
 
-  const isValidEmail = (email) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-  };
+    const sendTestEmailTemp = async () => {
+        console.log("Wysyłam do serwera: ", data);
 
-  const sendEmailNotification = async () => {
-    const emailPayload = {
-      subject: "New Form Submission",
-      message: "You've received a new submission.",
-      formData: data
-    };
-
-    await fetch("/api/sendEmail", {
-      method: "POST",
+        const response = await fetch('../pages/api/sendEmail', {
+            method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+                'Content-Type': 'application/json'
       },
-      body: JSON.stringify(emailPayload),
-    });
-  };
-
-  const handleSubmit = async () => {
-    if (!isValidEmail(data.email)) {
-      Swal.fire({
-        title: "Error",
-        text: "Invalid email address",
-        icon: "error",
-        confirmButtonText: "Ok",
-      });
-      return;
+            body: JSON.stringify({
+                subject: 'Formularz GT Code Lab',
+                message: 'To jest treść wiadomości:',
+                formData: data
+            })
+        });
+        const responseData = await response.json();
+        console.log(a)
+        console.log("Odpowiedź serwera: ", responseData);
     }
 
+    const sendTestEmail = async () => {
+        console.log("Wysyłam do serwera: ", data);
+
     try {
-      const response = await fetch("https://api.gtcodelab.com/pages/api/sendEmail/blabla", {
-        method: "POST",
+            const response = await fetch('../pages/api/sendEmail', {
+                method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+                    'Content-Type': 'application/json'
         },
-        body: JSON.stringify(data),
+                body: JSON.stringify({
+                    subject: 'Formularz GT Code Lab',
+                    message: 'To jest treść wiadomości:',
+                    formData: data
+                })
       });
 
       if (!response.ok) {
-        throw new Error(`HTTP error: status ${response.status}`);
+                throw new Error(`Błąd HTTP: status ${response.status}`);
       }
 
-      await sendEmailNotification(); // Send the email notification after successful form submission
+            let responseData;
+            try {
+                responseData = await response.json();
+            } catch (e) {
+                throw new Error("Błąd przetwarzania odpowiedzi JSON.");
+            }
 
-      Swal.fire({
-        title: "Thank you for your submission",
-        text: "Our team will review your request and get in touch soon",
-        icon: "success",
-        confirmButtonText: "Ok",
-      });
+            console.log("Odpowiedź serwera: ", responseData);
+            // Tutaj możesz obsłużyć dane odpowiedzi, np. wyświetlić powiadomienie
     } catch (error) {
-      console.error("An error occurred: ", error);
+            console.error("Wystąpił błąd: ", error.message);
+            // Tutaj możesz obsłużyć błąd, np. wyświetlić powiadomienie o błędzie
       Swal.fire({
-        title: "Error",
+                title: 'Błąd',
         text: error.message,
-        icon: "error",
-        confirmButtonText: "Ok",
-      });
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
+        }
     }
-  };
+
+    const handleSubmit = () => {
+        if (!isValidEmail(data.email)) {
+            Swal.fire({
+                title: 'Błąd',
+                text: 'Nieprawidłowy adres e-mail',
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
+            return;
+        }
+        sendTestEmail();
+        Swal.fire({
+            title: 'Dziękujemy za zgłoszenie',
+            text: 'Nasz zespół analizuje Twoją prośbę i wkrótce się z Tobą skontaktuje',
+            icon: 'success',
+            confirmButtonText: 'Ok'
+        });
+    }
+
+    const isValidEmail = email => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
 
   return (
-    <div className="activeTab">
+        <div className='activeTab'>
       <UserNameEmailPol data={data} handleChange={handleChange} />
-      <div className="mainFormButton">
-        <button onClick={handleSubmit}>Submit</button>
+            <div className='mainFormButton'>
+                <button onClick={handleSubmit}>Wyślij</button>
       </div>
     </div>
   );
-};
+}
 
 export default MainFormPol2;

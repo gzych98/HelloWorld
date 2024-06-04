@@ -1,26 +1,19 @@
-// pages/api/sendEmail.js
+import { NextResponse } from 'next/server';
+import nodemailer from 'nodemailer'
 
-import nodemailer from "nodemailer";
-
-export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Method Not Allowed' });
-  }
-
+export async function POST(request) {
   try {
-    const { subject, message, formData } = req.body;
-    console.log(formData);
-
+    const { subject, message, formData } = await request.json();
+    console.log(formData)
     const emailContent = `
         <h3>${message}</h3>
         <p>Imię: ${formData.name}</p>
         <p>Email: ${formData.email}</p>
         <p>Uwagi dodatkowe: ${formData.additionalNotes}</p>
     `;
-    console.log(emailContent);
-
+    console.log(emailContent)
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      service: 'gmail',
       secure: true,
       auth: {
         user: process.env.EMAIL_USER,
@@ -29,19 +22,27 @@ export default async function handler(req, res) {
     });
 
     const mailOptions = {
-      from: "grz3siek17@gmail.com", // Should be replaced with your verified sender email address
-      to: "gregorytomek1@gmail.com", // Destination email address
+      from: 'grz3siek17@gmail.com',
+      to: 'grzegorz.zych98@gmail.com',
       subject: subject,
-      html: emailContent,
-    };
+      html: emailContent
+    }
 
-    await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptions)
 
-    res.status(200).json({ message: "Email Sent Successfully" });
+    return NextResponse.json({ message: 'Email Sent Successfully' }, { status: 200 })
+
   } catch (error) {
-    console.error("Error occurred: ", error);
-    res.status(500).json({
-      message: `Failed to send email: ${error.message}`,
-    });
+    console.error("Wystąpił błąd: ", error.stack); // Wyświetla pełny ślad stosu błędu
+    // Dodatkowe logowanie stanu
+    console.log("Subject: ", subject);
+    console.log("Message: ", message);
+    console.log("Form Data: ", formData);
+
+    // Zwróć bardziej szczegółowy komunikat o błędzie
+    return NextResponse.json({
+      message: `Nie udało się wysłać emaila: ${error.message}. Sprawdź logi dla więcej informacji.`,
+      errorDetails: error.stack // opcjonalnie, jeśli chcesz zwrócić szczegóły błędu w odpowiedzi
+    }, { status: 500 });
   }
 }

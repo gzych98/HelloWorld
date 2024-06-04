@@ -1,17 +1,24 @@
-import { NextResponse } from "next/server";
+// pages/api/sendEmail.js
+
 import nodemailer from "nodemailer";
 
-export async function POST(request) {
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ message: 'Method Not Allowed' });
+  }
+
   try {
-    const { subject, message, formData } = await request.json();
+    const { subject, message, formData } = req.body;
     console.log(formData);
+
     const emailContent = `
         <h3>${message}</h3>
         <p>Imię: ${formData.name}</p>
         <p>Email: ${formData.email}</p>
         <p>Uwagi dodatkowe: ${formData.additionalNotes}</p>
-        `;
+    `;
     console.log(emailContent);
+
     const transporter = nodemailer.createTransport({
       service: "gmail",
       secure: true,
@@ -22,32 +29,19 @@ export async function POST(request) {
     });
 
     const mailOptions = {
-      from: "grz3siek17@gmail.com",
-      to: "gregorytomek1@gmail.com",
+      from: "grz3siek17@gmail.com", // Should be replaced with your verified sender email address
+      to: "gregorytomek1@gmail.com", // Destination email address
       subject: subject,
       html: emailContent,
     };
 
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json(
-      { message: "Email Sent Successfully" },
-      { status: 200 }
-    );
+    res.status(200).json({ message: "Email Sent Successfully" });
   } catch (error) {
-    console.error("Wystąpił błąd: ", error.stack); // Wyświetla pełny ślad stosu błędu
-    // Dodatkowe logowanie stanu
-    console.log("Subject: ", subject);
-    console.log("Message: ", message);
-    console.log("Form Data: ", formData);
-
-    // Zwróć bardziej szczegółowy komunikat o błędzie
-    return NextResponse.json(
-      {
-        message: `Nie udało się wysłać emaila: ${error.message}. Sprawdź logi dla więcej informacji.`,
-        errorDetails: error.stack, // opcjonalnie, jeśli chcesz zwrócić szczegóły błędu w odpowiedzi
-      },
-      { status: 500 }
-    );
+    console.error("Error occurred: ", error);
+    res.status(500).json({
+      message: `Failed to send email: ${error.message}`,
+    });
   }
 }

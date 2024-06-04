@@ -473,9 +473,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f3f3f3;
-
-  background-color: #ad4343;
+  background-color: transparent;
   height: 75%;
 }
 

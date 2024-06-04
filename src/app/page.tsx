@@ -13,6 +13,7 @@ import Footer_pol from './footer';
 import NavBar02 from '@/components/navbar/navbar';
 import Swal from 'sweetalert2';
 import Script from 'next/script';
+import Ebook from '@/components/ebook/ebook'
 
 export default function Home() {
   const [isGridVisible, setIsGridVisible] = useState(false);
@@ -138,7 +139,9 @@ export default function Home() {
                 <div className='p-grid__kostka' onClick={handleImageClick}>
                   <h2>Nasze realizacje</h2>
                 </div>
-                <img src="img_template.png" alt="Obrazek 1" onClick={handleImageClick} />
+                <a href='https://inhelio.pl'>
+                  <img src="realizacja_inhelio.png" alt="Obrazek 1" onClick={handleImageClick} />
+                </a>
                 <img src="img_template.png" alt="Obrazek 2" onClick={handleImageClick} />
                 <img src="img_template.png" alt="Obrazek 3" onClick={handleImageClick} />
                 <img src="img_template.png" alt="Obrazek 4" onClick={handleImageClick} />
@@ -168,10 +171,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='p-hr'>
-          </div>
+          {/* <div className='p-hr'>
+          </div> */}
         </div>
       </div>
+      <Ebook />
       {/* START Strona 4 */}
       <div className='page' id='form'>
         <div className="p-content-container">

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './admin.css';
 import Introduction from './sekcje/Introduction' 
-import ContentManagement from './sekcje/contentManagement' 
+import ContentManagement from './sekcje/ContentManagement' 
 import Basics from './sekcje/Basics' 
 import Troubleshooting from './sekcje/Troubleshooting' 
 import Security from './sekcje/Security' 

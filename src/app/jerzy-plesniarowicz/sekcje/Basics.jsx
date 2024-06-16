@@ -15,7 +15,7 @@ const Basics = ({ handleImageClick }) => (
     <figcaption>Rysunek 5: Panel administracyjny WordPress</figcaption>
 
     <h3>Jak zaktualizować WordPressa i wtyczki?</h3>
-    <p>Aby zaktualizować WordPressa i wtyczki, przejdź do sekcji "Aktualizacje" w panelu administracyjnym i postępuj zgodnie z instrukcjami.</p>
+    <p>Aby zaktualizować WordPressa i wtyczki, przejdź do sekcji Aktualizacje w panelu administracyjnym i postępuj zgodnie z instrukcjami.</p>
     <img src="wordpress4.png" alt="Aktualizacja WordPressa" onClick={() => handleImageClick('wordpress4.png')} />
     <figcaption>Rysunek 6: Aktualizacja WordPressa i wtyczek</figcaption>
   </>

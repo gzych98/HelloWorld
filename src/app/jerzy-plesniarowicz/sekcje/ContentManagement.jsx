@@ -4,7 +4,7 @@ import '../admin.css';
 const ContentManagement = ({ handleImageClick }) => (
   <>
     <h3>Tworzenie i edytowanie stron</h3>
-    <p>1. Lista wszytkich stron jest widoczna w zakładce "Strony/Wszystkie strony",</p>
+    <p>1. Lista wszytkich stron jest widoczna w zakładce Strony/Wszystkie strony,</p>
     <p>2. Dodałem do Wordpress wtyczkę umożliwiającą powielenie wybranej strony.</p>
     <p>3. Pole szybkiej edycji pozwala zmodyfikować podstawowe parametry strony.</p>
     <img src="wordpress5.png" alt="Tworzenie nowej strony" onClick={() => handleImageClick('wordpress5.png')} />

@@ -51,7 +51,7 @@ export default function Admin() {
   };
 
   const sections = [
-    { id: 'Introduction', title: 'Wprowadzenie', content: <Introduction handleImageClick={handleImageClick} /> },
+    // { id: 'Introduction', title: 'Wprowadzenie', content: <Introduction handleImageClick={handleImageClick} /> },
     { 
       id: 'Basics', 
       title: 'Podstawy WordPressa', 

@@ -29,7 +29,8 @@ const ContentManagement = ({ handleImageClick }) => (
     <p>3. Zapisujemy</p>    
     <img src="forms2.png" alt="Ustawienia WPForms" onClick={() => handleImageClick('forms2.png')} />
     <p>Wtyczka, którą dodałem do strony, w wersji darmowej nie obsługuje przeglądania wpisów w panelu administratora Wordpress. Powiadomienia przychodzą jedynie na maila wskazanego w ustawieniach formularza.</p>
-   
+    
+    <img src="forms3.png" alt="Ustawienia WPForms" onClick={() => handleImageClick('forms3.png')} />
   </>
 );
 

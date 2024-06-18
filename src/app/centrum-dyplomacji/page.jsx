@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import './admin.css';
 import Introduction from './sekcje/Introduction' 
-import ContentManagement from './sekcje/ContentManagement' 
-import Basics from './sekcje/Basics' 
+import ContentManagement, {ContentManagementContent } from './sekcje/ContentManagement' 
+import Basics, { BasicsContent } from './sekcje/Basics' 
 import Troubleshooting from './sekcje/Troubleshooting' 
 import Security from './sekcje/Security' 
 import SEO from './sekcje/SEO' 
@@ -52,8 +52,18 @@ export default function Admin() {
 
   const sections = [
     { id: 'Introduction', title: 'Wprowadzenie', content: <Introduction handleImageClick={handleImageClick} /> },
-    { id: 'Basics', title: 'Podstawy WordPressa', content: <Basics handleImageClick={handleImageClick} /> },
-    { id: 'ContentManagement', title: 'Zarządzanie treścią', content: <ContentManagement handleImageClick={handleImageClick} /> },
+    { 
+      id: 'Basics', 
+      title: 'Podstawy WordPressa', 
+      content: <Basics handleImageClick={handleImageClick} />,
+      subsections: BasicsContent 
+    },
+    { 
+      id: 'ContentManagement', 
+      title: 'Zarządzanie treścią', 
+      content: <ContentManagement handleImageClick={handleImageClick} />,
+      subsections: ContentManagementContent 
+    },
     // { id: 'UsingElementor', title: 'Korzystanie z Elementora', content: <UsingElementor handleImageClick={handleImageClick} /> },
     // { id: 'CustomizingSite', title: 'Personalizacja strony', content: <CustomizingSite handleImageClick={handleImageClick} /> },
     // { id: 'Plugins', title: 'Wtyczki', content: <Plugins handleImageClick={handleImageClick} /> },
@@ -69,20 +79,29 @@ export default function Admin() {
       return (
         <div className='admin'>
           <nav className={`admin-navbar ${isNavOpen ? 'open' : ''}`}>
-            <ul>
-              {sections.map(section => (
-                <li key={section.id}>
-                  <a href={`#${section.id}`} onClick={handleNavToggle}>{section.title}</a>
-                </li>
-              ))}
-            </ul>
-            {/* Dodanie logo na dole paska nawigacji */}
-            <div className="nav-logo-container">
-              <a href="https://gtcodelab.com" target="_blank" rel="noopener noreferrer">
-                <img src="white_2.png" alt="GTCodelab Logo" className="nav-logo" />
-              </a>
-            </div>
-          </nav>
+          <ul>
+            {sections.map(section => (
+              <li key={section.id}>
+                <a href={`#${section.id}`} onClick={handleNavToggle} className="main-section">{section.title}</a>
+                {section.subsections && (
+                  <ul className="subsection-list">
+                    {section.subsections.map(subsection => (
+                      <li key={subsection.id} className="subsection-item">
+                        <a href={`#${subsection.id}`} onClick={handleNavToggle} className="subsection-link">{subsection.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+          {/* Dodanie logo na dole paska nawigacji */}
+          <div className="nav-logo-container">
+            <a href="https://gtcodelab.com" target="_blank" rel="noopener noreferrer">
+              <img src="white_2.png" alt="GTCodelab Logo" className="nav-logo" />
+            </a>
+          </div>
+        </nav>
           <button className={`burger-menu ${isNavOpen ? 'open' : ''}`} onClick={handleNavToggle}>
             ☰
           </button>

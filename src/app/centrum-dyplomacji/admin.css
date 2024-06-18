@@ -36,7 +36,7 @@
   /* Ustawia nową wartość right */
 }
 
-
+/* SECTIONS */
 
 .admin-navbar ul {
   list-style-type: none;
@@ -56,6 +56,62 @@
 .admin-navbar ul li a:hover {
   color: #2B70E4;
 }
+
+
+.admin-navbar ul li ul li {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.admin-navbar ul li ul li {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.admin-navbar ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.admin-navbar ul li a:hover {
+  color: #2B70E4;
+}
+
+.admin-navbar ul li .main-section {
+  font-size: 1.2em;
+  /* Większy rozmiar czcionki dla głównych sekcji */
+}
+
+.subsection-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  /* Kropki wewnątrz listy */
+  padding-left: 3em;
+  /* Wcięcie dla subsekcji */
+  color: #2B70E4;
+  /* Kolor kropek */
+}
+
+.subsection-item {
+  margin-bottom: 0.5em;
+}
+
+.subsection-link {
+  color: #ccc;
+  /* Kolor dla subsekcji */
+  font-size: 0.9em;
+  /* Mniejszy rozmiar czcionki dla subsekcji */
+  font-weight: normal;
+  /* Brak pogrubienia dla subsekcji */
+}
+
+.subsection-link:hover {
+  color: #2B70E4;
+  /* Kolor na hover dla subsekcji */
+}
+
+/* END SECTIONS */
 
 .admin-page {
   padding: 2em;

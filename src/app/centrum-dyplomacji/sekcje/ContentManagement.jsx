@@ -1,16 +1,22 @@
 import React from 'react';
 import '../admin.css';
 
+export const ContentManagementContent = [
+  { id: 'content-creation', title: 'Tworzenie i edytowanie stron' },
+  { id: 'quick-edit', title: 'Szybka edycja strony' },
+  { id: 'submission-form', title: 'Formularz zgłoszeniowy' },
+];
+
 const ContentManagement = ({ handleImageClick }) => (
   <>
-    <h3>Tworzenie i edytowanie stron</h3>
+    <h3 id="content-creation">Tworzenie i edytowanie stron</h3>
     <p>1. Lista wszytkich stron jest widoczna w zakładce Strony/Wszystkie strony,</p>
     <p>2. Dodałem do Wordpress wtyczkę umożliwiającą powielenie wybranej strony.</p>
     <p>3. Pole szybkiej edycji pozwala zmodyfikować podstawowe parametry strony.</p>
     <img src="wordpress5.png" alt="Tworzenie nowej strony" onClick={() => handleImageClick('wordpress5.png')} />
     <figcaption>Rysunek 7: Tworzenie nowej strony w WordPress</figcaption>
     
-    <h3>Szybka edycja strony</h3>
+    <h3 id="quick-edit">Szybka edycja strony</h3>
     <p>1. Tytuł jest wyświetlany m.in. w zakładkach przeglądarki.</p>
     <p>2. Nazwa uproszczona jest odnośnikiem do strony, twojadomena.pl/adres-strony (taka konfiguracja wymaga ustawienia odpowiednich permalinków) </p>
     <p>3. Ustawienie odpowieniego statusu strony</p>
@@ -21,7 +27,7 @@ const ContentManagement = ({ handleImageClick }) => (
     <img src="wordpress6.png" alt="Tworzenie nowego wpisu" onClick={() => handleImageClick('wordpress6.png')} />
     <figcaption>Rysunek 8: Tworzenie nowego wpisu w WordPress</figcaption>
 
-    <h3>Formularz zgłoszeniowy</h3>
+    <h3 id="submission-form">Formularz zgłoszeniowy</h3>
     <p>Otwieramy panel ustawień WPForms i przechodzimy do edycji formularza kontaktowego</p>    
     <img src="forms1.png" alt="Ustawienia WPForms" onClick={() => handleImageClick('forms1.png')} />
     <p>1. Przechodzimy do Powiadomień</p>    

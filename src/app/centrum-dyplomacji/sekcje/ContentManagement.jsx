@@ -5,6 +5,7 @@ export const ContentManagementContent = [
   { id: 'content-creation', title: 'Tworzenie i edytowanie stron' },
   { id: 'quick-edit', title: 'Szybka edycja strony' },
   { id: 'submission-form', title: 'Formularz zgłoszeniowy' },
+  { id: 'footer-links', title: 'Linki w stopce' },
 ];
 
 const ContentManagement = ({ handleImageClick }) => (
@@ -37,6 +38,16 @@ const ContentManagement = ({ handleImageClick }) => (
     <p>Wtyczka, którą dodałem do strony, w wersji darmowej nie obsługuje przeglądania wpisów w panelu administratora Wordpress. Powiadomienia przychodzą jedynie na maila wskazanego w ustawieniach formularza.</p>
     
     <img src="forms3.png" alt="Ustawienia WPForms" onClick={() => handleImageClick('forms3.png')} />
+
+    
+    <h3 id="footer-links">Edycja linków w stopce</h3>    
+    <p>1. Otwieramy Wygląd\Elementor Header and Footer Builder</p>
+    <p>2. Przechodzimy do Edycji w Elementorze</p>
+    <img src="footer1.png" alt="Ustawienia Footer" onClick={() => handleImageClick('footer1.png')} />
+    <p>1. Wybieramy ikonkę do edycji odnośnika</p>    
+    <p>2. Wpisujemy adres www</p>    
+    <p>3. Zapisujemys</p>    
+    <img src="footer2.png" alt="Ustawienia Footer" onClick={() => handleImageClick('footer2.png')} />
   </>
 );
 

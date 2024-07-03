@@ -5,7 +5,7 @@ import { MathJax, MathJaxContext } from 'better-react-mathjax';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer_pol from '../footer';
 import NavBar_pol from '../navbar';
-import './article.css';
+import './mechanics1.css';
 
 const content = [
     { id: 'intro', title: 'Wprowadzenie' },

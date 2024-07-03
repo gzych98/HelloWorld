@@ -1,6 +1,7 @@
+const withVideos = require('next-videos');
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    // output: 'export',
+const nextConfig = withVideos({
     async headers() {
         return [
             {
@@ -14,7 +15,10 @@ const nextConfig = {
                 ]
             }
         ]
+    },
+    webpack(config, options) {
+        return config;
     }
-}
+});
 
-module.exports = nextConfig
+module.exports = nextConfig;

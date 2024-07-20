@@ -4,8 +4,10 @@ import './navbar.css'
 import '../../app/styles/globals.css'
 import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const NavBar02: React.FC = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdownOpen1, setIsDropdownOpen1] = useState(false);
+  const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isNavVisible, setIsNavVisible] = useState(false);
 
@@ -17,22 +19,36 @@ const NavBar02: React.FC = () => {
     setIsMenuOpen(!isMenuOpen);
     toggleNav();
   }
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
+
+  const toggleDropdown1 = () => {
+    setIsDropdownOpen1(!isDropdownOpen1);
+    if (isDropdownOpen2) {
+      setIsDropdownOpen2(false);
+    }
   };
+
+  const toggleDropdown2 = () => {
+    setIsDropdownOpen2(!isDropdownOpen2);
+    if (isDropdownOpen1) {
+      setIsDropdownOpen1(false);
+    }
+  };
+
   useEffect(() => {
-    const closeDropdown = (event: MouseEvent) => {
-      if (event.target && isDropdownOpen && !(event.target as Element).matches('.dropdown-toggle')) {
-        setIsDropdownOpen(false);
+    const closeDropdowns = (event: MouseEvent) => {
+      if (event.target && !(event.target as Element).matches('.dropdown-toggle')) {
+        setIsDropdownOpen1(false);
+        setIsDropdownOpen2(false);
       }
     };
 
-    document.addEventListener('click', closeDropdown);
+    document.addEventListener('click', closeDropdowns);
 
     return () => {
-      document.removeEventListener('click', closeDropdown);
+      document.removeEventListener('click', closeDropdowns);
     };
-  }, [isDropdownOpen]);
+  }, []);
+
   return (
     <nav>
       <div className='navbar'>
@@ -48,7 +64,6 @@ const NavBar02: React.FC = () => {
           </a>
 
           <div className='padding-left-1-5em'>
-
           </div>
           <a href="/" className='' id='title'>GT Code Lab</a>
         </div>
@@ -61,8 +76,11 @@ const NavBar02: React.FC = () => {
               <a href="/#contact" onClick={toggleMenu}>Kontakt</a>
             </li>
             <li>
-              <a className="dropdown-toggle show-pointer" onClick={toggleDropdown}>Nasza oferta</a>
-              <ul className={`navbarDropdown ${isDropdownOpen ? 'show' : ''}`}>
+              <a href="/programowanie" onClick={toggleMenu}>Programowanie dla inżyniera</a>
+            </li>
+            <li>
+              <a className="dropdown-toggle show-pointer" onClick={toggleDropdown1}>Nasza oferta</a>
+              <ul className={`navbarDropdown ${isDropdownOpen1 ? 'show' : ''}`}>
                 <li><a href="/#service-www" onClick={toggleMenu}>Strony WWW</a></li>
                 <li><a href="/#service-visual" onClick={toggleMenu}>Identyfikacja wizualna</a></li>
                 <li><a href="/#" onClick={toggleMenu}>Aplikacje</a></li>
@@ -70,12 +88,10 @@ const NavBar02: React.FC = () => {
               </ul>
             </li>
             <li><a id='language' href="/how-it-works">Jak to działa?</a></li>
-
           </ul>
-
         </div>
       </div>
-    </nav >
+    </nav>
   );
 };
 

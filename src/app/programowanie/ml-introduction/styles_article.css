@@ -1,3 +1,42 @@
+.article-cover-container {
+    position: relative;
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-cover {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.article-cover-container:hover .article-cover {
+    filter: brightness(50%);
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    font-family: var(--font-primary);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.article-cover-container:hover .cover-text {
+    opacity: 1;
+}
+
 .page#how-it-works {
     padding-top: 5em;
     min-height: 100vh;
@@ -8,10 +47,33 @@
     color: var(--text-color-dark);
 }
 
+.code-block {
+    position: relative;
+    cursor: pointer;
+}
+
+.code-block pre {
+    margin: 0;
+}
+
+.copy-hint {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: none;
+}
+
+.code-block:hover .copy-hint {
+    display: block;
+}
+
 .content-container {
     display: flex;
     max-width: 1280px;
-    /* Zwiększona szerokość */
     width: 100%;
     margin: auto;
     padding: 2em;
@@ -29,24 +91,20 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-width: 20%;
-    /* Minimalna szerokość */
 }
 
 .toc h2 {
     font-family: var(--font-primary);
     font-size: 1.5em;
-    /* color: var(--primary-color); */
     color: #333;
     margin-bottom: 1em;
     text-align: left;
-    /* Wyrównanie do lewej */
 }
 
 .toc ul {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
-    /* Wyrównanie do lewej */
 }
 
 .toc ul li {
@@ -64,13 +122,11 @@
 .toc ul li a:hover {
     color: var(--secondary-color);
     cursor: pointer;
-    /* Dodanie kursora */
 }
 
 .toc ul li a.active {
     color: var(--text-color-dark);
     cursor: pointer;
-    /* Dodanie kursora */
 }
 
 .toc ul li a.active::after,
@@ -94,21 +150,22 @@
     line-height: 1.8;
     background-color: var(--background-color);
     border-radius: 10px;
-
     background-color: var(--background-color);
     padding: 1em;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .article-header {
-    display: flex;
-    justify-content: space-between;
-    /* Ustawienie tytułu po lewej, a daty po prawej */
-    align-items: center;
-    /* Wyśrodkowanie w pionie */
+    display: block;
     margin-bottom: 2em;
+}
+
+.article-header .date {
+    font-family: var(--font-secondary);
+    font-size: 1.2em;
+    color: var(--text-color-dark);
+    margin-bottom: 0.5em;
 }
 
 .article-header .title {
@@ -117,19 +174,12 @@
     color: var(--primary-color);
 }
 
-.article-header .date {
-    font-family: var(--font-secondary);
-    font-size: 1.2em;
-    color: var(--text-color-dark);
-}
-
 .article h2 {
     font-family: var(--font-primary);
     font-size: 2em;
     color: var(--primary-color);
     margin-bottom: 0.5em;
     text-align: left;
-    /* Wyrównanie do lewej */
 }
 
 .article p {
@@ -138,7 +188,6 @@
     color: var(--text-color-dark);
     margin-bottom: 1em;
     text-align: left;
-    /* Wyrównanie do lewej */
 }
 
 pre {
@@ -153,12 +202,6 @@ code {
     font-size: 1em;
 }
 
-/* Animacje i inne style */
-.toc ul li a.active::after {
-    width: 100%;
-}
-
-/* Ukryj menu boczne dla ekranów mniejszych niż 768px */
 @media (max-width: 1200px) {
     .toc {
         display: none;

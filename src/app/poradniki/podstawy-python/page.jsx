@@ -44,7 +44,8 @@ Dla początkujących polecamy [Visual Studio Code (VS Code)](https://code.visual
     - Pylint (Python)
 2. **Utwórz nowy projekt**: Otwórz VS Code, wybierz "File" > "Open Folder" i utwórz nowy folder dla swojego projektu.
 3. **Utwórz plik Python**: W nowo utworzonym folderze, utwórz nowy plik z rozszerzeniem \`.py\`, np. \`hello_world.py\`.
-    `,
+
+`,
     basics: `
 ## Podstawy Pythona
 
@@ -146,6 +147,9 @@ def hello_world():
 if __name__ == "__main__":
     hello_world()
 \`\`\`
+
+
+W powyższym kodzie znajduje się konstrukcja \`if __name__ == "__main__":\`, która jest typowa dla programów napisanych w Pythonie. Jej celem jest upewnienie się, że pewne fragmenty kodu będą wykonane tylko wtedy, gdy skrypt jest uruchamiany bezpośrednio, a nie importowany jako moduł do innego skryptu. 
 
 ### Operacje matematyczne
 

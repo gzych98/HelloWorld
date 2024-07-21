@@ -76,7 +76,7 @@ const NavBar02: React.FC = () => {
               <a href="/#contact" onClick={toggleMenu}>Kontakt</a>
             </li>
             <li>
-              <a href="/programowanie" onClick={toggleMenu}>Poradniki</a>
+              <a href="/poradniki" onClick={toggleMenu}>Poradniki</a>
             </li>
             <li>
               <a className="dropdown-toggle show-pointer" onClick={toggleDropdown1}>Nasza oferta</a>

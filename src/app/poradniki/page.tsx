@@ -23,6 +23,14 @@ const articles = [
         link: 'poradniki/ml-introduction',
         image: 'article_ml_intro.png'
     },
+    {
+        id: 3,
+        title: 'Python Cheat Sheet',
+        date: '21 lipca 2024',
+        excerpt: 'Wszystko czego potrzebujesz do tworzenia prostych skryptów Python.',
+        link: 'poradniki/cheat-sheet-python',
+        image: 'cheat-sheet.python.png'
+    },
     // Można dodać więcej artykułów w podobnym formacie
 ];
 

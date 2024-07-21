@@ -14,14 +14,20 @@ const content = [
     { id: 'basics', title: 'Podstawy Pythona' },
     { id: 'examples', title: 'Przykłady kodu' },
     { id: 'applications', title: 'Zastosowania Pythona w inżynierii' },
-    { id: 'libraries', title: 'Popularne biblioteki Pythona' }
+    { id: 'libraries', title: 'Popularne biblioteki Pythona' },
+    { id: 'resources', title: 'Dodatkowe zasoby' },
+    { id: 'conclusion', title: 'Podsumowanie' }
 ];
+
+const title = "Jak zacząć pracę z Pythonem?";
+const date = "21 lipca 2024";
+const coverImage = "/python-basic.png";
 
 const markdownContent = {
     intro: `
 ## Wprowadzenie
 
-Python jest jednym z najczęściej wybieranych języków programowania przez inżynierów na całym świecie. Dzięki swojej prostocie, wszechstronności i ogromnej społeczności, Python jest idealnym narzędziem do automatyzacji, analizy danych, tworzenia modeli symulacyjnych i wielu innych zastosowań. Ten poradnik pomoże Ci zacząć pracę z Pythonem i pokaże, jak może być przydatny w różnych dziedzinach inżynierii.
+Python jest jednym z najczęściej wybieranych języków programowania przez inżynierów na całym świecie. Dzięki swojej prostocie, wszechstronności i ogromnej społeczności, Python jest idealnym narzędziem do automatyzacji, analizy danych, tworzenia modeli symulacyjnych i wielu innych zastosowań. Ten poradnik pomoże Ci zacząć pracę z Pythonem i pokaże, jak może być przydatny w różnych dziedzinach inżynierii. Poradniki zawierają również przykładowy kod z objaśnieniami, dzięki czemu możesz łatwo zrozumieć i zastosować przedstawione rozwiązania. Każdy fragment kodu można skopiować do swojego edytora tekstu, co znacznie ułatwia naukę i wdrażanie nowych umiejętności.
     `,
     setup: `
 ## Instalacja i konfiguracja
@@ -148,7 +154,6 @@ if __name__ == "__main__":
     hello_world()
 \`\`\`
 
-
 W powyższym kodzie znajduje się konstrukcja \`if __name__ == "__main__":\`, która jest typowa dla programów napisanych w Pythonie. Jej celem jest upewnienie się, że pewne fragmenty kodu będą wykonane tylko wtedy, gdy skrypt jest uruchamiany bezpośrednio, a nie importowany jako moduł do innego skryptu. 
 
 ### Operacje matematyczne
@@ -216,8 +221,9 @@ Python jest używany do programowania mikrokontrolerów i sterowników PLC, co j
 ### Machine learning i AI
 
 Python jest szeroko stosowany w implementacji algorytmów [uczenia maszynowego](/programowanie/ml-introduction) i sztucznej inteligencji. Jest wykorzystywany do tworzenia modeli predykcyjnych, analizy obrazów, przetwarzania języka naturalnego i wielu innych zaawansowanych zastosowań.
-
-### Popularne biblioteki Pythona
+    `,
+    libraries: `
+## Popularne biblioteki Pythona
 
 Python oferuje wiele bibliotek, które wspomagają pracę inżynierów. Oto kilka najpopularniejszych z nich:
 
@@ -227,6 +233,23 @@ Python oferuje wiele bibliotek, które wspomagają pracę inżynierów. Oto kilk
 - **SciPy**: Zestaw narzędzi do obliczeń naukowych. Oferuje funkcje do optymalizacji, integracji, rozwiązywania równań różniczkowych i wiele innych. [SciPy](https://scipy.org/)
 - **TensorFlow**: Biblioteka do uczenia maszynowego. Umożliwia tworzenie i trenowanie zaawansowanych modeli machine learning i deep learning. [TensorFlow](https://www.tensorflow.org/)
 - **PyTorch**: Kolejna popularna biblioteka do uczenia maszynowego. Jest znana ze swojej elastyczności i łatwości użycia. [PyTorch](https://pytorch.org/)
+    `,
+    resources: `
+## Dodatkowe zasoby
+
+Aby pogłębić swoją wiedzę na temat Pythona i jego zastosowań w inżynierii, oto kilka dodatkowych zasobów:
+
+- **Dokumentacja Pythona**: [https://docs.python.org/3/](https://docs.python.org/3/)
+- **Kursy online**: [Coursera](https://www.coursera.org/), [edX](https://www.edx.org/), [Udemy](https://www.udemy.com/)
+- **Tutoriale i artykuły**: [Real Python](https://realpython.com/), [Python.org Tutorials](https://www.python.org/about/gettingstarted/)
+- **Społeczności i fora**: [Stack Overflow](https://stackoverflow.com/), [Reddit Python](https://www.reddit.com/r/Python/), [Python Discord](https://discord.com/invite/python)
+    `,
+    conclusion: `
+## Podsumowanie
+
+Python to potężne narzędzie, które może znacznie ułatwić pracę inżynierom w różnych dziedzinach. Jego prostota i wszechstronność sprawiają, że jest idealnym wyborem zarówno dla początkujących, jak i doświadczonych programistów. Mamy nadzieję, że ten poradnik pomógł Ci zrozumieć podstawy Pythona i jego zastosowania w inżynierii. Zachęcamy do dalszej nauki i eksperymentowania z Pythonem.
+
+**Chcesz dowiedzieć się więcej?**  Śledź nas na mediach społecznościowych i bądź na bieżąco z najnowszymi trendami w programowaniu i inżynierii!
     `
 };
 
@@ -287,7 +310,7 @@ export default function ArticlePage() {
                                             spy={true}
                                             smooth={true}
                                             offset={-70}
-                                            duration={500}
+                                            duration={0}
                                             className={activeSection === section.id ? 'active' : ''}
                                         >
                                             {section.title}
@@ -298,12 +321,12 @@ export default function ArticlePage() {
                         </div>
                         <div className="article">
                             <div className="article-cover-container">
-                                <img src="/python-basic.png" alt="Article Cover" className="article-cover" />
+                                <img src={coverImage} alt="Article Cover" className="article-cover" />
                                 <div className="cover-text">wygenerowano przy pomocy sztucznej inteligencji</div>
                             </div>
                             <header className="article-header">
-                                <p className="date">15 lipca 2024</p>
-                                <h1 className="title">Jak zacząć pracę z Pythonem?</h1>
+                                <p className="date">{date}</p>
+                                <h1 className="title">{title}</h1>
                             </header>
                             {content.map(section => (
                                 <Element key={section.id} name={section.id} id={section.id}>

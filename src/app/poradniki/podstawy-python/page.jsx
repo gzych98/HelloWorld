@@ -298,8 +298,8 @@ export default function ArticlePage() {
                                 <div className="cover-text">wygenerowano przy pomocy sztucznej inteligencji</div>
                             </div>
                             <header className="article-header">
-                                <p className="date">Data publikacji: 20 lipca 2024</p>
-                                <h1 className="title">Poradnik: Jak zacząć pracę z Pythonem w inżynierii</h1>
+                                <p className="date">15 lipca 2024</p>
+                                <h1 className="title">Jak zacząć pracę z Pythonem?</h1>
                             </header>
                             {content.map(section => (
                                 <Element key={section.id} name={section.id} id={section.id}>

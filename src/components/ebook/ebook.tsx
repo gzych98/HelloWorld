@@ -5,10 +5,10 @@ const Ebook: React.FC = () => {
         <div className='page' id="ebook">
             <div className="p-content-container">
                 <div className='ebook-main'>
-                    <h1>Chciałbyś sam zrobić swoją stronę wizytówkę?</h1>
-                    <h2>Pobierz nasz najnowszy e-book!</h2>
-                    <a href='#'>
-                        <button id='button-ebook'>Pobierz!</button>
+                    <h1>Chciałbyś dowiedzieć się więcej?</h1>
+                    <h2>Przeczytaj nasze poradniki!</h2>
+                    <a href='/poradniki'>
+                        <button id='button-ebook'>Sprawdź!</button>
                     </a>
                 </div>
             </div>

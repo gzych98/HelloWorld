@@ -68,11 +68,9 @@ Rekurencyjne sieci neuronowe (RNN) są zaprojektowane do przetwarzania sekwencji
 
 Istnieje wiele bibliotek programistycznych, które ułatwiają tworzenie i trenowanie modeli AI. Najpopularniejsze z nich to:
 
-- **TensorFlow**: Biblioteka open-source opracowana przez Google, która umożliwia tworzenie modeli ML i DL. Jest szeroko stosowana w przemyśle i badaniach. TensorFlow oferuje bogaty zestaw narzędzi do budowy, trenowania i wdrażania modeli AI. Wspiera zarówno modele proste, jak i bardzo złożone, co czyni go elastycznym narzędziem dla różnych zastosowań.
-
-- **PyTorch**: Biblioteka open-source rozwijana przez Facebook AI Research, która jest znana z łatwości użycia i dynamicznego podejścia do tworzenia sieci neuronowych. PyTorch zyskuje popularność w środowisku badawczym dzięki swojej elastyczności i intuicyjności. Umożliwia łatwe debugowanie i modyfikowanie modeli, co jest istotne dla szybkiego prototypowania.
-
-- **scikit-learn**: Biblioteka open-source do ML w języku Python, która oferuje proste i efektywne narzędzia do analizy danych i modelowania. scikit-learn jest idealnym narzędziem dla początkujących i zaawansowanych użytkowników, oferując szeroki zakres algorytmów ML, które można łatwo zastosować do różnych problemów.
+- **TensorFlow**: Biblioteka open-source opracowana przez Google, która umożliwia tworzenie modeli ML i DL. Jest szeroko stosowana w przemyśle i badaniach. TensorFlow oferuje bogaty zestaw narzędzi do budowy, trenowania i wdrażania modeli AI. Wspiera zarówno modele proste, jak i bardzo złożone, co czyni go elastycznym narzędziem dla różnych zastosowań. [Strona TensorFlow](https://www.tensorflow.org/)
+- **PyTorch**: Biblioteka open-source rozwijana przez Facebook AI Research, która jest znana z łatwości użycia i dynamicznego podejścia do tworzenia sieci neuronowych. PyTorch zyskuje popularność w środowisku badawczym dzięki swojej elastyczności i intuicyjności. Umożliwia łatwe debugowanie i modyfikowanie modeli, co jest istotne dla szybkiego prototypowania. [Strona PyTorch](https://pytorch.org/)
+- **scikit-learn**: Biblioteka open-source do ML w języku Python, która oferuje proste i efektywne narzędzia do analizy danych i modelowania. scikit-learn jest idealnym narzędziem dla początkujących i zaawansowanych użytkowników, oferując szeroki zakres algorytmów ML, które można łatwo zastosować do różnych problemów. [Strona scikit-learn](https://scikit-learn.org/)
     `
 };
 
@@ -123,6 +121,10 @@ export default function ArticlePage() {
                             </ul>
                         </div>
                         <div className="article">
+                            <div className="article-cover-container">
+                                <img src="/article_ml_intro.png" alt="Article Cover" className="article-cover" />
+                                <div className="cover-text">wygenerowano przy pomocy sztucznej inteligencji</div>
+                            </div>
                             <header className="article-header">
                                 <p className="date">20 lipca 2024</p>
                                 <h1 className="title">Podstawy Machine Learning</h1>

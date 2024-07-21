@@ -10,7 +10,7 @@ const articles = [
     {
         id: 1,
         title: 'Python dla inżyniera',
-        date: '20 lipca 2024',
+        date: '15 lipca 2024',
         excerpt: 'Podstawy programowania w Pythonie dla inżynierów.',
         link: 'programowanie/podstawy-python',
         image: 'python-basic.png'

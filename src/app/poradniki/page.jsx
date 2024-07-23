@@ -60,6 +60,7 @@ export default function ArticleListPage() {
                     <h1>Lista Artykułów</h1>
                     <h2>Odkryj, jak programowanie rewolucjonizuje świat inżynierii</h2>
                     <p>Nasze poradniki zawierają również przykładowy kod z objaśnieniami, dzięki czemu możesz łatwo zrozumieć i zastosować przedstawione rozwiązania. Każdy fragment kodu można skopiować do swojego edytora tekstu, co znacznie ułatwia naukę i wdrażanie nowych umiejętności.</p>
+                    <p><strong>Warto rozwijać swoje kompetencje, a dzięki naszym poradnikom z łatwością wejdziesz do świata automatyzacji i programowania w inżynierii. Nie czekaj, zacznij już dziś!</strong></p>
                     <ul className="article-list">
                         {articles.map(article => (
                             <li key={article.id} className="article-item">

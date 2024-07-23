@@ -17,11 +17,11 @@ const articles = [
     // },
     {
         id: 3,
-        title: 'Python: Cheat Sheet',
+        title: 'Interactive Plot Point Picker',
         date: '24 lipca 2024',
-        excerpt: 'Cheat Sheet zawierający najważniejsze informacje potrzebne do tworzenia prostych skryptów w Pythonie. Szybki przewodnik po zmiennych, operatorach, strukturach danych i innych podstawowych elementach języka.',
-        link: 'poradniki/cheat-sheet-python',
-        image: 'cheat-sheet.python.png'
+        excerpt: 'Aplikacja umożliwia łatwe odczytywanie danych z wykresów: wczytujesz obraz, zaznaczasz punkty, przeliczasz je na rzeczywiste wartości i eksportujesz wyniki do pliku CSV.',
+        link: 'poradniki/image-to-chart',
+        image: 'image-to-chart.png'
     },
     {
         id: 2,

@@ -1,0 +1,44 @@
+.ebook-main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ebook {
+    background: var(--primary-color);
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ebook-main h1 {
+    color: #fff;
+}
+
+.ebook-main a {
+    color: #fff;
+}
+
+.ebook-main a {
+    color: #fff;
+    display: flex;
+    /* Dodaj flex display do linku */
+    justify-content: center;
+    /* Wyśrodkuj przycisk wewnątrz linku */
+    width: 100%;
+    /* Ustaw szerokość linku na 100% */
+    text-align: center;
+    /* Wyśrodkuj tekst w linku */
+}
+
+#button-ebook {
+    color: var(--text-color-light);
+    background-color: var(--text-color-dark);
+    border-color: var(--text-color-light);
+    /* Dodaj margines, aby był odstęp między h2 a przyciskiem */
+}
+
+#button-ebook:hover {
+    border-color: var(--secondary-color);
+    /* Dodaj margines, aby był odstęp między h2 a przyciskiem */
+}

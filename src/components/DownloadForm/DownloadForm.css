@@ -1,0 +1,83 @@
+.download-form-container {
+    max-width: 400px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Wyrównanie do lewej */
+}
+
+.content-container button {
+    padding: 15px 25px;
+    background-color: #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.download-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-submit {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    /* Dodanie marginesu do góry dla odstępu */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.form-message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.btn-download {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #218838;
+}

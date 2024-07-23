@@ -15,14 +15,22 @@ const articles = [
     //     link: 'poradniki/python-sphinx-documentation',
     //     image: 'sphinx-docs.png'
     // },
-    // {
-    //     id: 3,
-    //     title: 'Python: Cheat Sheet',
-    //     date: '21 lipca 2024',
-    //     excerpt: 'Cheat Sheet zawierający najważniejsze informacje potrzebne do tworzenia prostych skryptów w Pythonie. Szybki przewodnik po zmiennych, operatorach, strukturach danych i innych podstawowych elementach języka.',
-    //     link: 'poradniki/cheat-sheet-python',
-    //     image: 'cheat-sheet.python.png'
-    // },
+    {
+        id: 3,
+        title: 'Python: Cheat Sheet',
+        date: '24 lipca 2024',
+        excerpt: 'Cheat Sheet zawierający najważniejsze informacje potrzebne do tworzenia prostych skryptów w Pythonie. Szybki przewodnik po zmiennych, operatorach, strukturach danych i innych podstawowych elementach języka.',
+        link: 'poradniki/cheat-sheet-python',
+        image: 'cheat-sheet.python.png'
+    },
+    {
+        id: 2,
+        title: 'Python: Cheat Sheet',
+        date: '24 lipca 2024',
+        excerpt: 'Cheat Sheet zawierający najważniejsze informacje potrzebne do tworzenia prostych skryptów w Pythonie. Szybki przewodnik po zmiennych, operatorach, strukturach danych i innych podstawowych elementach języka.',
+        link: 'poradniki/cheat-sheet-python',
+        image: 'cheat-sheet.python.png'
+    },
     // {
     //     id: 2,
     //     title: 'Wprowadzenie do ML',

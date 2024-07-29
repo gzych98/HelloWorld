@@ -1,3 +1,6 @@
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
 import type { Metadata } from 'next'
 import { Inter, Open_Sans, Playfair_Display } from 'next/font/google'
 import { Rubik, Montserrat } from 'next/font/google'
@@ -27,7 +30,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>      
+      <head>
         <script src="https://www.google.com/recaptcha/enterprise.js?render=6LftAT4pAAAAAPCVNchOKg3eifc47suFNMHI_Zon" async />
         {/* Tutaj mogą być inne elementy head, takie jak meta tagi, title itp. */}
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>

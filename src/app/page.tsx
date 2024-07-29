@@ -14,6 +14,7 @@ import NavBar02 from '@/components/navbar/navbar';
 import Swal from 'sweetalert2';
 import Script from 'next/script';
 import Ebook from '@/components/ebook/ebook'
+import Head from 'next/head';
 
 export default function Home() {
   const [isGridVisible, setIsGridVisible] = useState(false);
@@ -43,6 +44,10 @@ export default function Home() {
   };
   return (
     <main>
+      <Head>
+        <title>GT Code Lab - Kreatywne rozwiązania programistyczne</title>
+        <meta name="description" content="GT Code Lab oferuje kreatywne rozwiązania programistyczne, tworzenie stron WWW, aplikacji i identyfikacji wizualnej. Skontaktuj się z nami, aby zrealizować swój projekt!" />
+      </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-0Q0FPBF0FG" />
       <Script id="google-analytics">
         {`

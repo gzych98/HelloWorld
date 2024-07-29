@@ -112,7 +112,7 @@
 }
 
 .toc ul li a {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 1.2em;
     color: var(--text-color-dark);
     text-decoration: none;
@@ -162,7 +162,7 @@
 }
 
 .article-header .date {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 1.2em;
     color: var(--text-color-dark);
     margin-bottom: 0.5em;
@@ -183,7 +183,7 @@
 }
 
 .article p {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 1.2em;
     color: var(--text-color-dark);
     margin-bottom: 1em;
@@ -198,7 +198,7 @@ pre {
 }
 
 code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: var(--font-code);
     font-size: 1em;
 }
 

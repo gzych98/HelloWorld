@@ -1,3 +1,5 @@
+/* styles_article.css */
+
 .article-cover-container {
     position: relative;
     width: 100%;
@@ -50,10 +52,15 @@
 .code-block {
     position: relative;
     cursor: pointer;
+    margin-bottom: 2em;
 }
 
 .code-block pre {
     margin: 0;
+    background-color: var(--secondary-background-color);
+    padding: 1em;
+    border-radius: 10px;
+    overflow-x: auto;
 }
 
 .copy-hint {
@@ -200,6 +207,86 @@ pre {
 code {
     font-family: var(--font-code);
     font-size: 1em;
+}
+
+.social-share {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.social-share a {
+    color: var(--text-color-dark);
+    transition: color 0.3s;
+}
+
+.social-share a:hover {
+    color: var(--secondary-color);
+}
+
+.related-articles {
+    margin-top: 2em;
+    background-color: var(--secondary-background-color);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.related-articles h2 {
+    font-family: var(--font-primary);
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 1em;
+}
+
+.related-articles ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.related-articles ul li {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 0.5em;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.related-articles ul li:hover {
+    background-color: var(--hover-color-light);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.related-articles ul li a {
+    font-family: var(--font-primary);
+    font-size: 1.2em;
+    color: var(--text-color-dark);
+    text-decoration: none;
+}
+
+.related-articles ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.floating-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--secondary-background-color);
+    border-left: 5px solid var(--secondary-color);
+    padding: 1em;
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: 1.2em;
+    color: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
 }
 
 @media (max-width: 1200px) {

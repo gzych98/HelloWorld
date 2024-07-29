@@ -1,12 +1,18 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { Link, Element } from 'react-scroll';
-import ReactMarkdown from 'react-markdown';
 import { MathJax, MathJaxContext } from 'better-react-mathjax';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer_pol from '../../footer';
 import NavBar02 from '@/components/navbar/navbar';
+import Quiz from '@/components/Article/Quiz/Quiz';
 import './styles_article.css';
+import FloatingAlert from '@/components/Article/FloatingAlert/FloatingAlert';
+import TableOfContents from '@/components/Article/TableOfContents/TableOfContents';
+import ArticleHeader from '@/components/Article/ArticleHeader/ArticleHeader';
+import ArticleSection from '@/components/Article/ArticleSection/ArticleSection';
+import SocialShare from '@/components/Article/SocialShare/SocialShare';
+import RelatedArticles from '@/components/Article/RelatedArticles/RelatedArticles';
+
 
 const content = [
     { id: 'intro', title: 'Wprowadzenie' },
@@ -17,6 +23,45 @@ const content = [
     { id: 'libraries', title: 'Popularne biblioteki Pythona' },
     { id: 'resources', title: 'Dodatkowe zasoby' },
     { id: 'conclusion', title: 'Podsumowanie' }
+];
+
+const relatedArticles = [
+    {
+        id: 1,
+        title: 'Interactive Plot Point Picker',
+        link: 'poradniki/image-to-chart',
+    },
+    {
+        id: 2,
+        title: 'Python: Cheat Sheet',
+        link: 'poradniki/cheat-sheet-python',
+    },
+    {
+        id: 3,
+        title: 'Python dla inżyniera',
+        link: 'poradniki/podstawy-python',
+    },
+];
+
+const quizQuestions = [
+    {
+        question: "Jakie jest podstawowe rozszerzenie plików Python?",
+        options: [".py", ".java", ".cpp", ".txt"],
+        answer: ".py",
+        explanation: "Pliki Python mają rozszerzenie .py. To jest podstawowe rozszerzenie używane dla plików zawierających kod Pythona."
+    },
+    {
+        question: "Które z poniższych jest poprawnym operatorem arytmetycznym w Pythonie?",
+        options: ["++", "**", "==", "&&"],
+        answer: "**",
+        explanation: "Operator ** w Pythonie jest używany do potęgowania liczb. Na przykład, 2 ** 3 daje wynik 8."
+    },
+    {
+        question: "Jaką funkcję używa się do wyświetlania tekstu w Pythonie?",
+        options: ["print()", "echo()", "console.log()", "write()"],
+        answer: "print()",
+        explanation: "Funkcja print() w Pythonie jest używana do wyświetlania tekstu i innych danych na standardowym wyjściu (np. konsoli)."
+    }
 ];
 
 const title = "Jak zacząć pracę z Pythonem?";
@@ -253,27 +298,7 @@ Python to potężne narzędzie, które może znacznie ułatwić pracę inżynier
     `
 };
 
-const copyToClipboard = (code, setCopied) => {
-    navigator.clipboard.writeText(code).then(() => {
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
-    }).catch(err => {
-        alert('Wystąpił błąd podczas kopiowania kodu');
-    });
-};
-
-const CodeBlock = ({ code }) => {
-    const [copied, setCopied] = useState(false);
-
-    return (
-        <div className="code-block" onClick={() => copyToClipboard(code, setCopied)}>
-            <pre>{code}</pre>
-            <div className="copy-hint">{copied ? "Skopiowano" : "Kliknij żeby skopiować"}</div>
-        </div>
-    );
-};
-
-export default function ArticlePage() {
+const ArticlePage = () => {
     const [activeSection, setActiveSection] = useState('');
 
     useEffect(() => {
@@ -298,56 +323,17 @@ export default function ArticlePage() {
         <MathJaxContext>
             <main>
                 <NavBar02 />
+                <FloatingAlert message="Na końcu artykułu znajduje się krótki quiz sprawdzający Twoją wiedzę!" duration={5000} />
                 <div className="page" id="how-it-works">
                     <div className="content-container">
-                        <div className="toc">
-                            <h2>Spis treści</h2>
-                            <ul>
-                                {content.map(section => (
-                                    <li key={section.id}>
-                                        <Link
-                                            to={section.id}
-                                            spy={true}
-                                            smooth={true}
-                                            offset={-70}
-                                            duration={0}
-                                            className={activeSection === section.id ? 'active' : ''}
-                                        >
-                                            {section.title}
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
+                        <TableOfContents content={content} activeSection={activeSection} />
                         <div className="article">
-                            <div className="article-cover-container">
-                                <img src={coverImage} alt="Article Cover" className="article-cover" />
-                                <div className="cover-text">wygenerowano przy pomocy sztucznej inteligencji</div>
-                            </div>
-                            <header className="article-header">
-                                <p className="date">{date}</p>
-                                <h1 className="title">{title}</h1>
-                            </header>
+                            <ArticleHeader date={date} title={title} coverImage={coverImage} />
                             {content.map(section => (
-                                <Element key={section.id} name={section.id} id={section.id}>
-                                    <ReactMarkdown
-                                        components={{
-                                            code({node, inline, className, children, ...props}) {
-                                                const match = /language-(\w+)/.exec(className || '')
-                                                return !inline && match ? (
-                                                    <CodeBlock code={String(children).replace(/\n$/, '')} />
-                                                ) : (
-                                                    <code className={className} {...props}>
-                                                        {children}
-                                                    </code>
-                                                )
-                                            }
-                                        }}
-                                    >
-                                        {markdownContent[section.id]}
-                                    </ReactMarkdown>
-                                </Element>
+                                <ArticleSection key={section.id} section={section} markdownContent={markdownContent} quizQuestions={quizQuestions} />
                             ))}
+                            <SocialShare />
+                            <RelatedArticles articles={relatedArticles} />
                         </div>
                     </div>
                 </div>
@@ -355,4 +341,6 @@ export default function ArticlePage() {
             </main>
         </MathJaxContext>
     );
-}
+};
+
+export default ArticlePage;

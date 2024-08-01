@@ -9,9 +9,9 @@
     --background-color: #fff;
     --secondary-background-color: #fcfcfc;
     --hover-color-light: #f3f3f3;
-    --font-primary: 'Source Sans Pro', sans-serif;
-    --font-secondary: 'Source Sans Pro', sans-serif;
-    --font-family--albert-sans: "Albert Sans", sans-serif;
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --font-family--albert-sans: "Open Sans", sans-serif;
     --font-code: 'Source Code Pro', monospace;
     --base-spacing: 8px;
 }

@@ -79,22 +79,22 @@ Python jest jednym z najczęściej wybieranych języków programowania przez in�
 
 ### Instalacja Pythona
 
-1. **Pobierz Pythona**: Przejdź na [oficjalną stronę Pythona](https://www.python.org/downloads/) i pobierz najnowszą wersję dla swojego systemu operacyjnego.
-2. **Zainstaluj Pythona**: Uruchom pobrany plik instalacyjny i postępuj zgodnie z instrukcjami. Pamiętaj, aby zaznaczyć opcję "Add Python to PATH" (Dodaj Pythona do PATH).
+1. Przejdź na [oficjalną stronę Pythona](https://www.python.org/downloads/) i pobierz najnowszą wersję dla swojego systemu operacyjnego.
+2. Uruchom pobrany plik instalacyjny i postępuj zgodnie z instrukcjami. Pamiętaj, aby zaznaczyć opcję "Add Python to PATH" (Dodaj Pythona do PATH).
 
 ### Instalacja edytora kodu
 
 Dla początkujących polecamy [Visual Studio Code (VS Code)](https://code.visualstudio.com/):
-1. **Pobierz VS Code**: Przejdź na [oficjalną stronę Visual Studio Code](https://code.visualstudio.com/) i pobierz edytor dla swojego systemu operacyjnego.
-2. **Zainstaluj VS Code**: Uruchom pobrany plik instalacyjny i postępuj zgodnie z instrukcjami.
+1. Przejdź na [oficjalną stronę Visual Studio Code](https://code.visualstudio.com/) i pobierz edytor dla swojego systemu operacyjnego.
+2. Uruchom pobrany plik instalacyjny i postępuj zgodnie z instrukcjami.
 
 ### Konfiguracja środowiska
 
-1. **Instalacja rozszerzeń**: Po zainstalowaniu VS Code, otwórz edytor i przejdź do sekcji rozszerzeń (ikona rozszerzeń po lewej stronie). Zainstaluj następujące rozszerzenia:
+1. Po zainstalowaniu VS Code, otwórz edytor i przejdź do sekcji rozszerzeń (ikona rozszerzeń po lewej stronie). Zainstaluj następujące rozszerzenia:
     - Python (Microsoft)
     - Pylint (Python)
-2. **Utwórz nowy projekt**: Otwórz VS Code, wybierz "File" > "Open Folder" i utwórz nowy folder dla swojego projektu.
-3. **Utwórz plik Python**: W nowo utworzonym folderze, utwórz nowy plik z rozszerzeniem \`.py\`, np. \`hello_world.py\`.
+2. Otwórz VS Code, wybierz "File" > "Open Folder" i utwórz nowy folder dla swojego projektu.
+3. W nowo utworzonym folderze, utwórz nowy plik z rozszerzeniem \`.py\`, np. \`hello_world.py\`.
 
 `,
     basics: `
@@ -135,9 +135,9 @@ print("Iloraz:", iloraz)    # Wynik: Iloraz: 1.59
 
 Python oferuje różne struktury danych, takie jak listy, słowniki i krotki.
 
-- **Lista**: Lista to uporządkowana kolekcja elementów, które mogą być różnego typu. Listy są definiowane za pomocą nawiasów kwadratowych.
-- **Słownik**: Słownik to nieuporządkowana kolekcja par klucz-wartość. Słowniki są definiowane za pomocą nawiasów klamrowych.
-- **Krotka**: Krotka to uporządkowana kolekcja elementów, które mogą być różnego typu. Krotki są podobne do list, ale są niemodyfikowalne (immutable). Krotki są definiowane za pomocą nawiasów okrągłych.
+- **Lista** to uporządkowana kolekcja elementów, które mogą być różnego typu. Listy są definiowane za pomocą nawiasów kwadratowych.
+- **Słownik** to nieuporządkowana kolekcja par klucz-wartość. Słowniki są definiowane za pomocą nawiasów klamrowych.
+- **Krotka** to uporządkowana kolekcja elementów, które mogą być różnego typu. Krotki są podobne do list, ale są niemodyfikowalne (immutable). Krotki są definiowane za pomocą nawiasów okrągłych.
 
 \`\`\`python
 # Lista
@@ -154,8 +154,8 @@ krotka = (1, 2, 3)
 
 Pętle i instrukcje warunkowe umożliwiają wykonywanie kodu w zależności od warunków.
 
-- **Pętla for**: Umożliwia iterację po elementach kolekcji (np. lista, krotka, słownik).
-- **Instrukcja warunkowa if**: Umożliwia wykonanie określonego fragmentu kodu w zależności od spełnienia określonego warunku.
+- **Pętla for** umożliwia iterację po elementach kolekcji (np. lista, krotka, słownik).
+- **Instrukcja warunkowa if** umożliwia wykonanie określonego fragmentu kodu w zależności od spełnienia określonego warunku.
 
 \`\`\`python
 # Pętla for
@@ -272,12 +272,12 @@ Python jest szeroko stosowany w implementacji algorytmów [uczenia maszynowego](
 
 Python oferuje wiele bibliotek, które wspomagają pracę inżynierów. Oto kilka najpopularniejszych z nich:
 
-- **NumPy**: Biblioteka do obliczeń numerycznych. Umożliwia pracę z wielowymiarowymi tablicami i matrycami oraz zawiera wiele funkcji matematycznych. [NumPy](https://numpy.org/)
-- **Pandas**: Narzędzie do analizy i manipulacji danymi. Umożliwia efektywne zarządzanie i analizę dużych zbiorów danych. [Pandas](https://pandas.pydata.org/)
-- **Matplotlib**: Biblioteka do tworzenia wykresów i wizualizacji danych. Umożliwia tworzenie wysokiej jakości wykresów w różnych formatach. [Matplotlib](https://matplotlib.org/)
-- **SciPy**: Zestaw narzędzi do obliczeń naukowych. Oferuje funkcje do optymalizacji, integracji, rozwiązywania równań różniczkowych i wiele innych. [SciPy](https://scipy.org/)
-- **TensorFlow**: Biblioteka do uczenia maszynowego. Umożliwia tworzenie i trenowanie zaawansowanych modeli machine learning i deep learning. [TensorFlow](https://www.tensorflow.org/)
-- **PyTorch**: Kolejna popularna biblioteka do uczenia maszynowego. Jest znana ze swojej elastyczności i łatwości użycia. [PyTorch](https://pytorch.org/)
+- **NumPy** - biblioteka do obliczeń numerycznych. Umożliwia pracę z wielowymiarowymi tablicami i matrycami oraz zawiera wiele funkcji matematycznych. [NumPy](https://numpy.org/)
+- **Pandas** - narzędzie do analizy i manipulacji danymi. Umożliwia efektywne zarządzanie i analizę dużych zbiorów danych. [Pandas](https://pandas.pydata.org/)
+- **Matplotlib** - biblioteka do tworzenia wykresów i wizualizacji danych. Umożliwia tworzenie wysokiej jakości wykresów w różnych formatach. [Matplotlib](https://matplotlib.org/)
+- **SciPy** - zestaw narzędzi do obliczeń naukowych. Oferuje funkcje do optymalizacji, integracji, rozwiązywania równań różniczkowych i wiele innych. [SciPy](https://scipy.org/)
+- **TensorFlow** - biblioteka do uczenia maszynowego. Umożliwia tworzenie i trenowanie zaawansowanych modeli machine learning i deep learning. [TensorFlow](https://www.tensorflow.org/)
+- **PyTorch** - kolejna popularna biblioteka do uczenia maszynowego. Jest znana ze swojej elastyczności i łatwości użycia. [PyTorch](https://pytorch.org/)
     `,
     resources: `
 ## Dodatkowe zasoby

@@ -1,0 +1,139 @@
+/* Globalne ustawienia */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    color: var(--text-color-dark);
+    overflow: hidden;
+    /* Upewnia się, że nic nie wychodzi poza widok */
+}
+
+/* Główny kontener strony */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    /* Upewnia się, że nic nie wychodzi poza widok */
+}
+
+/* Kontener dla zawartości */
+.real-estate-container {
+    flex: 1;
+    /* Rozciąga kontener na dostępną przestrzeń */
+    display: flex;
+    flex-direction: column;
+    /* Domyślny kierunek układu */
+    padding: 10px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto 0;
+    /* Ustaw margines górny na 80px, centrowanie poziome */
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Upewnia się, że nic nie wychodzi poza kontener */
+}
+
+/* Sekcja wprowadzająca */
+.real-estate-intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Wyśrodkowanie elementów w pionie i poziomie */
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.real-estate-intro-text {
+    padding: 10px;
+}
+
+.real-estate-intro-text h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.real-estate-intro-text p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Sekcja wykresu */
+.real-estate-chart-section {
+    flex: 1;
+    /* Rozciąga wykres na dostępne miejsce */
+    padding: 10px;
+}
+
+/* Sekcja filtrowania */
+.real-estate-content {
+    display: flex;
+    flex-direction: row;
+    /* Umożliwia umieszczenie filtracji i wykresu obok siebie */
+    width: 100%;
+    max-width: 1280px;
+
+}
+
+/* Sekcja filtrowania */
+.real-estate-filter-section {
+    width: 300px;
+    /* Zwiększamy szerokość dla lepszej czytelności */
+    padding: 20px;
+    background-color: #fff;
+    /* Białe tło dla lepszego kontrastu */
+    border-radius: 8px;
+    /* Zaokrąglone rogi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Lekki cień */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.real-estate-filter-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    /* Ciemniejszy kolor tekstu */
+}
+
+.real-estate-filter-section select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    /* Jasne tło */
+    transition: border-color 0.3s ease;
+}
+
+.real-estate-filter-section select:hover {
+    border-color: #007bff;
+    /* Kolor granicy po najechaniu */
+}
+
+.real-estate-filter-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    /* Kolor tła przycisku */
+    color: #fff;
+    /* Kolor tekstu przycisku */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 4px;
+}
+
+.real-estate-filter-section button:hover {
+    background-color: #0056b3;
+    /* Kolor tła przycisku po najechaniu */
+}

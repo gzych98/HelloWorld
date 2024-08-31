@@ -11,6 +11,7 @@ import NavBar from './navbar'
 import Footer from './footer'
 import Script from 'next/script'
 import FacebookLink from '@/components/links/Links'
+import { AuthProvider } from '../fireBase/AuthContext'; // Dodajemy import AuthProvider
 
 const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '700', '900'] })
 const openSans = Open_Sans({ subsets: ['latin'], weight: ['300', '400', '700'] })
@@ -25,19 +26,18 @@ export const metadata: Metadata = {
   description: 'Creative Software Solutions',
 }
 
-
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
         <script src="https://www.google.com/recaptcha/enterprise.js?render=6LftAT4pAAAAAPCVNchOKg3eifc47suFNMHI_Zon" async />
-        {/* Tutaj mogą być inne elementy head, takie jak meta tagi, title itp. */}
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </head>
       <body className={inter.className}>
-        {children}
-        <FacebookLink />
+        <AuthProvider> {/* Opakowujemy w AuthProvider */}
+          {children}
+          <FacebookLink />
+        </AuthProvider>
       </body>
     </html>
   );

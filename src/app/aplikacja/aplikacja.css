@@ -1,0 +1,123 @@
+/* src/app/aplikacja/aplikacja.css */
+
+/* Paleta kolorów */
+:root {
+    --app-primary-color: #007bff;
+    /* Niebieski */
+    --app-primary-hover: #0056b3;
+    /* Ciemniejszy niebieski na hover */
+    --app-secondary-color: #6c757d;
+    /* Szary */
+    --app-secondary-hover: #5a6268;
+    /* Ciemniejszy szary na hover */
+    --app-background-color: #f8f9fa;
+    /* Jasnoszary */
+    --app-text-color: #343a40;
+    /* Ciemnoszary */
+    --app-white: #ffffff;
+    /* Biały */
+    --app-error-color: #dc3545;
+    /* Czerwony na błędy */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--app-background-color);
+    color: var(--app-text-color);
+}
+
+
+
+.navbar-placeholder {
+    height: 80px;
+    /* Wysokość navbaru */
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-form {
+    background: var(--app-white);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--app-primary-color);
+    color: var(--app-white);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: var(--app-primary-hover);
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    color: var(--app-primary-color);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.toggle-button:hover {
+    color: var(--app-primary-hover);
+}
+
+
+
+.footer {
+    background-color: var(--app-secondary-color);
+    color: var(--app-white);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    /* Cała wysokość widoczna */
+    width: 100%;
+    margin-bottom: 10px;
+}

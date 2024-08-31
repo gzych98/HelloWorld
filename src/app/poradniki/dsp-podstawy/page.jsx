@@ -23,10 +23,8 @@ const content = [
 
 const markdownContent = {
     intro: `
-## Wprowadzenie
 
 Digital Signal Processing (DSP) to technika przetwarzania sygnałów cyfrowych, która znajduje zastosowanie w wielu dziedzinach, takich jak telekomunikacja, audio, obrazowanie medyczne i wiele innych. W tym artykule omówimy podstawowe zagadnienia DSP, jego zastosowania oraz narzędzia, które można wykorzystać w praktyce. Poradniki zawierają również przykładowy kod z objaśnieniami, dzięki czemu możesz łatwo zrozumieć i zastosować przedstawione rozwiązania. Każdy fragment kodu można skopiować do swojego edytora tekstu, co znacznie ułatwia naukę i wdrażanie nowych umiejętności.
-
     `,
     setup: `
 ## Podstawy DSP

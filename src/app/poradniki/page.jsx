@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import Footer_pol from '../footer';
-import NavBar_pol from '../navbar';
 import './styles-page.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar02 from '@/components/navbar/navbar';

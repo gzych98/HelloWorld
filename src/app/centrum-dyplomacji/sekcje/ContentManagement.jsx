@@ -10,6 +10,7 @@ export const ContentManagementContent = [
   { id: 'submission-form', title: 'Formularz zgłoszeniowy' },
   { id: 'footer-links', title: 'Linki w stopce' },
   { id: 'allow-svg', title: 'Zezwolenie na dodawanie plików SVG' },
+  { id: 'aktualizuj_elementor', title: 'Nie działa Aktualizacja Elementor' },
 ];
 
 const ContentManagement = ({ handleImageClick }) => (
@@ -104,6 +105,12 @@ const ContentManagement = ({ handleImageClick }) => (
     <p>5. Zapisz zmiany.</p>
     <img src="svg3.png" alt="Zapisanie zmian" onClick={() => handleImageClick('svg3.png')} />
     <p>Po wykonaniu powyższych kroków będziesz mógł przesyłać pliki SVG do biblioteki multimediów WordPress.</p>
+    <h2 id="aktualizuj_elementor">Nie działa "Aktualizuj" w Elementorze</h2>
+    <p>Jest to błąd, który pojawia się po aktualizacji Elementora. Mimo że nie działa główny przycisk wprowadzone zmiany nadal można zapisać i nie utracić postępu prac</p>
+    
+    <img src="error_elementor_1.png" alt="Błąd przycisku Aktualizuj" onClick={() => handleImageClick('error_elementor_1.png')} />
+    
+    <img src="error_elementor_2.png" alt="Błąd przycisku Aktualizuj" onClick={() => handleImageClick('error_elementor_2.png')} />
   </>
 );
 

@@ -1,0 +1,6 @@
+/* components/InfoPage/InfoPage.css */
+.info-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

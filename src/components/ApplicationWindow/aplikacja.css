@@ -1,0 +1,90 @@
+/* Root variables for consistent styling */
+:root {
+    --app-primary-color: #007BFF;
+    --app-secondary-color: #6C757D;
+    --app-success-color: #28A745;
+    --app-danger-color: #DC3545;
+    --app-warning-color: #FFC107;
+    --app-info-color: #17A2B8;
+    --app-light-grey: #F8F9FA;
+    --app-dark-grey: #343A40;
+    --app-white: #FFFFFF;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 70.0vh;
+    width: 100%;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background: var(--app-white);
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 80px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-sidebar {
+    width: 250px;
+    background: var(--app-light-grey);
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-sidebar h2 {
+    margin-top: 0;
+}
+
+.custom-sidebar-links a {
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+    color: var(--app-dark-grey);
+    font-size: 1em;
+}
+
+.user-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-panel span {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.user-panel button {
+    padding: 5px 10px;
+    background-color: var(--app-secondary-color);
+    color: var(--app-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-panel button:hover {
+    background-color: var(--app-dark-grey);
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--app-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    /* Gap between sidebar and main content */
+}

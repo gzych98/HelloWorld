@@ -10,8 +10,10 @@ import NavBar02 from '@/components/navbar/navbar';
 import ApplicationWindow from '@/components/ApplicationWindow/ApplicationWindow';
 import TaskListPage from '@/components/ApplicationWindow/TaskList/TaskList';
 import InfoPage from '@/components/ApplicationWindow/Info/Info';
+import Settings from '@/components/ApplicationWindow/Settings/Settings';
 import Statistics from '@/components/ApplicationWindow/Statistics/Statistics';
 import './aplikacja.css';
+import SettingsPage from '@/components/ApplicationWindow/Settings/Settings';
 
 const LoginPage = () => {
   const { currentUser } = useAuth();
@@ -33,6 +35,7 @@ const LoginPage = () => {
                 <Route path="task-list" element={<TaskListPage />} />
                 <Route path="statistics" element={<Statistics />} />
                 <Route path="info" element={<InfoPage />} />
+                <Route path="settings" element={<SettingsPage />} />
               </Route>
             </Routes>
           </Router>

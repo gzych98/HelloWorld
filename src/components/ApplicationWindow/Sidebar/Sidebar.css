@@ -1,46 +1,110 @@
-/* components/Sidebar/Sidebar.css */
 .custom-sidebar {
     width: 250px;
-    background: var(--app-light-grey);
+    background: var(--app-white);
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Arial, sans-serif;
 }
 
-.custom-sidebar h2 {
-    margin-top: 0;
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: var(--app-primary-color);
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--app-dark-grey);
 }
 
-.custom-sidebar-links a {
-    display: block;
+.custom-sidebar-links {
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
     margin: 15px 0;
     text-decoration: none;
     color: var(--app-dark-grey);
-    font-size: 1em;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+.sidebar-link:hover {
+    background-color: var(--app-primary-color);
+    color: var(--app-white);
+}
+
+.sidebar-icon {
+    margin-right: 10px;
+}
+
+/* PANEL UŻYTKOWNIKA NA DOLE MENU */
 
 .user-panel {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-top: 1px solid var(--app-dark-grey);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--app-white);
+    /* border-radius: 10px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.user-icon {
+    margin-bottom: 10px;
+    color: var(--app-primary-color);
+    font-size: 2em;
+    /* Powiększenie ikony użytkownika */
+    background-color: var(--app-light-grey);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .user-panel span {
-    margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
+    /* Większy rozmiar czcionki */
+    color: var(--app-dark-grey);
+    margin-bottom: 15px;
 }
 
-.user-panel button {
-    padding: 5px 10px;
+.logout-button {
+    padding: 10px 15px;
     background-color: var(--app-secondary-color);
     color: var(--app-white);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
 }
 
-.user-panel button:hover {
+.logout-button:hover {
     background-color: var(--app-dark-grey);
+}
+
+.button-icon {
+    margin-right: 5px;
 }

@@ -2,22 +2,15 @@
 
 /* Paleta kolorów */
 :root {
-    --app-primary-color: #007bff;
-    /* Niebieski */
-    --app-primary-hover: #0056b3;
-    /* Ciemniejszy niebieski na hover */
-    --app-secondary-color: #6c757d;
-    /* Szary */
-    --app-secondary-hover: #5a6268;
-    /* Ciemniejszy szary na hover */
-    --app-background-color: #f8f9fa;
-    /* Jasnoszary */
-    --app-text-color: #343a40;
-    /* Ciemnoszary */
-    --app-white: #ffffff;
-    /* Biały */
-    --app-error-color: #dc3545;
-    /* Czerwony na błędy */
+    --app-primary-color: #007BFF;
+    --app-secondary-color: #6C757D;
+    --app-success-color: #28A745;
+    --app-danger-color: #DC3545;
+    --app-warning-color: #FFC107;
+    --app-info-color: #17A2B8;
+    --app-light-grey: #F8F9FA;
+    --app-dark-grey: #343A40;
+    --app-white: #FFFFFF;
 }
 
 html,

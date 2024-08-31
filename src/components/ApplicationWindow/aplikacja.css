@@ -1,20 +1,6 @@
-/* Root variables for consistent styling */
-:root {
-    --app-primary-color: #007BFF;
-    --app-secondary-color: #6C757D;
-    --app-success-color: #28A745;
-    --app-danger-color: #DC3545;
-    --app-warning-color: #FFC107;
-    --app-info-color: #17A2B8;
-    --app-light-grey: #F8F9FA;
-    --app-dark-grey: #343A40;
-    --app-white: #FFFFFF;
-}
-
 .app-container {
     display: flex;
     flex-direction: column;
-    height: 70.0vh;
     width: 100%;
 }
 
@@ -22,12 +8,12 @@
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    background: var(--app-white);
+    /* background: var(--app-white); */
     border-radius: 10px;
     width: 100%;
     margin: 20px auto;
     margin-top: 80px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
 }
 
 .custom-sidebar {

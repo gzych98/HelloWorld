@@ -17,7 +17,7 @@ const SignIn: React.FC = () => {
         try {
             const userCredential = await signInWithEmailAndPassword(auth, email, password);
             const user = userCredential.user;
-            alert(`User logged in successfully: ${user.email}`);
+            // alert(`User logged in successfully: ${user.email}`);
         } catch (error: any) {
             setError('Invalid email or password. Please try again.');
         }

@@ -64,20 +64,6 @@ body {
     font-size: 16px;
 }
 
-.login-form button {
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--app-primary-color);
-    color: var(--app-white);
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.login-form button:hover {
-    background-color: var(--app-primary-hover);
-}
 
 .toggle-button {
     background: none;
@@ -113,4 +99,126 @@ body {
     /* Cała wysokość widoczna */
     width: 100%;
     margin-bottom: 10px;
+}
+
+/* Stylizacja błędnych wiadomości */
+.error-message {
+    color: var(--app-danger-color);
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Stylizacja komunikatu resetowania hasła */
+.reset-message {
+    color: var(--app-success-color);
+    background-color: #d4edda;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Kontener hasła z podglądem */
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    flex: 1;
+    padding-right: 40px;
+    /* Miejsce na ikonę */
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: var(--app-secondary-color);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Stylizacja przycisków */
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button .button-icon {
+    margin-right: 10px;
+}
+
+/* Stylizacja przycisku logowania */
+.login-button {
+    background-color: var(--app-dark-grey);
+    /* Żółte tło */
+    color: var(--app-white);
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    /* Ciemniejszy niebieski przy hover */
+    color: #F8F9FA;
+    /* Jasnoszara czcionka przy hover */
+}
+
+/* Stylizacja przycisku przypomnienia hasła */
+.forgot-password-button {
+    background-color: var(--app-dark-grey);
+    /* Żółte tło */
+    color: var(--app-white);
+    /* Ciemnoszara czcionka */
+    margin-top: 10px;
+}
+
+.forgot-password-button:hover {
+    background-color: #e0a800;
+    /* Ciemniejszy żółty przy hover */
+    color: #FFFFFF;
+    /* Biała czcionka przy hover */
+}
+
+/* Stylizacja przycisków social login */
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.google-button {
+    background-color: #db4437;
+    color: var(--app-white);
+}
+
+.google-button:hover {
+    background-color: #c53728;
+    color: var(--app-light-grey);
+}
+
+.facebook-button {
+    background-color: #4267b2;
+    color: var(--app-white);
+}
+
+.facebook-button:hover {
+    background-color: #365899;
+    color: var(--app-light-grey);
 }

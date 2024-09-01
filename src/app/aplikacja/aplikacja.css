@@ -1,16 +1,26 @@
 /* src/app/aplikacja/aplikacja.css */
 
 /* Paleta kolorów */
+/* Zaktualizowana paleta kolorów */
 :root {
-    --app-primary-color: #007BFF;
-    --app-secondary-color: #6C757D;
-    --app-success-color: #28A745;
-    --app-danger-color: #DC3545;
-    --app-warning-color: #FFC107;
-    --app-info-color: #17A2B8;
-    --app-light-grey: #F8F9FA;
-    --app-dark-grey: #343A40;
+    --app-primary-color: #20B2AA;
+    /* Nowy kolor główny (Teal) */
+    --app-secondary-color: #5A6268;
+    /* Trochę ciemniejszy szary */
+    --app-success-color: #2ECC71;
+    /* Jaśniejszy zielony sukcesu */
+    --app-danger-color: #E74C3C;
+    /* Intensywniejszy czerwony */
+    --app-warning-color: #F39C12;
+    /* Cieplejszy pomarańczowy */
+    --app-info-color: #3498DB;
+    /* Łagodniejszy niebieski */
+    --app-light-grey: #F0F3F4;
+    /* Bardziej subtelny jasny szary */
+    --app-dark-grey: #2C3E50;
+    /* Głębszy ciemny szary */
     --app-white: #FFFFFF;
+    /* Biały */
 }
 
 html,

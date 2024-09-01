@@ -1,4 +1,5 @@
 'use client'
+// src\components\ApplicationWindow\TaskList\TaskList.tsx
 import React, { useState, useEffect } from 'react';
 import './TaskList.css';
 import { db, auth } from '../../../fireBase/firebaseConfig';
@@ -54,45 +55,60 @@ const TaskList: React.FC<TaskListProps> = () => {
 
     const addTask = async () => {
         const newTask: Task = {
-            id: '',
+            id: '',  // Początkowo puste ID
             name: newTaskName,
             duration: newTaskDuration,
             timeSpent: 0,
             completed: false,
         };
 
-        const taskId = await addTaskToFirebase(newTask);
-        if (taskId) {
-            newTask.id = taskId;
+        try {
+            // Dodanie nowego dokumentu do Firestore
+            const docRef = await addDoc(collection(db, 'users', auth.currentUser!.uid, 'tasks'), {
+                name: newTask.name,
+                duration: newTask.duration,
+                timeSpent: newTask.timeSpent,
+                completed: newTask.completed,
+            });
+
+            // Przypisanie ID dokumentu do obiektu Task
+            newTask.id = docRef.id;
+
+            // Zaktualizowanie stanu zadań
             setTasks([...tasks, newTask]);
+
+            // Czyszczenie pól po dodaniu zadania
+            setNewTaskName('');
+            setNewTaskDuration(0);
+
+            console.log("New task added with ID:", newTask.id);
+        } catch (error) {
+            console.error("Error adding task:", error);
         }
-        setNewTaskName('');
-        setNewTaskDuration(0);
     };
 
-    const handleTimerCompletion = async (taskId: string) => {
-        if (auth.currentUser) {
-            const taskRef = doc(db, 'users', auth.currentUser.uid, 'tasks', taskId);
-            const task = tasks.find(task => task.id === taskId);
-            if (task) {
-                const updatedTask = { ...task, timeSpent: task.timeSpent + task.duration };
-                await updateDoc(taskRef, { timeSpent: updatedTask.timeSpent });
-                setTasks(tasks.map(t => (t.id === taskId ? updatedTask : t)));
-            }
-        }
-    };
 
     const handleDeleteTask = async () => {
         if (taskToDelete && auth.currentUser) {
-            const taskRef = doc(db, 'users', auth.currentUser.uid, 'tasks', taskToDelete.id);
-            await deleteDoc(taskRef);
-            setTasks(tasks.filter(task => task.id !== taskToDelete.id));
-            setTaskToDelete(null);
+            console.log("Attempting to delete task with ID:", taskToDelete.id);
+
+            try {
+                const taskRef = doc(db, 'users', auth.currentUser.uid, 'tasks', taskToDelete.id);
+                await deleteDoc(taskRef);
+                setTasks(tasks.filter(task => task.id !== taskToDelete.id));
+                setTaskToDelete(null);
+                console.log("Deleted task with ID:", taskToDelete.id);
+            } catch (e) {
+                console.error("Error deleting document:", e);
+            }
+        } else {
+            console.warn("Cannot delete task: User is not authenticated or task is invalid.");
         }
     };
 
+
     return (
-        <div>
+        <div className="task-list-container">
             <h3>Task List</h3>
             <div className="task-input">
                 <input
@@ -109,25 +125,18 @@ const TaskList: React.FC<TaskListProps> = () => {
                 />
                 <button onClick={addTask}>Add Task</button>
             </div>
-            <ul>
+            <hr className="task-list-divider" />
+            <ul className="task-list">
                 {tasks.map(task => (
-                    <li key={task.id}>
-                        <input
-                            type="checkbox"
-                            checked={task.completed}
-                            onChange={async () => {
-                                if (auth.currentUser) {
-                                    const taskRef = doc(db, 'users', auth.currentUser.uid, 'tasks', task.id);
-                                    await updateDoc(taskRef, { completed: !task.completed });
-                                    setTasks(tasks.map(t =>
-                                        t.id === task.id ? { ...t, completed: !t.completed } : t
-                                    ));
-                                }
-                            }}
-                        />
-                        {task.name} - {task.timeSpent} / {task.duration} minutes
-                        <button onClick={() => onActivateTask && onActivateTask(task)}>Aktywuj zadanie</button>
-                        <button onClick={() => setTaskToDelete(task)}>Delete</button>
+                    <li key={task.id} className="task-list-item">
+                        <div className="task-details">
+                            <span className="task-name">{task.name}</span>
+                            <span className="task-duration">{task.timeSpent} / {task.duration} minutes</span>
+                        </div>
+                        <div className="task-actions">
+                            <button onClick={() => onActivateTask && onActivateTask(task)}>Activate</button>
+                            <button onClick={() => setTaskToDelete(task)}>Delete</button>
+                        </div>
                     </li>
                 ))}
             </ul>

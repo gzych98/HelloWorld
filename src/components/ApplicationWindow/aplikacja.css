@@ -75,6 +75,9 @@
     /* Gap between sidebar and main content */
 }
 
+.facebookLinkContainer {
+    display: none;
+}
 
 
 /* Stylizacja dla ekranów o szerokości poniżej 768px */
@@ -151,7 +154,5 @@
         margin-left: 0;
     }
 
-    .facebookLinkContainer {
-        display: none;
-    }
+
 }

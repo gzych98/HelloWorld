@@ -5,19 +5,20 @@ import { Link } from 'react-router-dom';
 import { FaTasks, FaChartBar, FaInfoCircle, FaSignOutAlt, FaSignInAlt, FaUser, FaCog } from 'react-icons/fa';
 import './Sidebar.css';
 
-const Sidebar: React.FC = () => {
+const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void }> = ({ isOpen, toggleSidebar }) => {
     const [user] = useAuthState(auth);
 
     const handleLogout = () => {
         auth.signOut();
+        toggleSidebar(); // Close sidebar after logout
     };
 
     return (
-        <div className="custom-sidebar">
+        <div className={`custom-sidebar ${isOpen ? 'open' : ''}`}>
             <div className="sidebar-header">
                 <h2>AppName</h2>
             </div>
-            <div className="custom-sidebar-links">
+            <div className="custom-sidebar-links" onClick={toggleSidebar}>
                 <Link to="/task-list" className="sidebar-link">
                     <FaTasks className="sidebar-icon" /> Lista Zadań
                 </Link>
@@ -41,7 +42,7 @@ const Sidebar: React.FC = () => {
                         </button>
                     </div>
                 ) : (
-                    <Link to="/login" className="login-link">
+                    <Link to="/login" className="login-link" onClick={toggleSidebar}>
                         <FaSignInAlt className="button-icon" /> Login
                     </Link>
                 )}

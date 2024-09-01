@@ -1,0 +1,2082 @@
+[
+    {
+        "name": "3 pokojowe mieszkanie wraz z działką RODO",
+        "address": "ul. Przewóz, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "58.1 m²",
+        "pricePerMeter": "21 515 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 250 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-wraz-z-dzialka-rodo-ID4sgMt"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 69m2 + 3 tarasy Bez Prowizji",
+        "address": "ul. Gustawa Ehrenberga, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "69.13 m²",
+        "pricePerMeter": "16 201 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 120 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-69m2-3-tarasy-bez-prowizji-ID4qOCq"
+    },
+    {
+        "name": "Mieszkanie 3-pokojowe, balkon, miejsce parkingowe",
+        "address": "ul. Macieja Dębskiego, Opatkowice, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "49.87 m²",
+        "pricePerMeter": "14 638 zł/m²",
+        "floor": "2 piętro",
+        "price": "730 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-3-pokojowe-balkon-miejsce-parkingowe-ID4qA6m"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 64m2 + loggia Bez Prowizji",
+        "address": "ul. Prochowa, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "64.41 m²",
+        "pricePerMeter": "3 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-64m2-loggia-bez-prowizji-ID4nVKW"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 71m2 + taras Bez Pośredników",
+        "address": "ul. Gustawa Ehrenberga, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "71.23 m²",
+        "pricePerMeter": "19 935 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 420 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-71m2-taras-bez-posrednikow-ID4qOCe"
+    },
+    {
+        "name": "7-pokojowe mieszkanie 172m2 + 2 ogródki",
+        "address": "ul. Kosocicka, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "7 pokoi",
+        "floorSize": "172.1 m²",
+        "pricePerMeter": "11 615 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 999 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/7-pokojowe-mieszkanie-172m2-2-ogrodki-ID4qntG"
+    },
+    {
+        "name": "Mieszkanie 2-pokojowe, Prokocim-Bieżanów",
+        "address": "ul. Erazma Jerzmanowskiego, Prokocim, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "49.96 m²",
+        "pricePerMeter": "14 812 zł/m²",
+        "floor": "1 piętro",
+        "price": "740 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-2-pokojowe-prokocim-biezanow-ID4rGU1"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 41m2 + balkon Bezpośrednio",
+        "address": "ul. Portowa, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "41.65 m²",
+        "pricePerMeter": "19 808 zł/m²",
+        "floor": "1 piętro",
+        "price": "825 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-41m2-balkon-bezposrednio-ID4pBkq"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 55m2 + 2 balkony",
+        "address": "ul. Piaskowa, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "55.1 m²",
+        "pricePerMeter": "14 200 zł/m²",
+        "floor": "2 piętro",
+        "price": "782 420 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-2-balkony-ID4lGi3"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 48m2 + balkon Bezpośrednio",
+        "address": "ul. Do Wilgi, Cegielniana, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "48.27 m²",
+        "pricePerMeter": "3 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-48m2-balkon-bezposrednio-ID4qJqN"
+    },
+    {
+        "name": "Apartament z widokiem 75.6m2 (92 m2)+miejsce post.",
+        "address": "ul. Różana, Wieliczka, Wieliczka, wielicki, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "75.6 m²",
+        "pricePerMeter": "10 966 zł/m²",
+        "floor": "2 piętro",
+        "price": "829 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-z-widokiem-75-6m2-92-m2-miejsce-post-ID4pTKS"
+    },
+    {
+        "name": "3 pokojowe ♥ | Wysoki standard | Garaż | Balkon",
+        "address": "ul. Myśliwska, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "55.43 m²",
+        "pricePerMeter": "17 951 zł/m²",
+        "floor": "2 piętro",
+        "price": "995 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-wysoki-standard-garaz-balkon-ID4rGTT"
+    },
+    {
+        "name": "Apartament 62,29m2 z tarasem 37m2, Bronowice",
+        "address": "ul. Na Polach, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "62.29 m²",
+        "pricePerMeter": "14 754 zł/m²",
+        "floor": "3 piętro",
+        "price": "919 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-62-29m2-z-tarasem-37m2-bronowice-ID4hOQD"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 70m2 + balkon Bezpośrednio",
+        "address": "ul. Racławicka, Krowodrza, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "70.61 m²",
+        "pricePerMeter": "5 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-70m2-balkon-bezposrednio-ID4fTqu"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 39m2 + balkon Bez Prowizji",
+        "address": "ul. Bartosza Głowackiego, Bronowice, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "39.42 m²",
+        "pricePerMeter": "4 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-39m2-balkon-bez-prowizji-ID4msNO"
+    },
+    {
+        "name": "Piasta Towers | mieszkanie 3-pok. | 86A_15",
+        "address": "os. Bohaterów Września, Mistrzejowice, Mistrzejowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "66.72 m²",
+        "pricePerMeter": "12 200 zł/m²",
+        "floor": "2 piętro",
+        "price": "813 984 zł",
+        "url": "https://www.otodom.pl/pl/oferta/piasta-towers-mieszkanie-3-pok-86a-15-ID4nGX0"
+    },
+    {
+        "name": "Podgórze Duchackie |2 pokoje|Bochenka 12B| 41.21m2",
+        "address": "ul. Adama Bochenka 12b, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "41.24 m²",
+        "pricePerMeter": "15 761 zł/m²",
+        "floor": "2 piętro",
+        "price": "650 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/podgorze-duchackie-2-pokoje-bochenka-12b-41-21m2-ID4qElp"
+    },
+    {
+        "name": "1-pokojowe mieszkanie 28m2 + balkon Bez Prowizji",
+        "address": "ul. Stefana Banacha, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "28.96 m²",
+        "pricePerMeter": "4 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-28m2-balkon-bez-prowizji-ID4rUKP"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 61m2 + taras Bez Prowizji",
+        "address": "ul. Józefa Chełmońskiego, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "61.94 m²",
+        "pricePerMeter": "14 700 zł/m²",
+        "floor": "1 piętro",
+        "price": "910 518 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-61m2-taras-bez-prowizji-ID4rAH8"
+    },
+    {
+        "name": "ul.Macieja Dębskiego 58m2 3pok 2ogródki PREMIUM",
+        "address": "ul. Macieja Dębskiego, Opatkowice, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "58 m²",
+        "pricePerMeter": "15 000 zł/m²",
+        "floor": "parter",
+        "price": "870 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/ul-macieja-debskiego-58m2-3pok-2ogrodki-premium-ID4r1mj"
+    },
+    {
+        "name": "ul. Żelazowskiego - Kraków - 43m2 - 2pok + parking",
+        "address": "ul. Romana Żelazowskiego, Kosocice, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "43 m²",
+        "pricePerMeter": "13 930 zł/m²",
+        "floor": "parter",
+        "price": "599 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/ul-zelazowskiego-krakow-43m2-2pok-parking-ID4rfjo"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 66m2 + balkon Bezpośrednio",
+        "address": "ul. Gustawa Morcinka, Zesławice, Wzgórza Krzesławickie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "66.72 m²",
+        "pricePerMeter": "2 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-66m2-balkon-bezposrednio-ID4nHUI"
+    },
+    {
+        "name": "5-pokojowe mieszkanie 103m2 + 3 balkony",
+        "address": "ul. Półłanki, Rybitwy, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "103.69 m²",
+        "pricePerMeter": "12 778 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 324 944 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowe-mieszkanie-103m2-3-balkony-ID4iOH9"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 38m2 + ogródek",
+        "address": "ul. Pana Tadeusza, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "38.51 m²",
+        "pricePerMeter": "parter",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-38m2-ogrodek-ID4rG21"
+    },
+    {
+        "name": "Apartament 3 pokoje + ogródek, Wola Justowska",
+        "address": "ul. Królowej Jadwigi, Chełm, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "52.65 m²",
+        "pricePerMeter": "16 900 zł/m²",
+        "floor": "parter",
+        "price": "889 785 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-3-pokoje-ogrodek-wola-justowska-ID4ksyH"
+    },
+    {
+        "name": "Apartament 5 pokoi + taras, Wola Justowska",
+        "address": "ul. Królowej Jadwigi, Chełm, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "118.31 m²",
+        "pricePerMeter": "15 502 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 834 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-5-pokoi-taras-wola-justowska-ID4ksyL"
+    },
+    {
+        "name": "Apartament - 2 pokoje w kamienicy po remoncie",
+        "address": "Stare Miasto, Stare Miasto, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "42.58 m²",
+        "pricePerMeter": "28 347 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 207 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-2-pokoje-w-kamienicy-po-remoncie-ID4r0SJ"
+    },
+    {
+        "name": "Mieszkanie Chełmońskiego 49 m2 na sprzedaż",
+        "address": "ul. Józefa Chełmońskiego, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "49 m²",
+        "pricePerMeter": "18 347 zł/m²",
+        "floor": "2 piętro",
+        "price": "899 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-chelmonskiego-49-m2-na-sprzedaz-ID4sfCm"
+    },
+    {
+        "name": "Emaus Garden • Inwestycyjne • Bez PCC • Ogródek",
+        "address": "ul. Piotra Borowego 37, Zwierzyniec, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "44.55 m²",
+        "pricePerMeter": "24 599 zł/m²",
+        "floor": "parter",
+        "price": "1 095 900 zł",
+        "url": "https://www.otodom.pl/pl/oferta/emaus-garden-inwestycyjne-bez-pcc-ogrodek-ID4qMyk"
+    },
+    {
+        "name": "4 pokoje, ogród, taras, parking...",
+        "address": "ul. Marii Grzegorzewskiej, Skotniki, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "80 m²",
+        "pricePerMeter": "11 625 zł/m²",
+        "floor": "parter",
+        "price": "930 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokoje-ogrod-taras-parking-ID4sequ"
+    },
+    {
+        "name": "7-pokojowe mieszkanie 171m2 + ogródek Bez Prowizji",
+        "address": "ul. Kosocicka, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "7 pokoi",
+        "floorSize": "171.61 m²",
+        "pricePerMeter": "11 357 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 949 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/7-pokojowe-mieszkanie-171m2-ogrodek-bez-prowizji-ID4qntu"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 137m2 + 2 tarasy",
+        "address": "ul. Władysława Łokietka, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "137.4 m²",
+        "pricePerMeter": "11 921 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 638 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-137m2-2-tarasy-ID4lZuD"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 72m2 + ogródek Bez Prowizji",
+        "address": "ul. Piaszczysta 12, Prądnik Biały, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "72.1 m²",
+        "pricePerMeter": "13 200 zł/m²",
+        "floor": "parter",
+        "price": "951 720 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-72m2-ogrodek-bez-prowizji-ID4nJuf"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 67m2 + balkon Bez Prowizji",
+        "address": "ul. Kordiana, Kurdwanów, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "67.76 m²",
+        "pricePerMeter": "14 000 zł/m²",
+        "floor": "6 piętro",
+        "price": "948 640 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-67m2-balkon-bez-prowizji-ID4mz7U"
+    },
+    {
+        "name": "5-pokojowe mieszkanie 80m2 + balkon Bezpośrednio",
+        "address": "ul. Łagiewnicka, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "80.94 m²",
+        "pricePerMeter": "15 200 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 230 288 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowe-mieszkanie-80m2-balkon-bezposrednio-ID4rGHb"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 65m2 + ogródek Bezpośrednio",
+        "address": "ul. Stawowa, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "65.39 m²",
+        "pricePerMeter": "14 600 zł/m²",
+        "floor": "parter",
+        "price": "954 694 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-65m2-ogrodek-bezposrednio-ID4nsux"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 88m2 + loggia Bezpośrednio",
+        "address": "ul. Kobierzyńska, Ruczaj, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "88.02 m²",
+        "pricePerMeter": "16 500 zł/m²",
+        "floor": "4 piętro",
+        "price": "1 452 330 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-88m2-loggia-bezposrednio-ID4l1xA"
+    },
+    {
+        "name": "5-pokojowe mieszkanie 99m2 + 2 ogródki",
+        "address": "ul. ks. Stanisława Truszkowskiego, Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "99.7 m²",
+        "pricePerMeter": "12 714 zł/m²",
+        "floor": "parter",
+        "price": "1 267 586 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowe-mieszkanie-99m2-2-ogrodki-ID4dtVB"
+    },
+    {
+        "name": "Nowoczesny apartament do zamieszkania od zaraz",
+        "address": "Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "52 m²",
+        "pricePerMeter": "15 385 zł/m²",
+        "floor": "2 piętro",
+        "price": "800 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowoczesny-apartament-do-zamieszkania-od-zaraz-ID4sgPq"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 70m2 + balkon Bez Prowizji",
+        "address": "ul. Bolesława Czerwieńskiego, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "70.42 m²",
+        "pricePerMeter": "14 750 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 038 695 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-70m2-balkon-bez-prowizji-ID4h2Go"
+    },
+    {
+        "name": "Open Space/ Genialna Lokalizacja/Możl. 3 pok.",
+        "address": "ul. Kotlarska, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "72 m²",
+        "pricePerMeter": "17 917 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 290 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/open-space-genialna-lokalizacja-mozl-3-pok-ID4q3oq"
+    },
+    {
+        "name": "Nowe Branice | mieszkanie 3-pok. | M17",
+        "address": "ul. Edwarda Szymańskiego, Branice, Nowa Huta, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "44.66 m²",
+        "pricePerMeter": "12 000 zł/m²",
+        "floor": "parter",
+        "price": "535 920 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowe-branice-mieszkanie-3-pok-m17-ID4rUGZ"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 51m2 + balkon",
+        "address": "ul. Pękowicka 94, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "51.42 m²",
+        "pricePerMeter": "14 700 zł/m²",
+        "floor": "1 piętro",
+        "price": "755 874 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-51m2-balkon-ID4s7Le"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 81m2 + balkon Bez Prowizji",
+        "address": "ul. Pękowicka 96, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "81.93 m²",
+        "pricePerMeter": "13 900 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 138 827 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-81m2-balkon-bez-prowizji-ID4r66R"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 67m2 + ogródek Bezpośrednio",
+        "address": "ul. Wojciecha z Brudzewa, Bieżanów, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "67.89 m²",
+        "pricePerMeter": "parter",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-ogrodek-bezposrednio-ID4rWJF"
+    },
+    {
+        "name": "2-pokojowe mieszkanie ze świetną komunikacją",
+        "address": "ul. Lucjana Rydla, Bronowice, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "47.44 m²",
+        "pricePerMeter": "16 231 zł/m²",
+        "floor": "parter",
+        "price": "770 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-ze-swietna-komunikacja-ID4rn3r"
+    },
+    {
+        "name": "Mieszkanie do wykończenia blisko Zakrzówka",
+        "address": "ul. gen. Stefana Grota-Roweckiego, Zakrzówek, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "52 m²",
+        "pricePerMeter": "15 000 zł/m²",
+        "floor": "3 piętro",
+        "price": "780 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-do-wykonczenia-blisko-zakrzowka-ID4qImD"
+    },
+    {
+        "name": "Kraków - Kurdwanów - mieszkanie 1-pok blisko MPK!",
+        "address": "Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "37.5 m²",
+        "pricePerMeter": "13 573 zł/m²",
+        "floor": "parter",
+        "price": "509 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/krakow-kurdwanow-mieszkanie-1-pok-blisko-mpk-ID4seQ9"
+    },
+    {
+        "name": "Nowe 3-pok. mieszkanie przy Parku Rzecznym Wilga!",
+        "address": "ul. Kobierzyńska 8, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "64.77 m²",
+        "pricePerMeter": "21 584 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 398 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowe-3-pok-mieszkanie-przy-parku-rzecznym-wilga-ID4sgPi"
+    },
+    {
+        "name": "Kawalerka do wejścia 20 m2-dobry dojazd do centrum",
+        "address": "ul. Okólna, Kozłówka, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "20 m²",
+        "pricePerMeter": "19 950 zł/m²",
+        "floor": "1 piętro",
+        "price": "399 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/kawalerka-do-wejscia-20-m2-dobry-dojazd-do-centrum-ID4sgHc"
+    },
+    {
+        "name": "Przytulna kawalerka na ul. Bochnaka",
+        "address": "ul. prof. Adama Bochnaka, Wróblowice, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "13.6 m²",
+        "pricePerMeter": "10 221 zł/m²",
+        "floor": "2 piętro",
+        "price": "139 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/przytulna-kawalerka-na-ul-bochnaka-ID4s7KB"
+    },
+    {
+        "name": "Nowoczesne 3-pokojowe | ul. Pachońskiego | Parking",
+        "address": "Krowodrza, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "68.08 m²",
+        "pricePerMeter": "16 143 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 099 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowoczesne-3-pokojowe-ul-pachonskiego-parking-ID4rkeN"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 67m2 + loggia",
+        "address": "ul. Republiki Korczakowskiej, Prokocim, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "67.96 m²",
+        "pricePerMeter": "14 300 zł/m²",
+        "floor": "5 piętro",
+        "price": "971 828 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-67m2-loggia-ID4sddI"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 60m2 + loggia Bez Prowizji",
+        "address": "ul. Lasówka, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "60.91 m²",
+        "pricePerMeter": "14 100 zł/m²",
+        "floor": "5 piętro",
+        "price": "858 831 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-60m2-loggia-bez-prowizji-ID4pRZQ"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 62m2 + balkon Bez Prowizji",
+        "address": "ul. Myśliwska, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "62.79 m²",
+        "pricePerMeter": "4 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-62m2-balkon-bez-prowizji-ID4r43i"
+    },
+    {
+        "name": "Nowe Mieszkanie w sercu Starego Podgórza",
+        "address": "ul. Kalwaryjska 34, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "49.18 m²",
+        "pricePerMeter": "18 000 zł/m²",
+        "floor": "4 piętro",
+        "price": "885 240 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowe-mieszkanie-w-sercu-starego-podgorza-ID4pLFy"
+    },
+    {
+        "name": "6-pokojowe mieszkanie 121m2 + 2 ogródki",
+        "address": "ul. Kosocicka, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "6 pokoi",
+        "floorSize": "121.76 m²",
+        "pricePerMeter": "12 311 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 499 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/6-pokojowe-mieszkanie-121m2-2-ogrodki-ID4qntB"
+    },
+    {
+        "name": "Czyżyny Bieńczycka 2 pokoje, taras + ogródek 40 m2",
+        "address": "ul. Bieńczycka, Nowa Huta, Nowa Huta, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "41 m²",
+        "pricePerMeter": "15 829 zł/m²",
+        "floor": "parter",
+        "price": "649 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/czyzyny-bienczycka-2-pokoje-taras-ogrodek-40-m2-ID4rZu2"
+    },
+    {
+        "name": "5-pokojowe mieszkanie 137m2 + 3 tarasy",
+        "address": "ul. Jana Sabały, Prądnik Czerwony, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "137.1 m²",
+        "pricePerMeter": "17 637 zł/m²",
+        "floor": "5 piętro",
+        "price": "2 418 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowe-mieszkanie-137m2-3-tarasy-ID4m35g"
+    },
+    {
+        "name": "os. Sportowe, świetny rozkład, ogródek",
+        "address": "Nowa Huta, Nowa Huta, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "65 m²",
+        "pricePerMeter": "10 692 zł/m²",
+        "floor": "parter",
+        "price": "695 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/os-sportowe-swietny-rozklad-ogrodek-ID4rFKA"
+    },
+    {
+        "name": "Wola Duchacka, słoneczne, ustawne z balkonem",
+        "address": "Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "62 m²",
+        "pricePerMeter": "11 452 zł/m²",
+        "floor": "2 piętro",
+        "price": "710 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/wola-duchacka-sloneczne-ustawne-z-balkonem-ID4rF5X"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 65m2 + balkon Bez Prowizji",
+        "address": "pl. Imbramowski, Prądnik Biały, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "65.62 m²",
+        "pricePerMeter": "15 400 zł/m²",
+        "floor": "3 piętro",
+        "price": "1 010 548 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-65m2-balkon-bez-prowizji-ID4qTsv"
+    },
+    {
+        "name": "Mieszkanie 39 m2 z sypialnią w Tarasy Wiślane",
+        "address": "ul. Grzegórzecka 67G, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "39.3 m²",
+        "pricePerMeter": "19 847 zł/m²",
+        "floor": "1 piętro",
+        "price": "780 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-39-m2-z-sypialnia-w-tarasy-wislane-ID4pRTD"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 41m2 + balkon Bez Prowizji",
+        "address": "ul. Kazimierza Siemienowicza, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "41.73 m²",
+        "pricePerMeter": "17 600 zł/m²",
+        "floor": "3 piętro",
+        "price": "734 448 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-41m2-balkon-bez-prowizji-ID4egWr"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 66m2 + balkon",
+        "address": "ul. Przewóz, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "66.57 m²",
+        "pricePerMeter": "13 000 zł/m²",
+        "floor": "3 piętro",
+        "price": "865 410 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-66m2-balkon-ID4mFlK"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 79m2 + balkon Bez Prowizji",
+        "address": "ul. Kobierzyńska, Ruczaj, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "79.79 m²",
+        "pricePerMeter": "14 700 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 172 913 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-79m2-balkon-bez-prowizji-ID4nwQx"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 40m2 + loggia Bezpośrednio",
+        "address": "ul. Do Wilgi, Cegielniana, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "40.6 m²",
+        "pricePerMeter": "2 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-40m2-loggia-bezposrednio-ID4ovsD"
+    },
+    {
+        "name": "The Emaus - apartament z ogródkiem, 4 pokoje",
+        "address": "ul. Emaus, Zwierzyniec, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "126.11 m²",
+        "pricePerMeter": "30 000 zł/m²",
+        "floor": "parter",
+        "price": "3 783 300 zł",
+        "url": "https://www.otodom.pl/pl/oferta/the-emaus-apartament-z-ogrodkiem-4-pokoje-ID4jBTy"
+    },
+    {
+        "name": "4 pokoje, 2 balkony, klimatyzacja, os. Eldorado",
+        "address": "al. Jana Pawła II, Czyżyny, Czyżyny, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "83.92 m²",
+        "pricePerMeter": "19 066 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 600 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokoje-2-balkony-klimatyzacja-os-eldorado-ID4rZrO"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 87m2 + 3 balkony",
+        "address": "ul. Półłanki, Rybitwy, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "87.5 m²",
+        "pricePerMeter": "10 398 zł/m²",
+        "floor": "2 piętro",
+        "price": "909 860 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-87m2-3-balkony-ID4iOH2"
+    },
+    {
+        "name": "The Emaus - apartament z tarasem, 5 pokoi",
+        "address": "ul. Emaus, Zwierzyniec, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "139.08 m²",
+        "pricePerMeter": "35 000 zł/m²",
+        "floor": "1 piętro",
+        "price": "4 867 800 zł",
+        "url": "https://www.otodom.pl/pl/oferta/the-emaus-apartament-z-tarasem-5-pokoi-ID4jC4d"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 58m2 + balkon",
+        "address": "ul. Pana Tadeusza, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "58.87 m²",
+        "pricePerMeter": "1 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-58m2-balkon-ID4rmlL"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 70m2 + taras Bez Prowizji",
+        "address": "ul. Podedworze, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "70.22 m²",
+        "pricePerMeter": "8 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-70m2-taras-bez-prowizji-ID4oOYe"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 56m2 + balkon Bez Prowizji",
+        "address": "Wizjonerów, Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "56.48 m²",
+        "pricePerMeter": "parter",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-56m2-balkon-bez-prowizji-ID4rrN7"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 44m2 + balkon Bezpośrednio",
+        "address": "ul. Pękowicka 94, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "44.23 m²",
+        "pricePerMeter": "15 500 zł/m²",
+        "floor": "1 piętro",
+        "price": "685 565 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-44m2-balkon-bezposrednio-ID4s7L7"
+    },
+    {
+        "name": "wraca do oferty- OSTATNI-GOTOWY DO UŻYTKOWANIA",
+        "address": "Opatkowice, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "86.52 m²",
+        "pricePerMeter": "8088 zł/m²",
+        "floor": "1 piętro",
+        "price": "699 778 zł",
+        "url": "https://www.otodom.pl/pl/oferta/wraca-do-oferty-ostatni-gotowy-do-uzytkowania-ID4q8eZ"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 47m2 + ogródek Bezpośrednio",
+        "address": "Wizjonerów, Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "47.4 m²",
+        "pricePerMeter": "parter",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-47m2-ogrodek-bezposrednio-ID4rrLq"
+    },
+    {
+        "name": "5-pokojowy apartament 271m2 + taras",
+        "address": "ul. Grzegórzecka, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "271.03 m²",
+        "pricePerMeter": "35 000 zł/m²",
+        "floor": "8 piętro",
+        "price": "9 486 050 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowy-apartament-271m2-taras-ID4qu4D"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 59m2 + balkon Bez Prowizji",
+        "address": "ul. Facimiech, Kozłówka, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "59.18 m²",
+        "pricePerMeter": "1 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-59m2-balkon-bez-prowizji-ID4m4CT"
+    },
+    {
+        "name": "5-pokojowe mieszkanie 121m2 + 2 tarasy",
+        "address": "ul. Władysława Łokietka, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "121.05 m²",
+        "pricePerMeter": "11 879 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 438 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowe-mieszkanie-121m2-2-tarasy-ID4lZux"
+    },
+    {
+        "name": "1-pokojowe mieszkanie 34m2 + ogródek",
+        "address": "ul. Do Wilgi, Cegielniana, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "34.76 m²",
+        "pricePerMeter": "parter",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-34m2-ogrodek-ID4ovsW"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 54m2 + loggia Bez Prowizji",
+        "address": "ul. Portowa, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "54.1 m²",
+        "pricePerMeter": "21 534 zł/m²",
+        "floor": "5 piętro",
+        "price": "1 165 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-54m2-loggia-bez-prowizji-ID4pBlq"
+    },
+    {
+        "name": "Casa Feliz Portowa | mieszkanie 2-pok. | M.03.11",
+        "address": "ul. Portowa 16, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "39.71 m²",
+        "pricePerMeter": "3 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/casa-feliz-portowa-mieszkanie-2-pok-m-03-11-ID4rwCh"
+    },
+    {
+        "name": "4 pok | 2 m. postojowe | 2 tarasy | wys. standard",
+        "address": "ul. Rydlówka, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "107.09 m²",
+        "pricePerMeter": "21 010 zł/m²",
+        "floor": "3 piętro",
+        "price": "2 250 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pok-2-m-postojowe-2-tarasy-wys-standard-ID4rq7o"
+    },
+    {
+        "name": "Rydlówka | Rondo Matecznego | Stan deweloperski",
+        "address": "ul. Rydlówka, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "40.04 m²",
+        "pricePerMeter": "18 706 zł/m²",
+        "floor": "3 piętro",
+        "price": "749 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/rydlowka-rondo-matecznego-stan-deweloperski-ID4seAt"
+    },
+    {
+        "name": "3 pokoje, duża loggia budynek 2013r",
+        "address": "ul. Wrocławska, Łobzów, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "56 m²",
+        "pricePerMeter": "17 232 zł/m²",
+        "floor": "1 piętro",
+        "price": "965 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokoje-duza-loggia-budynek-2013r-ID4pMGG"
+    },
+    {
+        "name": "NOWE Mieszkanie z widokami, blisko Wisły 63,1m2",
+        "address": "ul. Senatorska, Zwierzyniec, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "63.1 m²",
+        "pricePerMeter": "20 444 zł/m²",
+        "floor": "4 piętro",
+        "price": "1 290 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowe-mieszkanie-z-widokami-blisko-wisly-63-1m2-ID4rGIb"
+    },
+    {
+        "name": "Dla Rodziny 3 osobne pokoje, przestronne i jasne",
+        "address": "ul. Duża Góra, Bieżanów, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "78.91 m²",
+        "pricePerMeter": "11 393 zł/m²",
+        "floor": "3 piętro",
+        "price": "899 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dla-rodziny-3-osobne-pokoje-przestronne-i-jasne-ID4rbbz"
+    },
+    {
+        "name": "Unikatowe, widokowe dwupoziomowe mieszkanie 130 m2",
+        "address": "ul. Bolesława Orlińskiego, Czyżyny, Czyżyny, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "130 m²",
+        "pricePerMeter": "15 377 zł/m²",
+        "floor": "10+ piętro",
+        "price": "1 999 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/unikatowe-widokowe-dwupoziomowe-mieszkanie-130-m2-ID4pTYq"
+    },
+    {
+        "name": "2 pokoje-na sprzedaż-Gromady Grudziąż-aktualne!",
+        "address": "ul. Gromady Grudziąż, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "47.53 m²",
+        "pricePerMeter": "12 603 zł/m²",
+        "floor": "8 piętro",
+        "price": "599 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokoje-na-sprzedaz-gromady-grudziaz-aktualne-ID4rlRe"
+    },
+    {
+        "name": "3 pokoje | Mogilska | Podwójne miejsce postojowe",
+        "address": "ul. Mogilska, Rakowice, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "53.81 m²",
+        "pricePerMeter": "22 282 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 199 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokoje-mogilska-podwojne-miejsce-postojowe-ID4rGKj"
+    },
+    {
+        "name": "Wysoki Standard| Wawel| do wejścia| z windą",
+        "address": "ul. Józefa Dietla, Kazimierz, Stare Miasto, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "64.72 m²",
+        "pricePerMeter": "27 658 zł/m²",
+        "floor": "3 piętro",
+        "price": "1 790 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/wysoki-standard-wawel-do-wejscia-z-winda-ID4s2Ee"
+    },
+    {
+        "name": "Dwupoziomowe, dla rodziny, ul. Nowohucka",
+        "address": "ul. Nowohucka, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "90.3 m²",
+        "pricePerMeter": "12 458 zł/m²",
+        "floor": "3 piętro",
+        "price": "1 125 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dwupoziomowe-dla-rodziny-ul-nowohucka-ID4sfEh"
+    },
+    {
+        "name": "Dwupoziomowe | 4 Pokoje | Stan Deweloperski",
+        "address": "ul. ks. Stanisława Truszkowskiego, Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "81.78 m²",
+        "pricePerMeter": "12 167 zł/m²",
+        "floor": "1 piętro",
+        "price": "995 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dwupoziomowe-4-pokoje-stan-deweloperski-ID4scE3"
+    },
+    {
+        "name": "3 pokoje | do wejścia | zielona okolica",
+        "address": "ul. Jana Kurczaba, Prokocim, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "56.3 m²",
+        "pricePerMeter": "11 989 zł/m²",
+        "floor": "10+ piętro",
+        "price": "675 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokoje-do-wejscia-zielona-okolica-ID4rZwd"
+    },
+    {
+        "name": "2-pokojowy apartament 56m2 + ogródek Bezpośrednio",
+        "address": "ul. Spiżowa, Małe Błonia, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "56.44 m²",
+        "pricePerMeter": "18 000 zł/m²",
+        "floor": "parter",
+        "price": "1 015 920 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowy-apartament-56m2-ogrodek-bezposrednio-ID4mz65"
+    },
+    {
+        "name": "Mieszkanie w widokiem , Wola duchacka",
+        "address": "ul. Trybuny Ludów, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "37.58 m²",
+        "pricePerMeter": "17 030 zł/m²",
+        "floor": "3 piętro",
+        "price": "640 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-w-widokiem-wola-duchacka-ID4r7Qs"
+    },
+    {
+        "name": "Gotowe, do wejścia, 2 pokoje, 48 m2,",
+        "address": "ul. Malborska, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "48.01 m²",
+        "pricePerMeter": "16 038 zł/m²",
+        "floor": "1 piętro",
+        "price": "770 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/gotowe-do-wejscia-2-pokoje-48-m2-ID4rLUF"
+    },
+    {
+        "name": "5 pokoi + taras | Wola Justowska | 2 ETAP",
+        "address": "ul. Morelowa, Wola Justowska, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "100.72 m²",
+        "pricePerMeter": "17 000 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 712 240 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokoi-taras-wola-justowska-2-etap-ID4mpVZ"
+    },
+    {
+        "name": "Przepiękne 3pok,ZieloneOtocz,Pr.Czerw.Łepkowskiego",
+        "address": "ul. Józefa Łepkowskiego, Prądnik Czerwony, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "54.97 m²",
+        "pricePerMeter": "13 626 zł/m²",
+        "floor": "parter",
+        "price": "749 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/przepiekne-3pok-zieloneotocz-pr-czerw-lepkowskiego-ID4sdZ3"
+    },
+    {
+        "name": "Bronowicka,2pok z potencjałem. Zainwestuj we mnie.",
+        "address": "ul. Bronowicka, Bronowice, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "36 m²",
+        "pricePerMeter": "15 806 zł/m²",
+        "floor": "2 piętro",
+        "price": "569 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/bronowicka-2pok-z-potencjalem-zainwestuj-we-mnie-ID4sg6m"
+    },
+    {
+        "name": "Nowocz. Disain.Brak gazu,2pok,Enklawa Klin-Bartla",
+        "address": "ul. prof. Wojciecha Marii Bartla, Skotniki, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "43.1 m²",
+        "pricePerMeter": "13 898 zł/m²",
+        "floor": "3 piętro",
+        "price": "599 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowocz-disain-brak-gazu-2pok-enklawa-klin-bartla-ID4sg6n"
+    },
+    {
+        "name": "Apartament 4 pokoje + ogródek | Wola Justowska",
+        "address": "ul. Morelowa, Wola Justowska, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "89.1 m²",
+        "pricePerMeter": "17 990 zł/m²",
+        "floor": "parter",
+        "price": "1 602 909 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-4-pokoje-ogrodek-wola-justowska-ID4mpXh"
+    },
+    {
+        "name": "Apartament 4 pokoje + ogródek | Wola Justowska",
+        "address": "ul. Morelowa, Wola Justowska, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "85.68 m²",
+        "pricePerMeter": "17 990 zł/m²",
+        "floor": "parter",
+        "price": "1 541 383 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-4-pokoje-ogrodek-wola-justowska-ID4mpXR"
+    },
+    {
+        "name": "Oryginale mieszkanie z dwoma balkonami",
+        "address": "os. Oświecenia, Mistrzejowice, Mistrzejowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "54.57 m²",
+        "pricePerMeter": "16 841 zł/m²",
+        "floor": "1 piętro",
+        "price": "919 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/oryginale-mieszkanie-z-dwoma-balkonami-ID4rO2t"
+    },
+    {
+        "name": "Osiedle Fi z Miejscem Postojowym",
+        "address": "ul. Tadeusza Szafrana, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "66 m²",
+        "pricePerMeter": "18 939 zł/m²",
+        "floor": "5 piętro",
+        "price": "1 250 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/osiedle-fi-z-miejscem-postojowym-ID4s6KA"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 38m2 + balkon",
+        "address": "pl. Imbramowski, Prądnik Biały, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "38.69 m²",
+        "pricePerMeter": "16 400 zł/m²",
+        "floor": "1 piętro",
+        "price": "634 516 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-38m2-balkon-ID4qTrc"
+    },
+    {
+        "name": "Przytulne mieszkanie ul.Wielicka, duży parking.",
+        "address": "Kabel, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "63.4 m²",
+        "pricePerMeter": "14 393 zł/m²",
+        "floor": "3 piętro",
+        "price": "912 500 zł",
+        "url": "https://www.otodom.pl/pl/oferta/przytulne-mieszkanie-ul-wielicka-duzy-parking-ID4s6q9"
+    },
+    {
+        "name": "61m Loggia✅Taras✅ Piwnica✅ Blisko UJ ✅Cnt. Biznes.",
+        "address": "Ruczaj, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "61.52 m²",
+        "pricePerMeter": "12 988 zł/m²",
+        "floor": "parter",
+        "price": "799 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/61m-loggiataras-piwnica-blisko-uj-cnt-biznes-ID4s3LL"
+    },
+    {
+        "name": "3 pokoje | BALKON | Torfowa",
+        "address": "ul. Torfowa, Ruczaj, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "57.8 m²",
+        "pricePerMeter": "12 928 zł/m²",
+        "floor": "1 piętro",
+        "price": "747 238 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokoje-balkon-torfowa-ID4r33G"
+    },
+    {
+        "name": "5 pokoi | balkon | open space | Ruczaj",
+        "address": "ul. Torfowa, Ruczaj, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "126.7 m²",
+        "pricePerMeter": "12 490 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 582 483 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokoi-balkon-open-space-ruczaj-ID4r34c"
+    },
+    {
+        "name": "2 pokoje | św. Wawrzyńca | Dajwór | balkon",
+        "address": "ul. św. Wawrzyńca, Kazimierz, Stare Miasto, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "34.82 m²",
+        "pricePerMeter": "18 596 zł/m²",
+        "floor": "1 piętro",
+        "price": "647 500 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokoje-sw-wawrzynca-dajwor-balkon-ID4qYdO"
+    },
+    {
+        "name": "ul. Bema | Osiedle Oficerskie | dom wolnostojący",
+        "address": "ul. gen. Józefa Bema, Osiedle Oficerskie, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "35.72 m²",
+        "pricePerMeter": "9071 zł/m²",
+        "floor": "suterena",
+        "price": "324 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/ul-bema-osiedle-oficerskie-dom-wolnostojacy-ID4repF"
+    },
+    {
+        "name": "3-pokojowy apartament 77m2 + ogródek",
+        "address": "ul. Spiżowa, Małe Błonia, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "77.3 m²",
+        "pricePerMeter": "17 750 zł/m²",
+        "floor": "parter",
+        "price": "1 372 075 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowy-apartament-77m2-ogrodek-ID4mz5W"
+    },
+    {
+        "name": "4 pokoje | 2 balkony | jasna kuchnia | Podgórze D.",
+        "address": "ul. Łużycka, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "67.5 m²",
+        "pricePerMeter": "12 800 zł/m²",
+        "floor": "7 piętro",
+        "price": "864 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokoje-2-balkony-jasna-kuchnia-podgorze-d-ID4rdnG"
+    },
+    {
+        "name": "NOWE 3 pok | M Postojowe | BALKON | Górka Narodowa",
+        "address": "ul. Ignacego Grabczaka, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "53.1 m²",
+        "pricePerMeter": "14 991 zł/m²",
+        "floor": "1 piętro",
+        "price": "796 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowe-3-pok-m-postojowe-balkon-gorka-narodowa-ID4rxO9"
+    },
+    {
+        "name": "Piasta Towers | mieszkanie 5-pok. | 86_44",
+        "address": "os. Bohaterów Września, Mistrzejowice, Mistrzejowice, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "100.99 m²",
+        "pricePerMeter": "11 600 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 171 484 zł",
+        "url": "https://www.otodom.pl/pl/oferta/piasta-towers-mieszkanie-5-pok-86-44-ID4nGVe"
+    },
+    {
+        "name": "Mieszkanie 2 pok.z rozległym widokiem Klimatyzacja",
+        "address": "Osiedle Kościuszkowskie, Bieńczyce, Bieńczyce, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "30.7 m²",
+        "pricePerMeter": "12 866 zł/m²",
+        "floor": "10+ piętro",
+        "price": "395 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-2-pok-z-rozleglym-widokiem-klimatyzacja-ID4rb9G"
+    },
+    {
+        "name": "3pokoje,garaż,taras, winda, wyposażone, do wejścia",
+        "address": "Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "67.15 m²",
+        "pricePerMeter": "14 818 zł/m²",
+        "floor": "1 piętro",
+        "price": "995 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3pokoje-garaz-taras-winda-wyposazone-do-wejscia-ID4qxup"
+    },
+    {
+        "name": "Mieszkanie na Zabłociu: Nowa Inwestycja",
+        "address": "ul. Tadeusza Romanowicza, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "41 m²",
+        "pricePerMeter": "19 988 zł/m²",
+        "floor": "1 piętro",
+        "price": "819 500 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-na-zablociu-nowa-inwestycja-ID4rfM2"
+    },
+    {
+        "name": "nowoczesny apartament do wejścia, cisza, zieleń",
+        "address": "Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "125.62 m²",
+        "pricePerMeter": "13 493 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 695 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowoczesny-apartament-do-wejscia-cisza-zielen-ID4pAAT"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 32m2 + balkon",
+        "address": "ul. Portowa, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "32.75 m²",
+        "pricePerMeter": "23 053 zł/m²",
+        "floor": "5 piętro",
+        "price": "755 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-32m2-balkon-ID4pBkI"
+    },
+    {
+        "name": "Olsza ul. Pilotów - 3 pokoje z balkonem - widokowe",
+        "address": "ul. Pilotów, Olsza, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "65.2 m²",
+        "pricePerMeter": "14 248 zł/m²",
+        "floor": "6 piętro",
+        "price": "929 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/olsza-ul-pilotow-3-pokoje-z-balkonem-widokowe-ID4s0at"
+    },
+    {
+        "name": "Na sprzedaż Garden Residence Przemysłowa Zabłocie",
+        "address": "ul. Przemysłowa, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "46.84 m²",
+        "pricePerMeter": "17 079 zł/m²",
+        "floor": "3 piętro",
+        "price": "800 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/na-sprzedaz-garden-residence-przemyslowa-zablocie-ID4sgLr"
+    },
+    {
+        "name": "Mieszkanie z trzema sypialniami przy Zakrzówku",
+        "address": "Zakrzówek, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "56 m²",
+        "pricePerMeter": "15 714 zł/m²",
+        "floor": "parter",
+        "price": "880 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-z-trzema-sypialniami-przy-zakrzowku-ID4reIG"
+    },
+    {
+        "name": "Przestronne mieszkanie na ulicy Jadwigi z Łobzowa",
+        "address": "Bronowice, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "128 m²",
+        "pricePerMeter": "12 109 zł/m²",
+        "floor": "3 piętro",
+        "price": "1 550 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/przestronne-mieszkanie-na-ulicy-jadwigi-z-lobzowa-ID4qcfe"
+    },
+    {
+        "name": "2-Pokojowe W Dobrej Lokalizacji I Cenie",
+        "address": "ul. Młyńska, Rakowice, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "43.5 m²",
+        "pricePerMeter": "13 770 zł/m²",
+        "floor": "4 piętro",
+        "price": "599 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-w-dobrej-lokalizacji-i-cenie-ID4s56G"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 43m2 + ogródek Bezpośrednio",
+        "address": "ul. Jana Sabały, Prądnik Czerwony, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "43.2 m²",
+        "pricePerMeter": "17 616 zł/m²",
+        "floor": "parter",
+        "price": "761 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-43m2-ogrodek-bezposrednio-ID4m35f"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 52m2 + ogródek Bez Prowizji",
+        "address": "ul. Przewóz, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "52 m²",
+        "pricePerMeter": "14 000 zł/m²",
+        "floor": "parter",
+        "price": "728 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-52m2-ogrodek-bez-prowizji-ID4mFlU"
+    },
+    {
+        "name": "Kalwaryjska, klasyczny styl przy Rynku Podgórskim",
+        "address": "ul. Kalwaryjska, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "75.6 m²",
+        "pricePerMeter": "18 519 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 400 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/kalwaryjska-klasyczny-styl-przy-rynku-podgorskim-ID4rEe6"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 67m2 + ogródek",
+        "address": "ul. Stefana Banacha, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "67.5 m²",
+        "pricePerMeter": "parter",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-67m2-ogrodek-ID4pMDn"
+    },
+    {
+        "name": "Słoneczne mieszkanie z dużym tarasem",
+        "address": "Eliasza Radzikowskiego, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "51 m²",
+        "pricePerMeter": "14 686 zł/m²",
+        "floor": "1 piętro",
+        "price": "749 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/sloneczne-mieszkanie-z-duzym-tarasem-ID4rrYM"
+    },
+    {
+        "name": "Widokowe duże mieszkanie w świetnej lokalizacji",
+        "address": "ul. Franciszka Bohomolca, Mistrzejowice, Mistrzejowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "60.92 m²",
+        "pricePerMeter": "13 116 zł/m²",
+        "floor": "3 piętro",
+        "price": "799 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/widokowe-duze-mieszkanie-w-swietnej-lokalizacji-ID4rt5q"
+    },
+    {
+        "name": "REZERWACJA | Nowoczesne M z opcją zakup garażu",
+        "address": "os. Złota Podkowa, Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "55.34 m²",
+        "pricePerMeter": "15 992 zł/m²",
+        "floor": "2 piętro",
+        "price": "885 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/rezerwacja-nowoczesne-m-z-opcja-zakup-garazu-ID4pQGk"
+    },
+    {
+        "name": "Malawskiego/ Miechowity Olsza kawalerka z m.postoj",
+        "address": "ul. Artura Malawskiego, Olsza, Prądnik Czerwony, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "31 m²",
+        "pricePerMeter": "19 323 zł/m²",
+        "floor": "2 piętro",
+        "price": "599 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/malawskiego-miechowity-olsza-kawalerka-z-m-postoj-ID4rAbM"
+    },
+    {
+        "name": "Ładne mieszkanie z ogródkiem blisko centrum 60 m²",
+        "address": "Bronowice, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "60 m²",
+        "pricePerMeter": "14 750 zł/m²",
+        "floor": "parter",
+        "price": "885 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/ladne-mieszkanie-z-ogrodkiem-blisko-centrum-60-m-ID4rEpI"
+    },
+    {
+        "name": "Nowoczesny 4 pok. apartament w standardzie premium",
+        "address": "ul. Rydlówka, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "65.09 m²",
+        "pricePerMeter": "20 500 zł/m²",
+        "floor": "3 piętro",
+        "price": "1 334 345 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowoczesny-4-pok-apartament-w-standardzie-premium-ID4s9Pc"
+    },
+    {
+        "name": "Magnoliowa Polana 3 Wieliczka Kolejny Etap",
+        "address": "Krowodrza, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "98.33 m²",
+        "pricePerMeter": "8000 zł/m²",
+        "floor": "1 piętro",
+        "price": "786 600 zł",
+        "url": "https://www.otodom.pl/pl/oferta/magnoliowa-polana-3-wieliczka-kolejny-etap-ID4qwXD"
+    },
+    {
+        "name": "ul. Totus Tuus Tesoro Verde Residence 57m2",
+        "address": "ul. Totus Tuus, Białe Morza, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "57 m²",
+        "pricePerMeter": "16 900 zł/m²",
+        "floor": "parter",
+        "price": "963 300 zł",
+        "url": "https://www.otodom.pl/pl/oferta/ul-totus-tuus-tesoro-verde-residence-57m2-ID49Vyf"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 137m2 + 2 tarasy",
+        "address": "ul. Władysława Łokietka, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "137.4 m²",
+        "pricePerMeter": "11 776 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 618 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-137m2-2-tarasy-ID4lZue"
+    },
+    {
+        "name": "3-pokojowe w cichej okolicy- Kazimierz!",
+        "address": "ul. Paulińska, Kazimierz, Stare Miasto, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "51.5 m²",
+        "pricePerMeter": "15 922 zł/m²",
+        "floor": "1 piętro",
+        "price": "820 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-w-cichej-okolicy-kazimierz-ID4rwtF"
+    },
+    {
+        "name": "Nowoczesne wnętrze w samym sercu miasta!",
+        "address": "ul. Masarska, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "40.11 m²",
+        "pricePerMeter": "26 153 zł/m²",
+        "floor": "3 piętro",
+        "price": "1 049 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowoczesne-wnetrze-w-samym-sercu-miasta-ID4rNny"
+    },
+    {
+        "name": "Nowoczesna kawalerka idealna pod wynajem. Bieżanów",
+        "address": "Bieżanów, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "27.2 m²",
+        "pricePerMeter": "13 897 zł/m²",
+        "floor": "2 piętro",
+        "price": "378 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowoczesna-kawalerka-idealna-pod-wynajem-biezanow-ID4sgKB"
+    },
+    {
+        "name": "Słoneczne i widokowe mieszkanie blisko centrum",
+        "address": "ul. Zabawa, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "41.32 m²",
+        "pricePerMeter": "17 982 zł/m²",
+        "floor": "9 piętro",
+        "price": "743 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/sloneczne-i-widokowe-mieszkanie-blisko-centrum-ID4s4fp"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 58m2 + balkon",
+        "address": "ul. Piaszczysta 12, Prądnik Biały, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "58.4 m²",
+        "pricePerMeter": "14 780 zł/m²",
+        "floor": "1 piętro",
+        "price": "863 152 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-58m2-balkon-ID4mzce"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 78m2 + balkon",
+        "address": "ul. Piasta Kołodzieja, Mistrzejowice, Mistrzejowice, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "78.97 m²",
+        "pricePerMeter": "5 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-78m2-balkon-ID4mW1z"
+    },
+    {
+        "name": "Wola Justowska- 2pokoje 52m2 Balkon Garaż Komórka",
+        "address": "ul. Grabowa, Wola Justowska, Zwierzyniec, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "52.61 m²",
+        "pricePerMeter": "18 723 zł/m²",
+        "floor": "1 piętro",
+        "price": "985 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/wola-justowska-2pokoje-52m2-balkon-garaz-komorka-ID4sgKq"
+    },
+    {
+        "name": "3-pokojowe/ 2 balkony/ blisko centrum/ Krowodrza",
+        "address": "ul. Poznańska 15, Krowodrza, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "55.1 m²",
+        "pricePerMeter": "16 860 zł/m²",
+        "floor": "3 piętro",
+        "price": "929 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-2-balkony-blisko-centrum-krowodrza-ID4rXgo"
+    },
+    {
+        "name": "3-pokojowe/ Wysoki standard/ Obok Parku Kurdwanów",
+        "address": "Kurdwanów, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "67.8 m²",
+        "pricePerMeter": "14 735 zł/m²",
+        "floor": "3 piętro",
+        "price": "999 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-wysoki-standard-obok-parku-kurdwanow-ID4rTMT"
+    },
+    {
+        "name": "Rodzinne 3 pokoje z balkonem! Osiedle z 2016 r.",
+        "address": "ul. prof. Wojciecha Marii Bartla, Kliny, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "58.47 m²",
+        "pricePerMeter": "14 878 zł/m²",
+        "floor": "3 piętro",
+        "price": "869 900 zł",
+        "url": "https://www.otodom.pl/pl/oferta/rodzinne-3-pokoje-z-balkonem-osiedle-z-2016-r-ID4s9nB"
+    },
+    {
+        "name": "OKAZJA! Przestronne mieszkanie 2-pokojowe!",
+        "address": "Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "48 m²",
+        "pricePerMeter": "13 313 zł/m²",
+        "floor": "10 piętro",
+        "price": "639 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/okazja-przestronne-mieszkanie-2-pokojowe-ID4s3AJ"
+    },
+    {
+        "name": "Dwa pokoje, okolice Galerii Bronowice EN,UA",
+        "address": "ul. Józefa Chełmońskiego, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "50.6 m²",
+        "pricePerMeter": "16 601 zł/m²",
+        "floor": "1 piętro",
+        "price": "840 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dwa-pokoje-okolice-galerii-bronowice-en-ua-ID4sg54"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 82m2 + taras Bez Pośredników",
+        "address": "ul. Stefana Banacha, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "82.15 m²",
+        "pricePerMeter": "5 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-82m2-taras-bez-posrednikow-ID4rVb5"
+    },
+    {
+        "name": "Od Właściciela 100m2 4-pokoje,kuchnia, jadalnia",
+        "address": "ul. Henryka Kułakowskiego, Borek Fałęcki, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "100 m²",
+        "pricePerMeter": "9970 zł/m²",
+        "floor": "3 piętro",
+        "price": "997 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/od-wlasciciela-100m2-4-pokoje-kuchnia-jadalnia-ID4sgJz"
+    },
+    {
+        "name": "1-pokojowe mieszkanie 27m2 + ogródek Bezpośrednio",
+        "address": "ul. Lasówka, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "27.85 m²",
+        "pricePerMeter": "17 500 zł/m²",
+        "floor": "parter",
+        "price": "487 375 zł",
+        "url": "https://www.otodom.pl/pl/oferta/1-pokojowe-mieszkanie-27m2-ogrodek-bezposrednio-ID4pRYW"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 69m2 + 3 tarasy Bezpośrednio",
+        "address": "ul. Gustawa Ehrenberga, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "69.17 m²",
+        "pricePerMeter": "18 650 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 290 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-69m2-3-tarasy-bezposrednio-ID4qOCf"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 60m2 + balkon Bez Prowizji",
+        "address": "ul. Kordiana, Kurdwanów, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "60.7 m²",
+        "pricePerMeter": "14 200 zł/m²",
+        "floor": "7 piętro",
+        "price": "861 940 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-bez-prowizji-ID4mz80"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 55m2 + 2 balkony",
+        "address": "ul. Piaskowa, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "55.1 m²",
+        "pricePerMeter": "14 200 zł/m²",
+        "floor": "3 piętro",
+        "price": "782 420 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-55m2-2-balkony-ID4lGhE"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 81m2 + loggia Bez Prowizji",
+        "address": "ul. Myśliwska, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "81.47 m²",
+        "pricePerMeter": "3 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-81m2-loggia-bez-prowizji-ID4r45L"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 80m2 + balkon Bez Prowizji",
+        "address": "ul. Łagiewnicka, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "80.59 m²",
+        "pricePerMeter": "15 200 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 224 968 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-80m2-balkon-bez-prowizji-ID4rGH6"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 57m2 + ogródek Bezpośrednio",
+        "address": "ul. Walerego Sławka, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "57.46 m²",
+        "pricePerMeter": "18 256 zł/m²",
+        "floor": "parter",
+        "price": "1 049 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-57m2-ogrodek-bezposrednio-ID4fESo"
+    },
+    {
+        "name": "Kawalerka z garażem i komórką ul. Stawowa 170B",
+        "address": "ul. Stawowa 170B, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "31.33 m²",
+        "pricePerMeter": "19 151 zł/m²",
+        "floor": "2 piętro",
+        "price": "600 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/kawalerka-z-garazem-i-komorka-ul-stawowa-170b-ID4rxti"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 61m2 + ogródek Bezpośrednio",
+        "address": "ul. Józefa Chełmońskiego, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "61.94 m²",
+        "pricePerMeter": "14 400 zł/m²",
+        "floor": "parter",
+        "price": "891 936 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-61m2-ogrodek-bezposrednio-ID4rAHh"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 59m2 + balkon Bezpośrednio",
+        "address": "ul. dr. Jana Piltza, Kobierzyn, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "59.27 m²",
+        "pricePerMeter": "5 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-59m2-balkon-bezposrednio-ID4hgKi"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 76m2 + ogródek Bez Prowizji",
+        "address": "ul. Półłanki, Rybitwy, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "76.01 m²",
+        "pricePerMeter": "11 000 zł/m²",
+        "floor": "parter",
+        "price": "836 110 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-76m2-ogrodek-bez-prowizji-ID4iOEO"
+    },
+    {
+        "name": "Kawalerka z ogródkiem | Turniejowa",
+        "address": "ul. Turniejowa, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "33 m²",
+        "pricePerMeter": "15 606 zł/m²",
+        "floor": "parter",
+        "price": "515 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/kawalerka-z-ogrodkiem-turniejowa-ID4s1Ol"
+    },
+    {
+        "name": "widokowe 3 pok. na os. Podwawelskim",
+        "address": "ul. Słomiana, Ludwinów, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "56.9 m²",
+        "pricePerMeter": "16 500 zł/m²",
+        "floor": "10 piętro",
+        "price": "938 850 zł",
+        "url": "https://www.otodom.pl/pl/oferta/widokowe-3-pok-na-os-podwawelskim-ID4s1rG"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 59m2 + balkon Bez Prowizji",
+        "address": "ul. Facimiech, Kozłówka, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "59.18 m²",
+        "pricePerMeter": "7 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-59m2-balkon-bez-prowizji-ID4m4Dc"
+    },
+    {
+        "name": "Piasta Towers| mieszkanie 3-pok.| 86A_59 kredyt 2%",
+        "address": "os. Bohaterów Września, Mistrzejowice, Mistrzejowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "60.27 m²",
+        "pricePerMeter": "12 700 zł/m²",
+        "floor": "8 piętro",
+        "price": "765 429 zł",
+        "url": "https://www.otodom.pl/pl/oferta/piasta-towers-mieszkanie-3-pok-86a-59-kredyt-2-ID4nGXb"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 75m2 + ogródek",
+        "address": "ul. Portowa, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "75.82 m²",
+        "pricePerMeter": "23 121 zł/m²",
+        "floor": "parter",
+        "price": "1 753 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-75m2-ogrodek-ID4pBly"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 86m2 + taras Bez Pośredników",
+        "address": "ul. Josepha Conrada, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "86.44 m²",
+        "pricePerMeter": "14 500 zł/m²",
+        "floor": "5 piętro",
+        "price": "1 253 380 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-86m2-taras-bez-posrednikow-ID4nibg"
+    },
+    {
+        "name": "3 Pok. Grzegórzki osobna kuchnia parter 54,2 m2",
+        "address": "ul. prof. Władysława Szafera, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "54.2 m²",
+        "pricePerMeter": "15 406 zł/m²",
+        "floor": "parter",
+        "price": "835 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pok-grzegorzki-osobna-kuchnia-parter-54-2-m2-ID4sbDw"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 43m2 + loggia Bezpośrednio",
+        "address": "ul. Myśliwska, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "43.28 m²",
+        "pricePerMeter": "5 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-43m2-loggia-bezposrednio-ID4maH1"
+    },
+    {
+        "name": "Centrum, wysoki parter, po remoncie , 3 pokoje",
+        "address": "ul. Stanisława Konarskiego, Nowa Wieś, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "62.28 m²",
+        "pricePerMeter": "19 300 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 202 004 zł",
+        "url": "https://www.otodom.pl/pl/oferta/centrum-wysoki-parter-po-remoncie-3-pokoje-ID4s3HS"
+    },
+    {
+        "name": "Mieszkanie na sprzedaż | 3pok. | Ruczaj | 49,9 m2",
+        "address": "Skotniki, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "49.9 m²",
+        "pricePerMeter": "15 431 zł/m²",
+        "floor": "2 piętro",
+        "price": "770 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-na-sprzedaz-3pok-ruczaj-49-9-m2-ID4oSCY"
+    },
+    {
+        "name": "Dwie kawalerki - inwestycyjnie - obok Bonarki",
+        "address": "ul. Walerego Sławka, Wola Duchacka, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "46.83 m²",
+        "pricePerMeter": "17 700 zł/m²",
+        "floor": "3 piętro",
+        "price": "828 891 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dwie-kawalerki-inwestycyjnie-obok-bonarki-ID4qLR9"
+    },
+    {
+        "name": "Dwustronne mieszkanie z balkonem przy Bagrach",
+        "address": "ul. Przewóz, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "45 m²",
+        "pricePerMeter": "16 600 zł/m²",
+        "floor": "3 piętro",
+        "price": "747 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dwustronne-mieszkanie-z-balkonem-przy-bagrach-ID4s2Ex"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 65m2 + balkon Bez Prowizji",
+        "address": "pl. Imbramowski, Prądnik Biały, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "65.62 m²",
+        "pricePerMeter": "14 600 zł/m²",
+        "floor": "1 piętro",
+        "price": "958 052 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-65m2-balkon-bez-prowizji-ID4qTsp"
+    },
+    {
+        "name": "Duże mieszkanie trzy pokojowe w zielonej okolicy",
+        "address": "ul. Telimeny, Bieżanów, Bieżanów-Prokocim, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "69.34 m²",
+        "pricePerMeter": "10 658 zł/m²",
+        "floor": "1 piętro",
+        "price": "739 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/duze-mieszkanie-trzy-pokojowe-w-zielonej-okolicy-ID4rjnD"
+    },
+    {
+        "name": "Nowe, wygodne, z ciekawym widokiem z 6 piętra",
+        "address": "al. 29 Listopada, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "64 m²",
+        "pricePerMeter": "17 188 zł/m²",
+        "floor": "6 piętro",
+        "price": "1 100 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nowe-wygodne-z-ciekawym-widokiem-z-6-pietra-ID4rZHw"
+    },
+    {
+        "name": "Nadwiślańska 11, 92m²: luksusowe, \"nowe\" 3 pokoje",
+        "address": "ul. Nadwiślańska, Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "91.65 m²",
+        "pricePerMeter": "29 449 zł/m²",
+        "floor": "2 piętro",
+        "price": "2 699 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/nadwislanska-11-92m-luksusowe-nowe-3-pokoje-ID4pMxx"
+    },
+    {
+        "name": "3-pok. mieszkanie z trzema balkonami (ul. Banacha)",
+        "address": "ul. Stefana Banacha, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "67.81 m²",
+        "pricePerMeter": "13 272 zł/m²",
+        "floor": "1 piętro",
+        "price": "900 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pok-mieszkanie-z-trzema-balkonami-ul-banacha-ID4qVhK"
+    },
+    {
+        "name": "3-pokojowe mieszkanie w Apartamenty Radzikowskiego",
+        "address": "ul. Eljasza Walerego Radzikowskiego, Azory, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "67.9 m²",
+        "pricePerMeter": "14 200 zł/m²",
+        "floor": "1 piętro",
+        "price": "964 180 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-w-apartamenty-radzikowskiego-ID4o2ch"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 53m2 + loggia Bezpośrednio",
+        "address": "ul. Portowa, Zabłocie, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "53.94 m²",
+        "pricePerMeter": "19 837 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 070 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-53m2-loggia-bezposrednio-ID4pBkH"
+    },
+    {
+        "name": "Czteropokojowe mieszkanie w wysokim standardzie",
+        "address": "Wizjonerów, Bronowice Małe, Bronowice, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "86.11 m²",
+        "pricePerMeter": "14 981 zł/m²",
+        "floor": "1 piętro",
+        "price": "1 290 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/czteropokojowe-mieszkanie-w-wysokim-standardzie-ID4rzBS"
+    },
+    {
+        "name": "Apartament 54m2, 3 pokoje, 5 minut od Wawelu",
+        "address": "Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "53.5 m²",
+        "pricePerMeter": "17 076 zł/m²",
+        "floor": "2 piętro",
+        "price": "913 592 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-54m2-3-pokoje-5-minut-od-wawelu-ID4sgHM"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 57m2 + taras Bez Pośredników",
+        "address": "ul. Władysława Łokietka, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "57.36 m²",
+        "pricePerMeter": "3 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-57m2-taras-bez-posrednikow-ID4rMQb"
+    },
+    {
+        "name": "Dwupokojowe mieszkanie blisko centrum miasta",
+        "address": "ul. Armii Krajowej, Małe Błonia, Krowodrza, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "36 m²",
+        "pricePerMeter": "15 833 zł/m²",
+        "floor": "6 piętro",
+        "price": "570 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/dwupokojowe-mieszkanie-blisko-centrum-miasta-ID4sba2"
+    },
+    {
+        "name": "Apartament 52m2, 3 pokoje, Bezpośrednio, 0% PCC",
+        "address": "Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "51.55 m²",
+        "pricePerMeter": "17 240 zł/m²",
+        "floor": "2 piętro",
+        "price": "888 747 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-52m2-3-pokoje-bezposrednio-0-pcc-ID4sgHI"
+    },
+    {
+        "name": "Duże 3 pokojowe mieszkanie! Łagiewniki",
+        "address": "ul. Klementyny Hoffmanowej, Cegielniana, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "72.44 m²",
+        "pricePerMeter": "15 800 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 144 552 zł",
+        "url": "https://www.otodom.pl/pl/oferta/duze-3-pokojowe-mieszkanie-lagiewniki-ID4rZqF"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 50m2 + balkon",
+        "address": "ul. Stefana Banacha, Górka Narodowa, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "50.4 m²",
+        "pricePerMeter": "4 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-50m2-balkon-ID4oCzy"
+    },
+    {
+        "name": "Apartament / 29M /Taras 20M /Parking/Stare Miasto",
+        "address": "ul. Szlak, Kleparz, Stare Miasto, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "29 m²",
+        "pricePerMeter": "28 241 zł/m²",
+        "floor": "6 piętro",
+        "price": "819 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/apartament-29m-taras-20m-parking-stare-miasto-ID4pIzA"
+    },
+    {
+        "name": "Okazja! 3 Pok./ 47,26 M/ Stan Dewelop./ Krowodrza",
+        "address": "ul. Adama Vetulaniego, Prądnik Biały, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "47.26 m²",
+        "pricePerMeter": "14 579 zł/m²",
+        "floor": "5 piętro",
+        "price": "689 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/okazja-3-pok-47-26-m-stan-dewelop-krowodrza-ID4rUTj"
+    },
+    {
+        "name": "Warto! 2pok. - 47 M/ Parking/ Tramwaj/ Podgórze",
+        "address": "ul. Gromadzka, Płaszów, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "46.36 m²",
+        "pricePerMeter": "16 501 zł/m²",
+        "floor": "2 piętro",
+        "price": "765 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/warto-2pok-47-m-parking-tramwaj-podgorze-ID4rN2N"
+    },
+    {
+        "name": "Mieszkanie w luksusowej inwestycji Solaris Park",
+        "address": "ul. Stanisława Lema, Czyżyny, Czyżyny, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "52.28 m²",
+        "pricePerMeter": "23 910 zł/m²",
+        "floor": "parter",
+        "price": "1 250 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-w-luksusowej-inwestycji-solaris-park-ID4rQwx"
+    },
+    {
+        "name": "2-pokojowe mieszkanie 46m2 + balkon",
+        "address": "ul. Kordiana, Kurdwanów, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "46.98 m²",
+        "pricePerMeter": "15 000 zł/m²",
+        "floor": "parter",
+        "price": "704 700 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-46m2-balkon-ID4ri7v"
+    },
+    {
+        "name": "4-pokojowe mieszkanie 136m2 + 2 ogródki",
+        "address": "ul. Władysława Łokietka, Tonie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "136.6 m²",
+        "pricePerMeter": "12 723 zł/m²",
+        "floor": "parter",
+        "price": "1 738 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/4-pokojowe-mieszkanie-136m2-2-ogrodki-ID4lZtL"
+    },
+    {
+        "name": "3-pokojowe mieszkanie 53m2 + 2 balkony",
+        "address": "ul. Do Wilgi, Cegielniana, Łagiewniki-Borek Fałęcki, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "53.57 m²",
+        "pricePerMeter": "1 piętro",
+        "floor": null,
+        "price": "Zapytaj o cenę",
+        "url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-53m2-2-balkony-ID4ovsF"
+    },
+    {
+        "name": "5-pokojowe mieszkanie 105m2 + balkon",
+        "address": "ul. Stawowa, Bronowice Wielkie, Prądnik Biały, Kraków, małopolskie",
+        "numberOfRooms": "5 pokoi",
+        "floorSize": "105.61 m²",
+        "pricePerMeter": "14 000 zł/m²",
+        "floor": "2 piętro",
+        "price": "1 478 540 zł",
+        "url": "https://www.otodom.pl/pl/oferta/5-pokojowe-mieszkanie-105m2-balkon-ID4nsuq"
+    },
+    {
+        "name": "Mieszkanie 3 pokoje | 45.09m2 | Kliny bezpośrednio",
+        "address": "ul. Anny Szwed-Śniadowskiej, Kliny, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "45.09 m²",
+        "pricePerMeter": "14 859 zł/m²",
+        "floor": "1 piętro",
+        "price": "670 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/mieszkanie-3-pokoje-45-09m2-kliny-bezposrednio-ID4sgH4"
+    },
+    {
+        "name": "Kawalerka z ogródkiem - Wiślane tarasy 2.0",
+        "address": "ul. Grzegórzecka 69e, Grzegórzki, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "30.72 m²",
+        "pricePerMeter": "24 382 zł/m²",
+        "floor": "parter",
+        "price": "749 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/kawalerka-z-ogrodkiem-wislane-tarasy-2-0-ID4q7i6"
+    },
+    {
+        "name": "Sprzedam przytulne mieszkanie przy ul. Wielickiej",
+        "address": "Stare Podgórze, Podgórze, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "45 m²",
+        "pricePerMeter": "14 200 zł/m²",
+        "floor": "parter",
+        "price": "639 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/sprzedam-przytulne-mieszkanie-przy-ul-wielickiej-ID4rQtX"
+    },
+    {
+        "name": "Cisza, balkon, wyposażone, po generalnym remoncie!",
+        "address": "ul. Paulińska, Kazimierz, Stare Miasto, Kraków, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "65 m²",
+        "pricePerMeter": "25 385 zł/m²",
+        "floor": null,
+        "price": "1 650 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/cisza-balkon-wyposazone-po-generalnym-remoncie-ID4sgGL"
+    },
+    {
+        "name": "Gotowe do wejścia, 3/4pokoje na kameralnym osiedlu",
+        "address": "ul. Wierzbowa, Modlnica, Wielka Wieś, krakowski, małopolskie",
+        "numberOfRooms": "3 pokoje",
+        "floorSize": "72.38 m²",
+        "pricePerMeter": "11 744 zł/m²",
+        "floor": "1 piętro",
+        "price": "850 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/gotowe-do-wejscia-3-4pokoje-na-kameralnym-osiedlu-ID4n5WX"
+    },
+    {
+        "name": "2-pok mieszkanie Borkowska antresole taras parking",
+        "address": "Kliny, Swoszowice, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "45.08 m²",
+        "pricePerMeter": "15 417 zł/m²",
+        "floor": "3 piętro",
+        "price": "695 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pok-mieszkanie-borkowska-antresole-taras-parking-ID4sgGj"
+    },
+    {
+        "name": "Cicha kawalerka 24m2 do remontu/odświeżenia/Olsza",
+        "address": "ul. Józefa Narzymskiego, Osiedle Oficerskie, Grzegórzki, Kraków, małopolskie",
+        "numberOfRooms": "1 pokój",
+        "floorSize": "24.04 m²",
+        "pricePerMeter": "17 845 zł/m²",
+        "floor": "parter",
+        "price": "429 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/cicha-kawalerka-24m2-do-remontu-odswiezenia-olsza-ID4qCzs"
+    },
+    {
+        "name": "Przestronny penthouse 92m2+60m2 tarasu/Ruczaj",
+        "address": "ul. Zachodnia, Ruczaj, Dębniki, Kraków, małopolskie",
+        "numberOfRooms": "4 pokoje",
+        "floorSize": "91.4 m²",
+        "pricePerMeter": "20 788 zł/m²",
+        "floor": "6 piętro",
+        "price": "1 900 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/przestronny-penthouse-92m2-60m2-tarasu-ruczaj-ID4qfvv"
+    },
+    {
+        "name": "2-pokojowe mieszkanie z zachwycającym widokiem",
+        "address": "ul. Łużycka, Piaski Wielkie, Podgórze Duchackie, Kraków, małopolskie",
+        "numberOfRooms": "2 pokoje",
+        "floorSize": "45 m²",
+        "pricePerMeter": "13 556 zł/m²",
+        "floor": "5 piętro",
+        "price": "610 000 zł",
+        "url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-z-zachwycajacym-widokiem-ID4rPXS"
+    }
+]

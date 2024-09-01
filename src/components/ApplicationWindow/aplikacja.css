@@ -74,3 +74,84 @@
     margin-left: 20px;
     /* Gap between sidebar and main content */
 }
+
+
+
+/* Stylizacja dla ekranów o szerokości poniżej 768px */
+@media (max-width: 768px) {
+
+    /* Przycisk otwierania sidebar-a */
+    .sidebar-toggle-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        /* Dodaj szerokość */
+        height: 50px;
+        /* Dodaj wysokość */
+        background-color: var(--app-primary-color);
+        color: var(--app-white);
+        border: none;
+        border-radius: 50%;
+        /* Zmiana na kształt kółka */
+        padding: 0;
+        font-size: 1.5em;
+        cursor: pointer;
+        z-index: 9999;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* Ustawienie ikony na środku */
+    }
+
+    .main-content {
+        flex-grow: 1;
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+        background: var(--app-white);
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        margin-left: 0px;
+    }
+
+    .button-navbar-menu {
+        display: block;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 50ms;
+        display: flex;
+        position: fixed;
+        right: 1em;
+        top: 1em;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        z-index: 1001;
+        width: 20px;
+    }
+
+    .navbar-links.show {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+        width: 100vw;
+        height: -moz-fit-content;
+        height: fit-content;
+        color: var(--text-color-light);
+        padding-top: 1em;
+        padding-bottom: 100vh;
+        margin-top: -50px;
+        margin-left: 0;
+    }
+
+    .facebookLinkContainer {
+        display: none;
+    }
+}

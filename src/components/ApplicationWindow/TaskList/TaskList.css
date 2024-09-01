@@ -1,9 +1,11 @@
 /* src\components\ApplicationWindow\TaskList\TaskList.css */
 .task-list-container {
     padding: 20px;
-    /* background-color: #f9f9f9; */
+    /* background-color: var(--app-light-grey); */
+    /* Zmienione na jasny szary z palety */
     border-radius: 8px;
     /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); */
+    /* Pozostawione bez zmian, zachowanie lekkiego cienia */
 }
 
 .task-input {
@@ -11,14 +13,49 @@
     gap: 10px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid var(--app-secondary-color);
+    align-items: center;
+    /* Ciemniejszy szary */
+}
+
+.task-input label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.task-input input[type="number"] {
+    width: 80px;
+    /* Ustalenie szerokości dla pól godzin i minut */
+}
+
+
+
+
+.task-input input {
+    padding: 10px;
+    border: 1px solid var(--app-secondary-color);
+    /* Ciemniejszy szary */
+    border-radius: 8px;
+    /* Zaokrąglenie pola input */
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-input input:focus {
+    border-color: var(--app-primary-color);
+    /* Główny kolor przy focus */
+    box-shadow: 0 0 5px rgba(32, 178, 170, 0.5);
+    /* Lekki cień koloru Teal */
+    outline: none;
+    /* Usunięcie domyślnego outline */
 }
 
 .task-list-divider {
     margin: 20px 0;
     border: none;
     height: 2px;
-    /* background-color: #ddd; */
+    /* background-color: var(--app-secondary-color); */
+    /* Ciemniejszy szary */
 }
 
 .task-list {
@@ -31,7 +68,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--app-secondary-color);
+    /* Ciemniejszy szary */
 }
 
 .task-details {
@@ -45,7 +83,8 @@
 }
 
 .task-duration {
-    color: #666;
+    color: var(--app-dark-grey);
+    /* Ciemniejszy szary */
     font-size: 0.9em;
 }
 
@@ -55,17 +94,56 @@
 }
 
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: var(--app-primary-color);
+    /* Główny kolor */
+    color: var(--app-white);
+    /* Biały tekst */
     border: none;
     padding: 5px 10px;
-    border-radius: 4px;
+    border-radius: px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #1A8F91;
+    /* Ciemniejszy odcień głównego koloru */
 }
+
+.preview-button {
+    background-color: var(--app-dark-grey);
+    /* Główny kolor */
+    color: var(--app-white);
+    /* Biały tekst */
+    border: none;
+    padding: 5px 10px;
+    border-radius: px;
+    cursor: pointer;
+}
+
+.preview-button:hover {
+    background-color: #1A8F91;
+    /* Ciemniejszy odcień głównego koloru */
+}
+
+.activate-button {
+    background-color: var(--app-dark-grey);
+
+}
+
+.activate-button:hover {
+    background-color: var(--app-success-color);
+    /* Ciemniejszy odcień głównego koloru */
+}
+
+.delete-task-button {
+    background-color: var(--app-danger-color);
+}
+
+.delete-task-button:hover {
+    background-color: #c82333;
+}
+
+
 
 .modal {
     position: fixed;
@@ -81,16 +159,131 @@ button:hover {
 }
 
 .modal-content {
-    background-color: white;
+    background-color: var(--app-white);
+    /* Białe tło */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* Pozostawienie cienia dla modal */
 }
 
-button+button {
-    background-color: #dc3545;
+.modal-content .modal-buttons {
+    display: flex;
+    justify-content: center;
+    /* Wyśrodkowanie przycisków */
+    gap: 10px;
+    /* Odstęp między przyciskami */
+    margin-top: 20px;
+    /* Odstęp od tekstu w modalu */
 }
 
-button+button:hover {
+
+
+/* FORMUALRZ */
+
+/* src\components\ApplicationWindow\TaskList\TaskList.css */
+
+.add-task-button {
+    margin-bottom: 20px;
+    padding: 12px 24px;
+    background-color: var(--app-primary-color);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-task-button:hover {
+    background-color: #1A8F91;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.add-task-button:active {
+    background-color: #146B6E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+}
+
+.task-form-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.task-form-content {
+    background-color: var(--app-white);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.task-form-content input,
+.task-form-content textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-task-button {
+    background-color: var(--app-success-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-task-button:hover {
+    background-color: #27ae60;
+}
+
+.close-task-form-button {
+    background-color: var(--app-danger-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.close-task-form-button:hover {
     background-color: #c82333;
+}
+
+
+/* AKTYWNE */
+
+/* src\components\ApplicationWindow\TaskList\TaskList.css */
+
+.active-task {
+    color: var(--app-success-color);
+    border-radius: 5px;
+}
+
+.active-task .activate-button {
+    background-color: var(--app-success-color);
+    /* Ciemniejszy odcień głównego koloru */
 }

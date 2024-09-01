@@ -87,6 +87,7 @@ body {
 
 .toggle-button:hover {
     color: var(--app-primary-hover);
+    background-color: transparent !important;
 }
 
 
@@ -185,7 +186,7 @@ button .button-icon {
 }
 
 .login-button:hover {
-    background-color: #0056b3;
+    background-color: var(--app-primary-color);
     /* Ciemniejszy niebieski przy hover */
     color: #F8F9FA;
     /* Jasnoszara czcionka przy hover */

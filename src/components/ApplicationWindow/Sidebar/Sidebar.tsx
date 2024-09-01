@@ -18,7 +18,7 @@ const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void, activeTask
     return (
         <div className={`custom-sidebar ${isOpen ? 'open' : ''}`}>
             <div className="sidebar-header">
-                <h2>AppName</h2>
+                <h2>Prosty Timer</h2>
             </div>
             <div className="custom-sidebar-links" onClick={toggleSidebar}>
                 <Link to="/task-list" className="sidebar-link">
@@ -33,6 +33,13 @@ const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void, activeTask
                 <Link to="/settings" className="sidebar-link">
                     <FaCog className="sidebar-icon" /> Ustawienia
                 </Link>
+            </div>
+            <div className="timer-section">
+                {activeTask ? (
+                    <Timer task={activeTask} onTimerComplete={() => { /* Implement handleTimerComplete logic here */ }} />
+                ) : (
+                    <p>No active task</p>
+                )}
             </div>
             <div className="user-panel">
                 {user ? (
@@ -49,13 +56,7 @@ const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void, activeTask
                     </Link>
                 )}
             </div>
-            <div className="timer-section">
-                {activeTask ? (
-                    <Timer task={activeTask} onTimerComplete={() => { /* Implement handleTimerComplete logic here */ }} />
-                ) : (
-                    <p>No active task</p>
-                )}
-            </div>
+
         </div>
     );
 };

@@ -4,8 +4,10 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import { FaTasks, FaChartBar, FaInfoCircle, FaSignOutAlt, FaSignInAlt, FaUser, FaCog } from 'react-icons/fa';
 import './Sidebar.css';
+import Timer from '../Timer/Timer';
+import { Task } from '../TaskList/TaskList';
 
-const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void }> = ({ isOpen, toggleSidebar }) => {
+const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void, activeTask: Task | null }> = ({ isOpen, toggleSidebar, activeTask }) => {
     const [user] = useAuthState(auth);
 
     const handleLogout = () => {
@@ -45,6 +47,13 @@ const Sidebar: React.FC<{ isOpen: boolean, toggleSidebar: () => void }> = ({ isO
                     <Link to="/login" className="login-link" onClick={toggleSidebar}>
                         <FaSignInAlt className="button-icon" /> Login
                     </Link>
+                )}
+            </div>
+            <div className="timer-section">
+                {activeTask ? (
+                    <Timer task={activeTask} onTimerComplete={() => { /* Implement handleTimerComplete logic here */ }} />
+                ) : (
+                    <p>No active task</p>
                 )}
             </div>
         </div>

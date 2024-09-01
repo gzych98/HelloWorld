@@ -15,7 +15,7 @@ const SignUp: React.FC = () => {
         try {
             const userCredential = await createUserWithEmailAndPassword(auth, email, password);
             const user = userCredential.user;
-            alert(`User registered successfully: ${user.email}`);
+            // alert(`User registered successfully: ${user.email}`);
         } catch (error: any) {
             if (error.code === 'auth/email-already-in-use') {
                 setError('This email is already registered. Please use another one or log in.');

@@ -159,6 +159,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0;
 }
 
 button .button-icon {
@@ -170,6 +171,7 @@ button .button-icon {
     background-color: var(--app-dark-grey);
     /* Żółte tło */
     color: var(--app-white);
+    margin: 0;
 }
 
 .login-button:hover {
@@ -186,6 +188,7 @@ button .button-icon {
     color: var(--app-white);
     /* Ciemnoszara czcionka */
     margin-top: 10px;
+    margin: 0;
 }
 
 .forgot-password-button:hover {
@@ -201,6 +204,7 @@ button .button-icon {
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+    margin-left: 0;
 }
 
 .google-button {

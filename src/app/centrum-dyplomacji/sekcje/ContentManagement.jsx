@@ -3,6 +3,8 @@ import '../admin.css';
 import videoSrc from '../../../assets/edycja_kafelkow.mp4';  // Importowanie pliku wideo
 import videoSrc2 from '../../../assets/Wordpress1.mp4';  // Importowanie pliku wideo
 import videoSrc3 from '../../../assets/Wordpress2.mp4';  // Importowanie pliku wideo
+import videoSrc4 from '../../../assets/Wordpress3_1.mp4';  // Importowanie pliku wideo
+import videoSrc5 from '../../../assets/Wordpress3_2.mp4';  // Importowanie pliku wideo
 
 export const ContentManagementContent = [
   { id: 'content-creation', title: 'Tworzenie i edytowanie stron' },
@@ -39,6 +41,19 @@ const ContentManagement = ({ handleImageClick }) => (
       Your browser does not support the video tag.
     </video>
     <figcaption>Film: Edycja 2</figcaption>
+
+    <h2>Modyfikowanie strony z projektami</h2>
+    <video width="600" controls>
+      <source src={videoSrc4} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Film: Modyfikowanie strony z projektami</figcaption>
+    <h2>Modyfikowanie strony z projektami</h2>
+    <video width="600" controls>
+      <source src={videoSrc5} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Film: Modyfikowanie strony z projektami</figcaption>
     
     <h3 id="quick-edit">Szybka edycja strony</h3>
     <p>1. Tytuł jest wyświetlany m.in. w zakładkach przeglądarki.</p>

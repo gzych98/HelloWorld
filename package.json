@@ -16,6 +16,7 @@
     "better-react-mathjax": "^2.0.3",
     "bootstrap": "^5.3.2",
     "chart.js": "^4.4.3",
+    "demo": "file:",
     "dotenv": "^16.4.5",
     "firebase": "^10.12.5",
     "katex": "^0.16.11",

@@ -1,6 +1,41 @@
-/* components/StatisticsPage/StatisticsPage.css */
 .statistics-page {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background-color: var(--app-light-grey);
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.tab-button.active {
+    border-bottom: 2px solid var(--app-primary-color);
+    background-color: var(--app-primary-color);
+    color: var(--app-white);
+}
+
+.tab-button:hover {
+    background-color: var(--app-primary-color);
+    color: var(--app-white);
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid var(--app-secondary-color);
+    border-radius: 8px;
+    background-color: var(--app-white);
 }

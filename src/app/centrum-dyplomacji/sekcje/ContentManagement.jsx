@@ -5,7 +5,7 @@ import videoSrc2 from '../../../assets/Wordpress1.mp4';  // Importowanie pliku w
 import videoSrc3 from '../../../assets/Wordpress2.mp4';  // Importowanie pliku wideo
 import videoSrc4 from '../../../assets/Wordpress3_1.mp4';  // Importowanie pliku wideo
 import videoSrc5 from '../../../assets/Wordpress3_2.mp4';  // Importowanie pliku wideo
-import videoSrc6 from '../../../assets/wersja_angielska.mkv';  // Importowanie pliku wideo
+import videoSrc6 from '../../../assets/wersja_angielska.mp4';  // Importowanie pliku wideo
 
 export const ContentManagementContent = [
   { id: 'content-creation', title: 'Tworzenie i edytowanie stron' },

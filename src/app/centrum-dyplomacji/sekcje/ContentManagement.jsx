@@ -6,9 +6,11 @@ import videoSrc3 from '../../../assets/Wordpress2.mp4';  // Importowanie pliku w
 import videoSrc4 from '../../../assets/Wordpress3_1.mp4';  // Importowanie pliku wideo
 import videoSrc5 from '../../../assets/Wordpress3_2.mp4';  // Importowanie pliku wideo
 import videoSrc6 from '../../../assets/wersja_angielska.mp4';  // Importowanie pliku wideo
+import videoSrc7 from '../../../assets/wersja_angielska_2.mp4';  // Importowanie pliku wideo
 
 export const ContentManagementContent = [
   { id: 'content-creation', title: 'Tworzenie i edytowanie stron' },
+  { id: 'en-page', title: 'Angielska wersja strony' },
   { id: 'quick-edit', title: 'Szybka edycja strony' },
   { id: 'submission-form', title: 'Formularz zgłoszeniowy' },
   { id: 'footer-links', title: 'Linki w stopce' },
@@ -56,12 +58,19 @@ const ContentManagement = ({ handleImageClick }) => (
     </video>
     <figcaption>Film: Modyfikowanie strony z projektami</figcaption>
 
-    <h2>Tworzenie angielskiej wersji wpisu/strony</h2>
+    <h2 id="en-page">Jak stworzyć angielską wersję strony lub wpisu?</h2>
     <video width="600" controls>
       <source src={videoSrc6} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-    <figcaption>Film: Dodawnia sekcji w aktualnościach</figcaption>
+    <figcaption>Film: Tworzenie wersji angielskiej storny WWW</figcaption>
+
+    <p>Przygotowałem aktualizację dotyczącą tworzenia angielskiej wersji strony. W poprzednim nagraniu zauważyłem, że duplikowanie stron powodowało błędne linkowanie, przez co wersja angielska nie wyświetlała się poprawnie. W nowym nagraniu przedstawiam sprawdzony sposób na rozwiązanie tego problemu.</p>
+    <video width="600" controls>
+      <source src={videoSrc6} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Film: Aktualizacja!</figcaption>
     
     <h3 id="quick-edit">Szybka edycja strony</h3>
     <p>1. Tytuł jest wyświetlany m.in. w zakładkach przeglądarki.</p>
